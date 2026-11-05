@@ -69,6 +69,52 @@
         }
       ]
     },
+    "fiches": [
+      {
+        "q": "Quels sont les 3 niveaux à ne pas confondre ?",
+        "a": "Stratégie d'entreprise, stratégie commerciale, plan d'actions commerciales."
+      },
+      {
+        "q": "Qu'est-ce que la stratégie d'entreprise ?",
+        "a": "Des choix de long terme sur le « où » et le « comment » l'entreprise crée de la valeur. Elle découle de la vision et de la mission."
+      },
+      {
+        "q": "Quelle différence entre vision et mission ?",
+        "a": "Vision : où veut-on être dans 10 ans ? Mission : pourquoi existe-t-on ?"
+      },
+      {
+        "q": "Qu'est-ce que le plan d'actions commerciales ?",
+        "a": "La traduction opérationnelle à 12 mois : qui fait quoi, quand, avec quel budget."
+      },
+      {
+        "q": "Quelle est la formule du chiffre d'affaires ?",
+        "a": "CA = nombre de clients × fréquence d'achat × panier moyen."
+      },
+      {
+        "q": "Quels sont les 3 leviers du CA ?",
+        "a": "Le volume, le prix et la marge."
+      },
+      {
+        "q": "Quels sont les 3 enjeux en tension ?",
+        "a": "Croissance, rentabilité et pérennité."
+      },
+      {
+        "q": "À partir de quand la dépendance au 1er client est-elle une alerte ?",
+        "a": "Au-delà de 30 % du CA."
+      },
+      {
+        "q": "Comment juge-t-on une stratégie commerciale ?",
+        "a": "À sa cohérence avec la stratégie d'entreprise et à son effet sur les 3 enjeux."
+      },
+      {
+        "q": "Exercice : 1 000 clients, 2 achats par an, panier moyen de 50 €. Quel CA ?",
+        "a": "1 000 × 2 × 50 = 100 000 €."
+      },
+      {
+        "q": "Exercice : « Recruter un commercial BtoB en 2027 ». Quel niveau de stratégie ?",
+        "a": "Le plan d'actions : c'est une action concrète, datée."
+      }
+    ],
     "qcm": [
       {
         "q": "Quel niveau fixe des choix de long terme sur le « où » et le « comment » créer de la valeur ?",
@@ -77,15 +123,6 @@
           "Le plan d'actions commerciales",
           "La force de vente",
           "Le mix marketing"
-        ]
-      },
-      {
-        "q": "Le plan d'actions commerciales se situe à quel horizon ?",
-        "a": "12 mois",
-        "d": [
-          "3 à 5 ans",
-          "10 ans",
-          "1 semaine"
         ]
       },
       {
@@ -98,30 +135,12 @@
         ]
       },
       {
-        "q": "La mission répond à quelle question ?",
-        "a": "Pourquoi existe-t-on ?",
-        "d": [
-          "Où veut-on être dans 10 ans ?",
-          "Quels canaux utiliser ?",
-          "Quel est le panier moyen ?"
-        ]
-      },
-      {
         "q": "Quelle est la formule du CA ?",
         "a": "Clients × fréquence d'achat × panier moyen",
         "d": [
           "Clients + marge + panier moyen",
           "Prix × marge × coût d'acquisition",
           "Parts de marché × fréquence d'achat"
-        ]
-      },
-      {
-        "q": "1 000 clients, 2 achats par an, panier de 50 €. Quel CA ?",
-        "a": "100 000 €",
-        "d": [
-          "52 000 €",
-          "1 050 €",
-          "10 000 €"
         ]
       },
       {
@@ -134,15 +153,6 @@
         ]
       },
       {
-        "q": "Laquelle est une mission de la stratégie marketing ?",
-        "a": "Segmenter et cibler",
-        "d": [
-          "Vendre et négocier",
-          "Piloter la force de vente",
-          "Fidéliser le portefeuille"
-        ]
-      },
-      {
         "q": "Quels sont les 3 enjeux en tension ?",
         "a": "Croissance, rentabilité, pérennité",
         "d": [
@@ -152,21 +162,59 @@
         ]
       },
       {
-        "q": "Au-delà de quelle part du CA la dépendance au 1er client est-elle une alerte ?",
-        "a": "30 %",
-        "d": [
-          "5 %",
-          "10 %",
-          "80 %"
-        ]
-      },
-      {
         "q": "Quel indicateur mesure la rentabilité ?",
         "a": "Le taux de marge",
         "d": [
           "Le nombre de salons",
           "La fidélisation seule",
           "La part de marché seule"
+        ]
+      }
+    ],
+    "controle": [
+      {
+        "q": "Le plan d'actions commerciales se situe à quel horizon ?",
+        "a": "12 mois",
+        "d": [
+          "3 à 5 ans",
+          "10 ans",
+          "1 semaine"
+        ]
+      },
+      {
+        "q": "La mission répond à quelle question ?",
+        "a": "Pourquoi existe-t-on ?",
+        "d": [
+          "Où veut-on être dans 10 ans ?",
+          "Quels canaux utiliser ?",
+          "Quel est le panier moyen ?"
+        ]
+      },
+      {
+        "q": "1 000 clients, 2 achats par an, panier de 50 €. Quel CA ?",
+        "a": "100 000 €",
+        "d": [
+          "52 000 €",
+          "1 050 €",
+          "10 000 €"
+        ]
+      },
+      {
+        "q": "Laquelle est une mission de la stratégie marketing ?",
+        "a": "Segmenter et cibler",
+        "d": [
+          "Vendre et négocier",
+          "Piloter la force de vente",
+          "Fidéliser le portefeuille"
+        ]
+      },
+      {
+        "q": "Au-delà de quelle part du CA la dépendance au 1er client est-elle une alerte ?",
+        "a": "30 %",
+        "d": [
+          "5 %",
+          "10 %",
+          "80 %"
         ]
       },
       {
@@ -253,6 +301,56 @@
         }
       ]
     },
+    "fiches": [
+      {
+        "q": "Que signifie PESTEL ?",
+        "a": "Politique, Économique, Sociologique, Technologique, Écologique, Légal."
+      },
+      {
+        "q": "Quelles sont les 5 forces de Porter ?",
+        "a": "Rivalité entre concurrents, nouveaux entrants, produits de substitution, pouvoir des fournisseurs, pouvoir des clients."
+      },
+      {
+        "q": "Qu'est-ce qu'un produit de substitution ?",
+        "a": "Une autre réponse au même besoin."
+      },
+      {
+        "q": "Quels sont les 4 types de ressources internes ?",
+        "a": "Humaines, financières, matérielles et immatérielles."
+      },
+      {
+        "q": "Que signifie VRIO ?",
+        "a": "Valorisable, Rare, difficilement Imitable, bien Organisée."
+      },
+      {
+        "q": "Dans un SWOT, qu'est-ce qui est interne et externe ?",
+        "a": "Interne : forces et faiblesses. Externe : opportunités et menaces."
+      },
+      {
+        "q": "Quelle différence entre SWOT et TOWS ?",
+        "a": "Le SWOT fait un constat, le TOWS croise les cases pour trouver des pistes."
+      },
+      {
+        "q": "Que signifient les 4 croisements du TOWS ?",
+        "a": "F × O : attaquer. F × M : se défendre. Fa × O : se renforcer. Fa × M : se protéger."
+      },
+      {
+        "q": "Quand un diagnostic est-il utile ?",
+        "a": "Quand il débouche sur une question stratégique claire."
+      },
+      {
+        "q": "Exercice : une hausse du prix des matières premières. Quelle famille du PESTEL ?",
+        "a": "Économique."
+      },
+      {
+        "q": "Exercice : une marque très réputée. Force, faiblesse, opportunité ou menace ?",
+        "a": "Une force : c'est interne et positif."
+      },
+      {
+        "q": "Exercice : un nouveau concurrent arrive sur le marché. Case du SWOT ?",
+        "a": "Une menace : c'est externe et négatif."
+      }
+    ],
     "qcm": [
       {
         "q": "Que signifie le L de PESTEL ?",
@@ -261,15 +359,6 @@
           "Logistique",
           "Local",
           "Leader"
-        ]
-      },
-      {
-        "q": "L'inflation appartient à quelle famille du PESTEL ?",
-        "a": "Économique",
-        "d": [
-          "Politique",
-          "Sociologique",
-          "Légal"
         ]
       },
       {
@@ -282,30 +371,12 @@
         ]
       },
       {
-        "q": "Laquelle n'est pas une des 5 forces de Porter ?",
-        "a": "La notoriété de la marque",
-        "d": [
-          "Les nouveaux entrants",
-          "Les produits de substitution",
-          "Le pouvoir des clients"
-        ]
-      },
-      {
         "q": "Qu'est-ce qu'un produit de substitution ?",
         "a": "Une autre réponse au même besoin",
         "d": [
           "Le même produit moins cher",
           "Un produit en rupture de stock",
           "Un produit du même concurrent"
-        ]
-      },
-      {
-        "q": "Une marque ou un fichier clients sont des ressources…",
-        "a": "Immatérielles",
-        "d": [
-          "Matérielles",
-          "Financières",
-          "Humaines"
         ]
       },
       {
@@ -318,15 +389,6 @@
         ]
       },
       {
-        "q": "Dans un SWOT, les forces sont…",
-        "a": "Internes et positives",
-        "d": [
-          "Externes et positives",
-          "Internes et négatives",
-          "Externes et négatives"
-        ]
-      },
-      {
         "q": "Dans un SWOT, un nouveau concurrent est plutôt…",
         "a": "Une menace",
         "d": [
@@ -336,21 +398,59 @@
         ]
       },
       {
-        "q": "Quel croisement du TOWS veut dire « attaquer » ?",
-        "a": "F × O",
-        "d": [
-          "F × M",
-          "Fa × O",
-          "Fa × M"
-        ]
-      },
-      {
         "q": "Que signifie Fa × M dans le TOWS ?",
         "a": "Se protéger",
         "d": [
           "Attaquer",
           "Se renforcer",
           "Se défendre"
+        ]
+      }
+    ],
+    "controle": [
+      {
+        "q": "L'inflation appartient à quelle famille du PESTEL ?",
+        "a": "Économique",
+        "d": [
+          "Politique",
+          "Sociologique",
+          "Légal"
+        ]
+      },
+      {
+        "q": "Laquelle n'est pas une des 5 forces de Porter ?",
+        "a": "La notoriété de la marque",
+        "d": [
+          "Les nouveaux entrants",
+          "Les produits de substitution",
+          "Le pouvoir des clients"
+        ]
+      },
+      {
+        "q": "Une marque ou un fichier clients sont des ressources…",
+        "a": "Immatérielles",
+        "d": [
+          "Matérielles",
+          "Financières",
+          "Humaines"
+        ]
+      },
+      {
+        "q": "Dans un SWOT, les forces sont…",
+        "a": "Internes et positives",
+        "d": [
+          "Externes et positives",
+          "Internes et négatives",
+          "Externes et négatives"
+        ]
+      },
+      {
+        "q": "Quel croisement du TOWS veut dire « attaquer » ?",
+        "a": "F × O",
+        "d": [
+          "F × M",
+          "Fa × O",
+          "Fa × M"
         ]
       },
       {
@@ -431,6 +531,56 @@
         }
       ]
     },
+    "fiches": [
+      {
+        "q": "Quelles sont les 4 voies de la matrice d'Ansoff ?",
+        "a": "Pénétration, développement de produits, développement de marchés, diversification."
+      },
+      {
+        "q": "Qu'est-ce que la pénétration ?",
+        "a": "Produits actuels sur marchés actuels : vendre plus aux clients actuels. Risque faible."
+      },
+      {
+        "q": "Quelle voie d'Ansoff est la plus risquée ?",
+        "a": "La diversification : nouveaux produits sur nouveaux marchés."
+      },
+      {
+        "q": "Vendre le pain d'épices au Japon, c'est quoi ?",
+        "a": "Du développement de marchés."
+      },
+      {
+        "q": "Quels sont les 3 axes du programme ?",
+        "a": "Conquête de nouveaux marchés, nouveaux segments clients, fidélisation et montée en valeur."
+      },
+      {
+        "q": "Que dit la loi de Pareto ici ?",
+        "a": "Souvent, 20 % des clients font 80 % du CA."
+      },
+      {
+        "q": "Quels sont les 3 enjeux de la RSE ?",
+        "a": "Sociaux, environnementaux et économiques (ISO 26000)."
+      },
+      {
+        "q": "Quelle loi encadre les allégations écologiques ?",
+        "a": "La loi Climat et Résilience (2021)."
+      },
+      {
+        "q": "Depuis quand l'e-commerce est-il concerné par l'European Accessibility Act ?",
+        "a": "Depuis juin 2025."
+      },
+      {
+        "q": "Que faut-il retenir du choix d'un axe ?",
+        "a": "Choisir un axe, c'est renoncer aux autres, et le choix doit être justifié par le diagnostic."
+      },
+      {
+        "q": "Exercice : lancer un nouveau produit pour les clients actuels. Quelle case d'Ansoff ?",
+        "a": "Développement de produits."
+      },
+      {
+        "q": "Exercice : vendre plus aux clients actuels avec les produits actuels. Quelle case d'Ansoff ?",
+        "a": "Pénétration."
+      }
+    ],
     "qcm": [
       {
         "q": "Produits actuels et marchés actuels, quelle case d'Ansoff ?",
@@ -442,29 +592,11 @@
         ]
       },
       {
-        "q": "Quelle case d'Ansoff présente le risque le plus élevé ?",
-        "a": "Diversification",
-        "d": [
-          "Pénétration",
-          "Développement de marchés",
-          "Développement de produits"
-        ]
-      },
-      {
         "q": "Nouveaux produits pour les clients actuels, quelle case ?",
         "a": "Développement de produits",
         "d": [
           "Développement de marchés",
           "Pénétration",
-          "Diversification"
-        ]
-      },
-      {
-        "q": "Vendre le pain d'épices au Japon, quelle case ?",
-        "a": "Développement de marchés",
-        "d": [
-          "Pénétration",
-          "Développement de produits",
           "Diversification"
         ]
       },
@@ -478,30 +610,12 @@
         ]
       },
       {
-        "q": "Quel indicateur concerne la fidélisation ?",
-        "a": "Le taux de rétention",
-        "d": [
-          "Le nombre de zones",
-          "Le délai de livraison",
-          "Le prix d'achat"
-        ]
-      },
-      {
         "q": "Selon la loi de Pareto, souvent…",
         "a": "20 % des clients font 80 % du CA",
         "d": [
           "80 % des clients font 80 % du CA",
           "50 % des clients font 20 % du CA",
           "10 % des clients font 10 % du CA"
-        ]
-      },
-      {
-        "q": "Quelle norme est citée pour la RSE ?",
-        "a": "ISO 26000",
-        "d": [
-          "ISO 9001",
-          "ISO 14001",
-          "ISO 45001"
         ]
       },
       {
@@ -514,21 +628,59 @@
         ]
       },
       {
-        "q": "Depuis quand l'e-commerce est-il concerné par l'European Accessibility Act ?",
-        "a": "Juin 2025",
-        "d": [
-          "Janvier 2021",
-          "Juin 2019",
-          "Janvier 2030"
-        ]
-      },
-      {
         "q": "Les contraintes internes, ce sont…",
         "a": "Budget, équipe, capacité de production",
         "d": [
           "Réglementation et concurrence",
           "Clients et fournisseurs",
           "Inflation et climat"
+        ]
+      }
+    ],
+    "controle": [
+      {
+        "q": "Quelle case d'Ansoff présente le risque le plus élevé ?",
+        "a": "Diversification",
+        "d": [
+          "Pénétration",
+          "Développement de marchés",
+          "Développement de produits"
+        ]
+      },
+      {
+        "q": "Vendre le pain d'épices au Japon, quelle case ?",
+        "a": "Développement de marchés",
+        "d": [
+          "Pénétration",
+          "Développement de produits",
+          "Diversification"
+        ]
+      },
+      {
+        "q": "Quel indicateur concerne la fidélisation ?",
+        "a": "Le taux de rétention",
+        "d": [
+          "Le nombre de zones",
+          "Le délai de livraison",
+          "Le prix d'achat"
+        ]
+      },
+      {
+        "q": "Quelle norme est citée pour la RSE ?",
+        "a": "ISO 26000",
+        "d": [
+          "ISO 9001",
+          "ISO 14001",
+          "ISO 45001"
+        ]
+      },
+      {
+        "q": "Depuis quand l'e-commerce est-il concerné par l'European Accessibility Act ?",
+        "a": "Juin 2025",
+        "d": [
+          "Janvier 2021",
+          "Juin 2019",
+          "Janvier 2030"
         ]
       },
       {
@@ -600,6 +752,60 @@
         }
       ]
     },
+    "fiches": [
+      {
+        "q": "Quelle est la formule du potentiel annuel ?",
+        "a": "Clients potentiels × panier moyen × achats par an."
+      },
+      {
+        "q": "Quel est le potentiel de 1 200 clients, 1 800 € de panier et 1,5 achat par an ?",
+        "a": "3,24 M€."
+      },
+      {
+        "q": "Quels marchés faut-il distinguer ?",
+        "a": "Le marché total, le marché accessible et la part réellement captable."
+      },
+      {
+        "q": "Quels critères évaluent la rentabilité ?",
+        "a": "Marge attendue, coût d'acquisition, coût de service, délai de retour sur investissement."
+      },
+      {
+        "q": "Quels critères évaluent le risque ?",
+        "a": "Intensité concurrentielle, barrières à l'entrée, dépendance, incertitude réglementaire."
+      },
+      {
+        "q": "Attrait fort et atouts forts : que faire ?",
+        "a": "Investir."
+      },
+      {
+        "q": "Attrait fort et atouts faibles : que faire ?",
+        "a": "Construire."
+      },
+      {
+        "q": "Attrait faible et atouts forts : que faire ?",
+        "a": "Rentabiliser."
+      },
+      {
+        "q": "Attrait faible et atouts faibles : que faire ?",
+        "a": "Renoncer."
+      },
+      {
+        "q": "Que fait-on de chaque catégorie de segments ?",
+        "a": "Prioritaires : attaquer. Secondaires : tester. À écarter : renoncer."
+      },
+      {
+        "q": "Exercice : 500 clients potentiels, panier de 200 €, 3 achats par an. Quel potentiel annuel ?",
+        "a": "500 × 200 × 3 = 300 000 €."
+      },
+      {
+        "q": "Exercice : poids 50 % / 50 %, notes 4 et 2. Quel score pondéré ?",
+        "a": "4 × 0,5 + 2 × 0,5 = 3 sur 5."
+      },
+      {
+        "q": "Exercice : un segment peu attractif où l'entreprise a de forts atouts. Quelle stratégie ?",
+        "a": "Rentabiliser."
+      }
+    ],
     "qcm": [
       {
         "q": "Quelle est la formule du potentiel annuel ?",
@@ -608,15 +814,6 @@
           "Clients potentiels + panier moyen + achats par an",
           "Marge × coût d'acquisition × clients",
           "CA × taux de marge × achats par an"
-        ]
-      },
-      {
-        "q": "1 200 clients, 1 800 € de panier, 1,5 achat par an. Quel potentiel ?",
-        "a": "3,24 M€",
-        "d": [
-          "2,16 M€",
-          "324 000 €",
-          "4,50 M€"
         ]
       },
       {
@@ -629,15 +826,6 @@
         ]
       },
       {
-        "q": "Quel critère sert à évaluer la rentabilité ?",
-        "a": "Le coût d'acquisition",
-        "d": [
-          "L'incertitude réglementaire",
-          "Les barrières à l'entrée",
-          "La dépendance"
-        ]
-      },
-      {
         "q": "Quel critère sert à évaluer le risque ?",
         "a": "L'intensité concurrentielle",
         "d": [
@@ -647,19 +835,57 @@
         ]
       },
       {
-        "q": "Attrait fort et atouts forts : quelle stratégie ?",
-        "a": "Investir",
+        "q": "Attrait fort et atouts faibles : quelle stratégie ?",
+        "a": "Construire",
         "d": [
-          "Construire",
+          "Investir",
           "Rentabiliser",
           "Renoncer"
         ]
       },
       {
-        "q": "Attrait fort et atouts faibles : quelle stratégie ?",
-        "a": "Construire",
+        "q": "Attrait faible et atouts faibles : quelle stratégie ?",
+        "a": "Renoncer",
         "d": [
           "Investir",
+          "Construire",
+          "Rentabiliser"
+        ]
+      },
+      {
+        "q": "Que fait-on d'un segment secondaire ?",
+        "a": "On le teste",
+        "d": [
+          "On l'attaque",
+          "On y renonce",
+          "On l'ignore sans analyse"
+        ]
+      }
+    ],
+    "controle": [
+      {
+        "q": "1 200 clients, 1 800 € de panier, 1,5 achat par an. Quel potentiel ?",
+        "a": "3,24 M€",
+        "d": [
+          "2,16 M€",
+          "324 000 €",
+          "4,50 M€"
+        ]
+      },
+      {
+        "q": "Quel critère sert à évaluer la rentabilité ?",
+        "a": "Le coût d'acquisition",
+        "d": [
+          "L'incertitude réglementaire",
+          "Les barrières à l'entrée",
+          "La dépendance"
+        ]
+      },
+      {
+        "q": "Attrait fort et atouts forts : quelle stratégie ?",
+        "a": "Investir",
+        "d": [
+          "Construire",
           "Rentabiliser",
           "Renoncer"
         ]
@@ -674,30 +900,12 @@
         ]
       },
       {
-        "q": "Attrait faible et atouts faibles : quelle stratégie ?",
-        "a": "Renoncer",
-        "d": [
-          "Investir",
-          "Construire",
-          "Rentabiliser"
-        ]
-      },
-      {
         "q": "Poids 50 % / 50 %, notes 4 et 2. Quel score pondéré ?",
         "a": "3 sur 5",
         "d": [
           "6 sur 5",
           "2 sur 5",
           "4 sur 5"
-        ]
-      },
-      {
-        "q": "Que fait-on d'un segment secondaire ?",
-        "a": "On le teste",
-        "d": [
-          "On l'attaque",
-          "On y renonce",
-          "On l'ignore sans analyse"
         ]
       },
       {
@@ -779,6 +987,56 @@
         }
       ]
     },
+    "fiches": [
+      {
+        "q": "Qui décide en BtoC et en BtoB ?",
+        "a": "BtoC : un individu ou un foyer. BtoB : un centre d'achat."
+      },
+      {
+        "q": "Qui compose le centre d'achat, selon ce cours ?",
+        "a": "Prescripteur, utilisateur, acheteur, décideur, filtre."
+      },
+      {
+        "q": "Quelle différence entre multicanal, cross-canal et omnicanal ?",
+        "a": "Multicanal : canaux indépendants. Cross-canal : ils se relaient. Omnicanal : expérience continue, sans rupture."
+      },
+      {
+        "q": "Cite des canaux physiques.",
+        "a": "Boutique, force de vente terrain, salons, distributeurs."
+      },
+      {
+        "q": "Cite des canaux digitaux.",
+        "a": "Site e-commerce, marketplaces, e-mailing, téléprospection."
+      },
+      {
+        "q": "Quelles sont les étapes du parcours client ?",
+        "a": "Besoin, recherche, comparaison, achat, usage, recommandation."
+      },
+      {
+        "q": "Qu'est-ce que le ROPO ?",
+        "a": "Recherche en ligne, achat en magasin."
+      },
+      {
+        "q": "Qu'est-ce que le web-to-store ?",
+        "a": "Click-and-collect, réservation en ligne."
+      },
+      {
+        "q": "Qu'est-ce que le showrooming ?",
+        "a": "On essaie en magasin, on achète en ligne."
+      },
+      {
+        "q": "Selon quoi choisir un canal ?",
+        "a": "La cible, le coût de contact, la marge, le niveau de conseil nécessaire, la capacité logistique."
+      },
+      {
+        "q": "Exercice : un client compare en ligne, puis achète en boutique. Quel comportement ?",
+        "a": "Le ROPO."
+      },
+      {
+        "q": "Exercice : un client essaie en boutique, puis achète en ligne. Quel comportement ?",
+        "a": "Le showrooming."
+      }
+    ],
     "qcm": [
       {
         "q": "En BtoB, qui décide ?",
@@ -787,15 +1045,6 @@
           "Un individu seul",
           "Un foyer",
           "Le service marketing du vendeur"
-        ]
-      },
-      {
-        "q": "Quel processus d'achat correspond au BtoC ?",
-        "a": "Court, souvent émotionnel",
-        "d": [
-          "Long, avec appel d'offres",
-          "Toujours par référencement",
-          "Toujours négocié par contrat"
         ]
       },
       {
@@ -808,30 +1057,12 @@
         ]
       },
       {
-        "q": "Multicanal veut dire…",
-        "a": "Plusieurs canaux indépendants",
-        "d": [
-          "Les canaux se relaient",
-          "Une expérience continue, sans rupture",
-          "Un seul canal"
-        ]
-      },
-      {
         "q": "Cross-canal veut dire…",
         "a": "Les canaux se relaient",
         "d": [
           "Plusieurs canaux indépendants",
           "Une expérience continue, sans rupture",
           "Seulement des canaux digitaux"
-        ]
-      },
-      {
-        "q": "Omnicanal veut dire…",
-        "a": "Une expérience continue, sans rupture",
-        "d": [
-          "Plusieurs canaux indépendants",
-          "Les canaux se relaient",
-          "Seulement des boutiques"
         ]
       },
       {
@@ -844,15 +1075,6 @@
         ]
       },
       {
-        "q": "Rechercher en ligne puis acheter en magasin, c'est…",
-        "a": "Le ROPO",
-        "d": [
-          "Le showrooming",
-          "Le web-to-store",
-          "Le social commerce"
-        ]
-      },
-      {
         "q": "Essayer en magasin puis acheter en ligne, c'est…",
         "a": "Le showrooming",
         "d": [
@@ -862,21 +1084,59 @@
         ]
       },
       {
-        "q": "Le click-and-collect fait partie du…",
-        "a": "Web-to-store",
-        "d": [
-          "Showrooming",
-          "Social selling",
-          "Cross-selling"
-        ]
-      },
-      {
         "q": "Quelle est la dernière étape du parcours client vu en cours ?",
         "a": "Recommandation",
         "d": [
           "Achat",
           "Comparaison",
           "Recherche"
+        ]
+      }
+    ],
+    "controle": [
+      {
+        "q": "Quel processus d'achat correspond au BtoC ?",
+        "a": "Court, souvent émotionnel",
+        "d": [
+          "Long, avec appel d'offres",
+          "Toujours par référencement",
+          "Toujours négocié par contrat"
+        ]
+      },
+      {
+        "q": "Multicanal veut dire…",
+        "a": "Plusieurs canaux indépendants",
+        "d": [
+          "Les canaux se relaient",
+          "Une expérience continue, sans rupture",
+          "Un seul canal"
+        ]
+      },
+      {
+        "q": "Omnicanal veut dire…",
+        "a": "Une expérience continue, sans rupture",
+        "d": [
+          "Plusieurs canaux indépendants",
+          "Les canaux se relaient",
+          "Seulement des boutiques"
+        ]
+      },
+      {
+        "q": "Rechercher en ligne puis acheter en magasin, c'est…",
+        "a": "Le ROPO",
+        "d": [
+          "Le showrooming",
+          "Le web-to-store",
+          "Le social commerce"
+        ]
+      },
+      {
+        "q": "Le click-and-collect fait partie du…",
+        "a": "Web-to-store",
+        "d": [
+          "Showrooming",
+          "Social selling",
+          "Cross-selling"
         ]
       },
       {
@@ -948,6 +1208,48 @@
         }
       ]
     },
+    "fiches": [
+      {
+        "q": "Quels sont les 3 horizons d'objectifs ?",
+        "a": "Long terme (3 à 5 ans), moyen terme (1 à 3 ans), court terme (moins d'1 an)."
+      },
+      {
+        "q": "Quel type d'objectif correspond à chaque horizon ?",
+        "a": "Long : stratégiques. Moyen : tactiques. Court : opérationnels."
+      },
+      {
+        "q": "Que signifie SMART ?",
+        "a": "Spécifique, Mesurable, Atteignable, Réaliste, Temporellement défini."
+      },
+      {
+        "q": "Donne un objectif SMART.",
+        "a": "« Passer le CA e-commerce de 150 k€ à 250 k€ d'ici le 31 décembre 2027 »."
+      },
+      {
+        "q": "Quelle différence entre objectifs quantitatifs et qualitatifs ?",
+        "a": "Quantitatifs : CA, volume, marge, clients. Qualitatifs : satisfaction, notoriété, image RSE. Les deux se mesurent par un indicateur."
+      },
+      {
+        "q": "40 clients visés, 20 % de transformation : combien de rendez-vous ?",
+        "a": "200 rendez-vous, soit environ 4 par semaine."
+      },
+      {
+        "q": "Que faut-il prévoir pour chaque objectif ?",
+        "a": "Des moyens (actions, budget, outils) et des ressources (personnes, temps)."
+      },
+      {
+        "q": "Quels sont les outils de contrôle ?",
+        "a": "Tableau de bord commercial, indicateurs clés (KPI), points d'étape."
+      },
+      {
+        "q": "Exercice : 30 nouveaux clients visés, 25 % de transformation. Combien de rendez-vous ?",
+        "a": "30 ÷ 0,25 = 120 rendez-vous."
+      },
+      {
+        "q": "Exercice : « Augmenter la notoriété ». Pourquoi n'est-ce pas SMART ?",
+        "a": "Ce n'est ni chiffré ni daté, donc on ne peut pas le mesurer."
+      }
+    ],
     "qcm": [
       {
         "q": "Quel horizon correspond au long terme ?",
@@ -956,15 +1258,6 @@
           "Moins d'1 an",
           "1 à 3 ans",
           "10 à 20 ans"
-        ]
-      },
-      {
-        "q": "Les objectifs à moyen terme sont…",
-        "a": "Tactiques",
-        "d": [
-          "Stratégiques",
-          "Opérationnels",
-          "Réglementaires"
         ]
       },
       {
@@ -977,30 +1270,12 @@
         ]
       },
       {
-        "q": "Que signifie le M de SMART ?",
-        "a": "Mesurable",
-        "d": [
-          "Marketing",
-          "Motivant",
-          "Mensuel"
-        ]
-      },
-      {
         "q": "Que signifie le T de SMART ?",
         "a": "Temporellement défini",
         "d": [
           "Tactique",
           "Testé",
           "Total"
-        ]
-      },
-      {
-        "q": "Lequel est un objectif SMART ?",
-        "a": "Passer le CA e-commerce de 150 k€ à 250 k€ d'ici le 31 décembre 2027",
-        "d": [
-          "Développer les ventes en ligne",
-          "Augmenter la notoriété",
-          "Vendre plus et mieux"
         ]
       },
       {
@@ -1013,15 +1288,6 @@
         ]
       },
       {
-        "q": "40 clients visés, 20 % de transformation : combien de rendez-vous ?",
-        "a": "200",
-        "d": [
-          "60",
-          "80",
-          "800"
-        ]
-      },
-      {
         "q": "30 clients visés, 25 % de transformation : combien de rendez-vous ?",
         "a": "120",
         "d": [
@@ -1031,21 +1297,59 @@
         ]
       },
       {
-        "q": "Les ressources d'un objectif, ce sont…",
-        "a": "Les personnes et le temps",
-        "d": [
-          "Les actions et le budget uniquement",
-          "Les concurrents et les clients",
-          "Les lois et les normes"
-        ]
-      },
-      {
         "q": "Lequel est un outil de contrôle ?",
         "a": "Le tableau de bord commercial",
         "d": [
           "La matrice d'Ansoff",
           "Le PESTEL",
           "La carte perceptuelle"
+        ]
+      }
+    ],
+    "controle": [
+      {
+        "q": "Les objectifs à moyen terme sont…",
+        "a": "Tactiques",
+        "d": [
+          "Stratégiques",
+          "Opérationnels",
+          "Réglementaires"
+        ]
+      },
+      {
+        "q": "Que signifie le M de SMART ?",
+        "a": "Mesurable",
+        "d": [
+          "Marketing",
+          "Motivant",
+          "Mensuel"
+        ]
+      },
+      {
+        "q": "Lequel est un objectif SMART ?",
+        "a": "Passer le CA e-commerce de 150 k€ à 250 k€ d'ici le 31 décembre 2027",
+        "d": [
+          "Développer les ventes en ligne",
+          "Augmenter la notoriété",
+          "Vendre plus et mieux"
+        ]
+      },
+      {
+        "q": "40 clients visés, 20 % de transformation : combien de rendez-vous ?",
+        "a": "200",
+        "d": [
+          "60",
+          "80",
+          "800"
+        ]
+      },
+      {
+        "q": "Les ressources d'un objectif, ce sont…",
+        "a": "Les personnes et le temps",
+        "d": [
+          "Les actions et le budget uniquement",
+          "Les concurrents et les clients",
+          "Les lois et les normes"
         ]
       },
       {
@@ -1130,6 +1434,52 @@
         }
       ]
     },
+    "fiches": [
+      {
+        "q": "Quelle différence entre donnée, information et connaissance ?",
+        "a": "Donnée : brute, sans contexte. Information : mise en contexte. Connaissance : analysée, utile à la décision."
+      },
+      {
+        "q": "À quoi sert la veille ?",
+        "a": "Repérer des opportunités, anticiper les menaces, adapter l'offre, nourrir les commerciaux."
+      },
+      {
+        "q": "Quels sont les 4 types de veille ?",
+        "a": "Concurrentielle, technologique et digitale, réglementaire et juridique, sociétale et comportementale."
+      },
+      {
+        "q": "Que surveille la veille concurrentielle ?",
+        "a": "Les offres, prix, communication et recrutements des concurrents."
+      },
+      {
+        "q": "Quelles sont les 5 étapes du cycle de la veille ?",
+        "a": "Définir les besoins, collecter, traiter et analyser, diffuser, exploiter et évaluer."
+      },
+      {
+        "q": "Combien d'axes de surveillance prévoir ?",
+        "a": "3 à 5 axes, avec des mots-clés."
+      },
+      {
+        "q": "Qui sont les acteurs de la veille ?",
+        "a": "Un pilote, des capteurs (commerciaux, service client, achats) et des destinataires (direction, marketing)."
+      },
+      {
+        "q": "Quelle fréquence prévoir pour la veille ?",
+        "a": "Alertes en continu, synthèse hebdomadaire ou mensuelle, bilan trimestriel."
+      },
+      {
+        "q": "Que faut-il retenir de la veille ?",
+        "a": "Une veille sans question précise produit du bruit ; une veille sans diffusion ne sert à rien."
+      },
+      {
+        "q": "Exercice : une nouvelle loi sur l'étiquetage. Quel type de veille ?",
+        "a": "Réglementaire et juridique."
+      },
+      {
+        "q": "Exercice : les gens vont davantage au travail à vélo. Quel type de veille ?",
+        "a": "Sociétale et comportementale."
+      }
+    ],
     "qcm": [
       {
         "q": "Une donnée brute mise en contexte devient…",
@@ -1138,15 +1488,6 @@
           "Une connaissance",
           "Une décision",
           "Une alerte"
-        ]
-      },
-      {
-        "q": "Une information analysée et utile à la décision devient…",
-        "a": "Une connaissance",
-        "d": [
-          "Une donnée",
-          "Un capteur",
-          "Un flux RSS"
         ]
       },
       {
@@ -1159,30 +1500,12 @@
         ]
       },
       {
-        "q": "Un loueur national ouvre une agence à Dijon, quelle veille ?",
-        "a": "Concurrentielle",
-        "d": [
-          "Sociétale",
-          "Réglementaire",
-          "Technologique"
-        ]
-      },
-      {
         "q": "Le forfait mobilités durables relève de quelle veille ?",
         "a": "Réglementaire et juridique",
         "d": [
           "Concurrentielle",
           "Technologique et digitale",
           "Sociétale et comportementale"
-        ]
-      },
-      {
-        "q": "L'essor des trajets domicile-travail à vélo relève de quelle veille ?",
-        "a": "Sociétale et comportementale",
-        "d": [
-          "Réglementaire et juridique",
-          "Concurrentielle",
-          "Technologique et digitale"
         ]
       },
       {
@@ -1195,15 +1518,6 @@
         ]
       },
       {
-        "q": "Quelle est la première étape du cycle de la veille ?",
-        "a": "Définir les besoins",
-        "d": [
-          "Collecter",
-          "Diffuser",
-          "Exploiter et évaluer"
-        ]
-      },
-      {
         "q": "Combien d'axes de surveillance prévoir ?",
         "a": "3 à 5",
         "d": [
@@ -1213,21 +1527,59 @@
         ]
       },
       {
-        "q": "Qui sont les capteurs ?",
-        "a": "Commerciaux, service client, achats",
-        "d": [
-          "Direction et marketing uniquement",
-          "Les concurrents",
-          "Les clients uniquement"
-        ]
-      },
-      {
         "q": "À quelle fréquence faire le bilan ?",
         "a": "Trimestrielle",
         "d": [
           "Toutes les heures",
           "Tous les 5 ans",
           "Jamais"
+        ]
+      }
+    ],
+    "controle": [
+      {
+        "q": "Une information analysée et utile à la décision devient…",
+        "a": "Une connaissance",
+        "d": [
+          "Une donnée",
+          "Un capteur",
+          "Un flux RSS"
+        ]
+      },
+      {
+        "q": "Un loueur national ouvre une agence à Dijon, quelle veille ?",
+        "a": "Concurrentielle",
+        "d": [
+          "Sociétale",
+          "Réglementaire",
+          "Technologique"
+        ]
+      },
+      {
+        "q": "L'essor des trajets domicile-travail à vélo relève de quelle veille ?",
+        "a": "Sociétale et comportementale",
+        "d": [
+          "Réglementaire et juridique",
+          "Concurrentielle",
+          "Technologique et digitale"
+        ]
+      },
+      {
+        "q": "Quelle est la première étape du cycle de la veille ?",
+        "a": "Définir les besoins",
+        "d": [
+          "Collecter",
+          "Diffuser",
+          "Exploiter et évaluer"
+        ]
+      },
+      {
+        "q": "Qui sont les capteurs ?",
+        "a": "Commerciaux, service client, achats",
+        "d": [
+          "Direction et marketing uniquement",
+          "Les concurrents",
+          "Les clients uniquement"
         ]
       },
       {
@@ -1304,6 +1656,52 @@
         }
       ]
     },
+    "fiches": [
+      {
+        "q": "Quelles sont les 3 familles de sources ?",
+        "a": "Institutionnelles, sectorielles et professionnelles, données publiques et privées."
+      },
+      {
+        "q": "Cite des sources institutionnelles.",
+        "a": "INSEE, Bpifrance, CCI, Banque de France, data.gouv.fr, Eurostat, OCDE."
+      },
+      {
+        "q": "Que signifie la grille de fiabilité A-P-A-E-O ?",
+        "a": "Actualité, Pertinence, Auteur, Exactitude, Objectif."
+      },
+      {
+        "q": "Avec combien de sources recouper une information clé ?",
+        "a": "2 sources indépendantes."
+      },
+      {
+        "q": "Quels sont les 3 types d'outils de veille ?",
+        "a": "Alertes automatisées, agrégateurs de contenus, tableau de suivi."
+      },
+      {
+        "q": "Cite un outil d'alerte et un agrégateur.",
+        "a": "Alerte : Google Alerts ou Talkwalker Alerts. Agrégateur : Feedly ou Inoreader."
+      },
+      {
+        "q": "Que contient le tableau de suivi ?",
+        "a": "Date, source, type de veille, information, impact, action proposée, responsable."
+      },
+      {
+        "q": "Que fait bien l'IA pour la veille ?",
+        "a": "Résumer des articles, regrouper par thème, traduire, repérer des signaux récurrents, produire une synthèse hebdomadaire."
+      },
+      {
+        "q": "Quelles sont les limites de l'IA ?",
+        "a": "Informations inventées (hallucinations), sources absentes ou obsolètes, confidentialité des données de l'entreprise."
+      },
+      {
+        "q": "Que contient un bon prompt de veille ?",
+        "a": "Rôle + contexte + sources fournies + consigne + format attendu."
+      },
+      {
+        "q": "Exercice : un article sans date ni auteur, écrit pour vendre. Quels critères posent problème ?",
+        "a": "Actualité, Auteur et Objectif."
+      }
+    ],
     "qcm": [
       {
         "q": "L'INSEE est une source…",
@@ -1312,15 +1710,6 @@
           "Sectorielle",
           "Interne",
           "Payante de presse"
-        ]
-      },
-      {
-        "q": "Une fédération professionnelle est une source…",
-        "a": "Sectorielle et professionnelle",
-        "d": [
-          "Institutionnelle",
-          "Interne",
-          "Sociale"
         ]
       },
       {
@@ -1333,30 +1722,12 @@
         ]
       },
       {
-        "q": "Que signifie le premier A de la grille de fiabilité ?",
-        "a": "Actualité",
-        "d": [
-          "Auteur",
-          "Analyse",
-          "Accès"
-        ]
-      },
-      {
         "q": "Que signifie le O de la grille de fiabilité ?",
         "a": "Objectif",
         "d": [
           "Origine",
           "Outil",
           "Opinion"
-        ]
-      },
-      {
-        "q": "Avec combien de sources indépendantes recouper une information clé ?",
-        "a": "2",
-        "d": [
-          "Aucune",
-          "10",
-          "1 seule, la même"
         ]
       },
       {
@@ -1369,15 +1740,6 @@
         ]
       },
       {
-        "q": "Feedly est…",
-        "a": "Un lecteur de flux RSS",
-        "d": [
-          "Une alerte réglementaire",
-          "Un CRM",
-          "Un registre d'entreprises"
-        ]
-      },
-      {
         "q": "Que trouve-t-on dans le tableau de suivi ?",
         "a": "Date, source, type de veille, impact, action, responsable",
         "d": [
@@ -1387,21 +1749,59 @@
         ]
       },
       {
-        "q": "Une hallucination de l'IA, c'est…",
-        "a": "Une information inventée",
-        "d": [
-          "Une traduction exacte",
-          "Une source vérifiée",
-          "Un résumé fidèle"
-        ]
-      },
-      {
         "q": "Quelle est une limite de l'IA en veille ?",
         "a": "La confidentialité des données de l'entreprise",
         "d": [
           "Elle ne sait pas résumer",
           "Elle ne sait pas traduire",
           "Elle ne regroupe pas par thème"
+        ]
+      }
+    ],
+    "controle": [
+      {
+        "q": "Une fédération professionnelle est une source…",
+        "a": "Sectorielle et professionnelle",
+        "d": [
+          "Institutionnelle",
+          "Interne",
+          "Sociale"
+        ]
+      },
+      {
+        "q": "Que signifie le premier A de la grille de fiabilité ?",
+        "a": "Actualité",
+        "d": [
+          "Auteur",
+          "Analyse",
+          "Accès"
+        ]
+      },
+      {
+        "q": "Avec combien de sources indépendantes recouper une information clé ?",
+        "a": "2",
+        "d": [
+          "Aucune",
+          "10",
+          "1 seule, la même"
+        ]
+      },
+      {
+        "q": "Feedly est…",
+        "a": "Un lecteur de flux RSS",
+        "d": [
+          "Une alerte réglementaire",
+          "Un CRM",
+          "Un registre d'entreprises"
+        ]
+      },
+      {
+        "q": "Une hallucination de l'IA, c'est…",
+        "a": "Une information inventée",
+        "d": [
+          "Une traduction exacte",
+          "Une source vérifiée",
+          "Un résumé fidèle"
         ]
       },
       {
@@ -1476,6 +1876,64 @@
         }
       ]
     },
+    "fiches": [
+      {
+        "q": "À quoi répond une étude de marché ?",
+        "a": "À une question de décision."
+      },
+      {
+        "q": "Quelles sont les étapes du plan d'étude ?",
+        "a": "Objectifs, informations nécessaires, méthode, échantillon, calendrier, budget."
+      },
+      {
+        "q": "Quelles sont les 3 méthodes de collecte ?",
+        "a": "Documentaire, qualitative, quantitative."
+      },
+      {
+        "q": "Quand utiliser la méthode documentaire ?",
+        "a": "Toujours en premier."
+      },
+      {
+        "q": "À quoi sert la méthode qualitative ?",
+        "a": "Comprendre le pourquoi (motivations, freins), explorer et faire émerger des idées."
+      },
+      {
+        "q": "À quoi sert la méthode quantitative ?",
+        "a": "Mesurer, chiffrer, généraliser, valider des hypothèses et dimensionner."
+      },
+      {
+        "q": "Combien de personnes dans un focus group ?",
+        "a": "6 à 10 personnes."
+      },
+      {
+        "q": "Combien de réponses pour une marge d'erreur d'environ 5 % ?",
+        "a": "Environ 400, sur une grande population."
+      },
+      {
+        "q": "Quelle différence entre quotas et aléatoire ?",
+        "a": "Quotas : reproduire la structure de la population. Aléatoire : chacun a la même chance d'être interrogé."
+      },
+      {
+        "q": "Quelles sont les règles d'un bon questionnaire ?",
+        "a": "Questions fermées et échelles, une seule idée par question, du général au plus personnel, test préalable sur 3 personnes."
+      },
+      {
+        "q": "Quels sont les 6 biais ?",
+        "a": "Échantillonnage, sélection, formulation, désirabilité sociale, confirmation, déclaratif."
+      },
+      {
+        "q": "Exercice : les gens disent trier leurs déchets, sans le faire. Quels biais ?",
+        "a": "Désirabilité sociale et déclaratif."
+      },
+      {
+        "q": "Exercice : « Ne pensez-vous pas que ce produit est excellent ? ». Quel biais ?",
+        "a": "Le biais de formulation : la question oriente la réponse."
+      },
+      {
+        "q": "Exercice : tu veux comprendre les freins à l'achat. Quelle méthode ?",
+        "a": "Qualitative."
+      }
+    ],
     "qcm": [
       {
         "q": "Une étude de marché répond à…",
@@ -1484,15 +1942,6 @@
           "Une question de hasard",
           "Un besoin de communication",
           "Une obligation légale"
-        ]
-      },
-      {
-        "q": "Quelle est la première étape du plan d'étude ?",
-        "a": "Les objectifs",
-        "d": [
-          "Le budget",
-          "L'échantillon",
-          "Le calendrier"
         ]
       },
       {
@@ -1505,30 +1954,12 @@
         ]
       },
       {
-        "q": "Quelle méthode sert à comprendre le pourquoi ?",
-        "a": "Qualitative",
-        "d": [
-          "Quantitative",
-          "Documentaire",
-          "Le tableau de suivi"
-        ]
-      },
-      {
         "q": "Quelle méthode sert à mesurer et généraliser ?",
         "a": "Quantitative",
         "d": [
           "Qualitative",
           "Documentaire",
           "L'entretien individuel"
-        ]
-      },
-      {
-        "q": "Combien de personnes dans un focus group ?",
-        "a": "6 à 10",
-        "d": [
-          "1 à 2",
-          "50 à 100",
-          "400"
         ]
       },
       {
@@ -1541,30 +1972,12 @@
         ]
       },
       {
-        "q": "La méthode des quotas consiste à…",
-        "a": "Reproduire la structure de la population",
-        "d": [
-          "Tirer au sort sans règle",
-          "N'interroger que ses clients",
-          "Interroger 3 personnes"
-        ]
-      },
-      {
         "q": "Sur combien de personnes tester un questionnaire avant de le lancer ?",
         "a": "3",
         "d": [
           "30",
           "100",
           "400"
-        ]
-      },
-      {
-        "q": "Quelle règle respecter dans un questionnaire ?",
-        "a": "Une seule idée par question",
-        "d": [
-          "Plusieurs idées par question",
-          "Commencer par le plus personnel",
-          "Seulement des questions ouvertes"
         ]
       },
       {
@@ -1577,21 +1990,68 @@
         ]
       },
       {
-        "q": "La question oriente la réponse : quel biais ?",
-        "a": "Formulation",
-        "d": [
-          "Déclaratif",
-          "Sélection",
-          "Confirmation"
-        ]
-      },
-      {
         "q": "On cherche ce que l'on veut voir : quel biais ?",
         "a": "Confirmation",
         "d": [
           "Formulation",
           "Déclaratif",
           "Échantillonnage"
+        ]
+      }
+    ],
+    "controle": [
+      {
+        "q": "Quelle est la première étape du plan d'étude ?",
+        "a": "Les objectifs",
+        "d": [
+          "Le budget",
+          "L'échantillon",
+          "Le calendrier"
+        ]
+      },
+      {
+        "q": "Quelle méthode sert à comprendre le pourquoi ?",
+        "a": "Qualitative",
+        "d": [
+          "Quantitative",
+          "Documentaire",
+          "Le tableau de suivi"
+        ]
+      },
+      {
+        "q": "Combien de personnes dans un focus group ?",
+        "a": "6 à 10",
+        "d": [
+          "1 à 2",
+          "50 à 100",
+          "400"
+        ]
+      },
+      {
+        "q": "La méthode des quotas consiste à…",
+        "a": "Reproduire la structure de la population",
+        "d": [
+          "Tirer au sort sans règle",
+          "N'interroger que ses clients",
+          "Interroger 3 personnes"
+        ]
+      },
+      {
+        "q": "Quelle règle respecter dans un questionnaire ?",
+        "a": "Une seule idée par question",
+        "d": [
+          "Plusieurs idées par question",
+          "Commencer par le plus personnel",
+          "Seulement des questions ouvertes"
+        ]
+      },
+      {
+        "q": "La question oriente la réponse : quel biais ?",
+        "a": "Formulation",
+        "d": [
+          "Déclaratif",
+          "Sélection",
+          "Confirmation"
         ]
       }
     ]
@@ -1668,6 +2128,48 @@
         }
       ]
     },
+    "fiches": [
+      {
+        "q": "Quels sont les 4 critères de segmentation BtoC ?",
+        "a": "Géographiques, socio-démographiques, psychographiques, comportementaux."
+      },
+      {
+        "q": "Quels sont les critères de segmentation BtoB ?",
+        "a": "Secteur, taille, zone, structure d'achat, volume, critères de choix."
+      },
+      {
+        "q": "Qu'est-ce qu'un segment stratégique ?",
+        "a": "Un segment de taille suffisante, en croissance, rentable et accessible pour l'entreprise."
+      },
+      {
+        "q": "Quelles sont les 5 étapes de décision du client ?",
+        "a": "Reconnaissance du besoin, recherche d'information, évaluation des options, achat, après l'achat."
+      },
+      {
+        "q": "Quel rôle joue chacun dans le centre d'achat ?",
+        "a": "Utilisateur : se sert du produit. Prescripteur : recommande. Acheteur : négocie et commande. Décideur : tranche. Filtre : contrôle l'accès à l'information."
+      },
+      {
+        "q": "Quelles tendances transforment les marchés ?",
+        "a": "Consommation, digitalisation, RSE et accessibilité."
+      },
+      {
+        "q": "Quelles évolutions de consommation sont citées ?",
+        "a": "Local, circuits courts, santé, naturalité, arbitrages de pouvoir d'achat, seconde main, personnalisation."
+      },
+      {
+        "q": "Quels effets a la digitalisation ?",
+        "a": "Recherche en ligne avant achat, avis clients, social commerce, acheteurs BtoB plus autonomes."
+      },
+      {
+        "q": "Exercice : segmenter selon le style de vie. Quel type de critère ?",
+        "a": "Psychographique."
+      },
+      {
+        "q": "Exercice : la personne qui négocie et passe la commande. Quel rôle ?",
+        "a": "L'acheteur."
+      }
+    ],
     "qcm": [
       {
         "q": "Valeurs et style de vie sont des critères…",
@@ -1676,15 +2178,6 @@
           "Géographiques",
           "Socio-démographiques",
           "Comportementaux"
-        ]
-      },
-      {
-        "q": "La fidélité et la fréquence sont des critères…",
-        "a": "Comportementaux",
-        "d": [
-          "Psychographiques",
-          "Géographiques",
-          "Socio-démographiques"
         ]
       },
       {
@@ -1697,15 +2190,6 @@
         ]
       },
       {
-        "q": "Quel élément définit un segment stratégique ?",
-        "a": "L'accessibilité pour l'entreprise",
-        "d": [
-          "Sa couleur de marque",
-          "L'absence totale de clients",
-          "Un chiffre d'affaires nul"
-        ]
-      },
-      {
         "q": "Quelle est la première étape de décision du client ?",
         "a": "Reconnaissance du besoin",
         "d": [
@@ -1715,29 +2199,11 @@
         ]
       },
       {
-        "q": "Dans le centre d'achat, qui tranche ?",
-        "a": "Le décideur",
-        "d": [
-          "L'utilisateur",
-          "Le filtre",
-          "Le prescripteur"
-        ]
-      },
-      {
         "q": "Dans le centre d'achat, qui recommande ?",
         "a": "Le prescripteur",
         "d": [
           "L'acheteur",
           "Le décideur",
-          "Le filtre"
-        ]
-      },
-      {
-        "q": "Dans le centre d'achat, qui négocie et commande ?",
-        "a": "L'acheteur",
-        "d": [
-          "L'utilisateur",
-          "Le prescripteur",
           "Le filtre"
         ]
       },
@@ -1751,21 +2217,59 @@
         ]
       },
       {
-        "q": "Laquelle est une tendance de consommation citée ?",
-        "a": "La seconde main",
-        "d": [
-          "Le recul du local",
-          "La fin des avis clients",
-          "Le refus de la personnalisation"
-        ]
-      },
-      {
         "q": "Quel effet de la digitalisation est cité ?",
         "a": "Des acheteurs BtoB plus autonomes",
         "d": [
           "Moins de recherche en ligne",
           "La fin du social commerce",
           "Moins d'avis clients"
+        ]
+      }
+    ],
+    "controle": [
+      {
+        "q": "La fidélité et la fréquence sont des critères…",
+        "a": "Comportementaux",
+        "d": [
+          "Psychographiques",
+          "Géographiques",
+          "Socio-démographiques"
+        ]
+      },
+      {
+        "q": "Quel élément définit un segment stratégique ?",
+        "a": "L'accessibilité pour l'entreprise",
+        "d": [
+          "Sa couleur de marque",
+          "L'absence totale de clients",
+          "Un chiffre d'affaires nul"
+        ]
+      },
+      {
+        "q": "Dans le centre d'achat, qui tranche ?",
+        "a": "Le décideur",
+        "d": [
+          "L'utilisateur",
+          "Le filtre",
+          "Le prescripteur"
+        ]
+      },
+      {
+        "q": "Dans le centre d'achat, qui négocie et commande ?",
+        "a": "L'acheteur",
+        "d": [
+          "L'utilisateur",
+          "Le prescripteur",
+          "Le filtre"
+        ]
+      },
+      {
+        "q": "Laquelle est une tendance de consommation citée ?",
+        "a": "La seconde main",
+        "d": [
+          "Le recul du local",
+          "La fin des avis clients",
+          "Le refus de la personnalisation"
         ]
       },
       {
@@ -1845,6 +2349,72 @@
         }
       ]
     },
+    "fiches": [
+      {
+        "q": "Qu'est-ce qu'un concurrent direct ?",
+        "a": "Même produit, même cible."
+      },
+      {
+        "q": "Qu'est-ce qu'un concurrent indirect ?",
+        "a": "Produit différent, même besoin."
+      },
+      {
+        "q": "Qu'est-ce qu'un concurrent générique ?",
+        "a": "Tout ce qui capte le même budget."
+      },
+      {
+        "q": "Pour Cyclonef, donne un exemple de chaque cercle.",
+        "a": "Direct : autres loueurs de vélos pour entreprises. Indirect : vélos en libre-service, trottinettes, covoiturage. Générique : le budget « mobilité et avantages salariés »."
+      },
+      {
+        "q": "Qu'est-ce que le positionnement ?",
+        "a": "La place d'une offre dans l'esprit des clients, face aux concurrents."
+      },
+      {
+        "q": "Qu'est-ce qu'une carte perceptuelle ?",
+        "a": "L'outil du positionnement, sur 2 axes choisis par les clients."
+      },
+      {
+        "q": "Quelles sont les 3 stratégies de Porter ?",
+        "a": "Domination par les coûts, différenciation, concentration sur une niche."
+      },
+      {
+        "q": "Qu'est-ce qu'un facteur clé de succès ?",
+        "a": "Ce qu'il faut maîtriser pour réussir sur ce marché : personnalisation, délais, image locale…"
+      },
+      {
+        "q": "Que regarde-t-on pour analyser un concurrent ?",
+        "a": "Cible, offre, prix, canaux, communication, forces et faiblesses."
+      },
+      {
+        "q": "Quelles menaces montrent les 5 forces de Porter ?",
+        "a": "Rivalité, nouveaux entrants, substituts, pouvoir des clients et des fournisseurs."
+      },
+      {
+        "q": "Quelles sont les barrières à l'entrée ?",
+        "a": "Investissements, réglementation, accès à la distribution, notoriété des marques en place, savoir-faire."
+      },
+      {
+        "q": "Quelles sont les 4 postures de Kotler ?",
+        "a": "Leader, challenger, suiveur, spécialiste."
+      },
+      {
+        "q": "Que fait chaque posture de Kotler ?",
+        "a": "Leader : domine le marché. Challenger : attaque le leader. Suiveur : imite et s'aligne. Spécialiste : domine une niche."
+      },
+      {
+        "q": "Exercice : un cinéma face à Netflix. Quel cercle de concurrence ?",
+        "a": "Indirect : produit différent, même besoin."
+      },
+      {
+        "q": "Exercice : une entreprise qui attaque le n° 1 du marché. Quelle posture ?",
+        "a": "Challenger."
+      },
+      {
+        "q": "Exercice : une entreprise qui domine un petit marché précis. Quelle posture ?",
+        "a": "Spécialiste."
+      }
+    ],
     "qcm": [
       {
         "q": "Même produit, même cible : quel concurrent ?",
@@ -1853,15 +2423,6 @@
           "Indirect",
           "Générique",
           "Substitut"
-        ]
-      },
-      {
-        "q": "Produit différent, même besoin : quel concurrent ?",
-        "a": "Indirect",
-        "d": [
-          "Direct",
-          "Générique",
-          "Leader"
         ]
       },
       {
@@ -1874,30 +2435,12 @@
         ]
       },
       {
-        "q": "Pour Cyclonef, les trottinettes sont un concurrent…",
-        "a": "Indirect",
-        "d": [
-          "Direct",
-          "Générique",
-          "Spécialiste"
-        ]
-      },
-      {
         "q": "Pour Cyclonef, un autre loueur de vélos pour entreprises est un concurrent…",
         "a": "Direct",
         "d": [
           "Indirect",
           "Générique",
           "Challenger"
-        ]
-      },
-      {
-        "q": "Le positionnement, c'est…",
-        "a": "La place d'une offre dans l'esprit des clients",
-        "d": [
-          "Le classement de l'entreprise sur Google",
-          "L'adresse du point de vente",
-          "Le prix le plus bas du marché"
         ]
       },
       {
@@ -1910,30 +2453,12 @@
         ]
       },
       {
-        "q": "Laquelle est une stratégie de Porter ?",
-        "a": "La différenciation",
-        "d": [
-          "Le challenger",
-          "Le benchmark",
-          "La veille"
-        ]
-      },
-      {
         "q": "Lequel est un facteur clé de succès cité ?",
         "a": "La personnalisation",
         "d": [
           "Le nombre d'étages",
           "La taille du logo",
           "Le jour de création"
-        ]
-      },
-      {
-        "q": "Laquelle est une barrière à l'entrée ?",
-        "a": "L'accès à la distribution",
-        "d": [
-          "Les avis clients positifs",
-          "La baisse des prix du concurrent",
-          "Le nombre de cercles"
         ]
       },
       {
@@ -1946,20 +2471,67 @@
         ]
       },
       {
-        "q": "Quelle posture de Kotler imite et s'aligne ?",
-        "a": "Suiveur",
-        "d": [
-          "Challenger",
-          "Spécialiste",
-          "Leader"
-        ]
-      },
-      {
         "q": "Quelle posture de Kotler domine une niche ?",
         "a": "Spécialiste",
         "d": [
           "Suiveur",
           "Challenger",
+          "Leader"
+        ]
+      }
+    ],
+    "controle": [
+      {
+        "q": "Produit différent, même besoin : quel concurrent ?",
+        "a": "Indirect",
+        "d": [
+          "Direct",
+          "Générique",
+          "Leader"
+        ]
+      },
+      {
+        "q": "Pour Cyclonef, les trottinettes sont un concurrent…",
+        "a": "Indirect",
+        "d": [
+          "Direct",
+          "Générique",
+          "Spécialiste"
+        ]
+      },
+      {
+        "q": "Le positionnement, c'est…",
+        "a": "La place d'une offre dans l'esprit des clients",
+        "d": [
+          "Le classement de l'entreprise sur Google",
+          "L'adresse du point de vente",
+          "Le prix le plus bas du marché"
+        ]
+      },
+      {
+        "q": "Laquelle est une stratégie de Porter ?",
+        "a": "La différenciation",
+        "d": [
+          "Le challenger",
+          "Le benchmark",
+          "La veille"
+        ]
+      },
+      {
+        "q": "Laquelle est une barrière à l'entrée ?",
+        "a": "L'accès à la distribution",
+        "d": [
+          "Les avis clients positifs",
+          "La baisse des prix du concurrent",
+          "Le nombre de cercles"
+        ]
+      },
+      {
+        "q": "Quelle posture de Kotler imite et s'aligne ?",
+        "a": "Suiveur",
+        "d": [
+          "Challenger",
+          "Spécialiste",
           "Leader"
         ]
       }
