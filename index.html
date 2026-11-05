@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cursus</title>
+<meta name="apple-mobile-web-app-title" content="Cursus">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#1D2321">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<link rel="icon" href="data:image/png;base64,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">
+<style>
+:root{
+  color-scheme:light;
+  --page:#F4F5F4;--sheet:#FFFFFF;--ink:#1D2321;--soft:#5C6663;--line:#DDE1DF;
+  --bar:#1D2321;--on-bar:#FFFFFF;--accent:#12634D;--on-accent:#FFFFFF;--selected:#E5F0EC;--mark:#FBE88A;--mark-ink:#1D2321;--danger:#B3213A;--head:#EEF0EF;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    color-scheme:dark;
+    --page:#131716;--sheet:#1C2120;--ink:#EDF0EF;--soft:#AAB4B0;--line:#343B39;
+    --bar:#0C0F0E;--on-bar:#FFFFFF;--accent:#7AD6B7;--on-accent:#0C0F0E;--selected:#233630;--mark:#FBE88A;--mark-ink:#1D2321;--danger:#FF9AAB;--head:#272D2B;
+  }
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--page);color:var(--ink)}
+body{font:16px/1.55 "Avenir Next",Avenir,"Segoe UI",system-ui,sans-serif;-webkit-text-size-adjust:100%;min-height:100vh}
+button,input,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+header{background:var(--bar);color:var(--on-bar);padding:calc(12px + env(safe-area-inset-top)) 24px 12px;position:sticky;top:0;z-index:2}
+.top{max-width:1240px;margin:auto;display:flex;align-items:center;gap:16px}
+h1{font-size:20px;font-weight:700;line-height:1;margin:0;width:276px;flex:none}
+.search{flex:1;min-width:0;border:0;border-radius:6px;padding:9px 12px;background:#fff;color:#1D2321;min-height:42px}
+.search::placeholder{color:#5C6663}
+.add{background:#fff;color:#1D2321;border:0;border-radius:6px;padding:8px 14px;font-weight:600;min-height:42px;flex:none}
+main{max-width:1240px;margin:auto;display:grid;grid-template-columns:276px minmax(0,1fr);gap:24px;padding:24px}
+.status{grid-column:1/-1;margin:0;color:var(--soft);font-size:14px}
+.status:empty{display:none}
+.subject{font-size:13px;font-weight:600;color:var(--soft);margin:0 0 8px;line-height:1.35}
+.list{list-style:none;margin:0 0 22px;padding:0}
+.tabbtn{display:block;width:100%;text-align:left;background:none;border:0;border-radius:6px;padding:9px 11px;margin-bottom:2px;min-height:48px;font-weight:500;line-height:1.3}
+.tabbtn[aria-current=true]{background:var(--selected);font-weight:600}
+.tabbtn small{display:block;color:var(--soft);font-weight:400;font-size:13px;margin-top:3px}
+.backup{border-top:1px solid var(--line);padding-top:14px;display:flex;gap:8px;flex-wrap:wrap}
+.sheet{background:var(--sheet);border:1px solid var(--line);border-radius:8px;padding:34px 40px;min-width:0}
+.back{display:none;background:none;border:0;color:var(--accent);padding:0 0 12px;font-weight:600;min-height:44px}
+.meta{color:var(--soft);font-size:14px;margin:0 0 20px}
+.sheet h2{font-size:27px;line-height:1.2;font-weight:700;letter-spacing:-.01em;margin:0 0 6px}
+.body h3{font-size:19px;line-height:1.3;font-weight:700;margin:32px 0 10px;padding-top:22px;border-top:1px solid var(--line)}
+.body h4{font-size:16px;margin:18px 0 6px}
+.body p{margin:9px 0;max-width:72ch}
+.body ul,.body ol{margin:8px 0;padding-left:22px;max-width:72ch}
+.body li{margin:3px 0}
+.tablewrap{overflow-x:auto;margin:14px 0;border:1px solid var(--line);border-radius:6px}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:440px}
+th,td{border-bottom:1px solid var(--line);padding:9px 12px;text-align:left;vertical-align:top}
+tr:last-child td{border-bottom:0}
+th{background:var(--head);font-weight:600}
+mark{background:var(--mark);color:var(--mark-ink);border-radius:2px;padding:0 1px}
+.actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:32px;padding-top:18px;border-top:1px solid var(--line)}
+.ghost{background:none;border:1px solid var(--line);border-radius:6px;padding:7px 12px;min-height:44px;font-size:14px}
+.delete{color:var(--danger)}
+.primary{background:var(--accent);color:var(--on-accent);border:0;border-radius:6px;padding:9px 16px;font-weight:600;min-height:44px}
+label{display:block;font-weight:600;font-size:14px;margin:14px 0 5px}
+.field{width:100%;background:var(--page);border:1px solid var(--line);border-radius:6px;padding:10px 12px}
+textarea.field{min-height:320px;line-height:1.45}
+.hint{color:var(--soft);font-size:14px;margin:6px 0 0}
+.error{color:var(--danger);font-weight:600;margin:12px 0 0}
+.empty{color:var(--soft)}
+@media (max-width:760px){
+  header{padding-left:14px;padding-right:14px}
+  .top{flex-wrap:wrap;gap:10px}
+  h1{flex:1;width:auto}
+  .search{flex:1 0 100%;order:3}
+  main{display:block;padding:16px 14px}
+  .sheet{padding:18px 16px}
+  body.reading .side{display:none}
+  body:not(.reading) .sheet{display:none}
+  .back{display:block}
+}
+</style>
+</head>
+<body>
+<header><div class="top">
+  <h1>Cursus</h1>
+  <input class="search" id="q" type="search" aria-label="Chercher dans mes cours" placeholder="Chercher dans mes cours">
+  <button class="add" id="add">Ajouter un cours</button>
+</div></header>
+<main>
+  <p class="status" id="status" role="status"></p>
+  <div class="side">
+    <nav class="nav" id="nav" aria-label="Liste des cours"></nav>
+    <div class="backup">
+      <button class="ghost" id="exportBtn">Exporter mes cours</button>
+      <button class="ghost" id="importBtn">Importer mes cours</button>
+      <input id="importFile" type="file" accept=".json,application/json" hidden>
+    </div>
+  </div>
+  <article class="sheet" id="sheet"></article>
+</main>
+<script>
+const KEY='mes-cours-v1';
+const SUBJECT='Stratégie de développement commercial';
+const CANAUX=`## Temps 2 : Les canaux
+
+**Du multicanal à l'omnicanal**
+
+- **Multicanal :** plusieurs canaux indépendants
+- **Cross-canal :** les canaux se relaient
+- **Omnicanal :** une expérience continue, sans rupture
+
+**Canaux physiques**
+
+- Boutique
+- Force de vente terrain
+- Salons, distributeurs
+
+**Canaux digitaux**
+
+- Site e-commerce, marketplaces
+- E-mailing
+- Téléprospection
+
+**Réseaux sociaux**
+
+- Social selling (LinkedIn en BtoB)
+- Social commerce (Instagram, TikTok)
+- Avis clients`;
+const TEMPS3=`## Temps 3 : Comportements d'achat
+
+**Choisir ses canaux selon le parcours client**
+
+Besoin → Recherche → Comparaison → Achat → Usage → Recommandation
+
+- **ROPO :** recherche en ligne, achat en magasin
+- **Web-to-store :** click-and-collect, réservation en ligne
+- **Showrooming :** on essaie en magasin, on achète en ligne
+- **Avis en ligne :** ils pèsent sur la décision, en BtoC comme en BtoB
+
+**Choisir un canal selon :** la cible, le coût de contact, la marge, le niveau de conseil nécessaire, la capacité logistique.`;
+const SEED=[
+{id:'c4',subject:SUBJECT,title:'Cours 4',date:'2026-11-05',body:`## Temps 1 : Mesurer le potentiel
+
+**Calculer le potentiel d'un segment**
+
+Potentiel annuel = clients potentiels × panier moyen × achats par an
+
+**Exemple :**
+
+- 1 200 entreprises de plus de 20 salariés en Côte-d'Or
+- 1 800 € de panier moyen
+- 1,5 achat par an
+- **Potentiel annuel :** 1 200 × 1 800 × 1,5 = **3,24 M€**
+
+**À distinguer :** le marché total, le marché accessible et la part réellement captable.
+
+## Temps 2 : Rentabilité et risque
+
+**Évaluer la rentabilité**
+
+- Marge attendue
+- Coût d'acquisition
+- Coût de service
+- Délai de retour sur investissement
+
+**Évaluer le risque**
+
+- Intensité concurrentielle
+- Barrières à l'entrée
+- Dépendance
+- Incertitude réglementaire
+
+**Choisir une stratégie selon l'attrait du segment et les atouts de l'entreprise**
+
+| Attrait du segment | Atouts forts | Atouts faibles |
+| --- | --- | --- |
+| **Fort** | **Investir** | **Construire** |
+| **Faible** | **Rentabiliser** | **Renoncer** |
+
+## Temps 3 : Hiérarchiser
+
+**Utiliser une grille de scoring pondérée**
+
+| Critère | Poids | Touristes | Entreprises | 18-35 ans |
+| --- | --- | --- | --- | --- |
+| Potentiel | 30 % | 4 | 5 | 3 |
+| Marge | 25 % | 5 | 4 | 4 |
+| Risque (5 = faible) | 20 % | 4 | 3 | 2 |
+| Accessibilité | 15 % | 4 | 3 | 3 |
+| Cohérence RSE | 10 % | 3 | 4 | 3 |
+| **Score pondéré /5** | **100 %** | **4,15** | **3,95** | **3,05** |
+
+**Résultat :** les touristes arrivent en tête avec 4,15/5.
+
+**Classer les segments**
+
+- **Prioritaires :** attaquer
+- **Secondaires :** tester
+- **À écarter :** renoncer`},
+{id:'c5',subject:SUBJECT,title:'Cours 5 : Stratégies par canaux et par typologies de clients',date:'2026-11-05',body:`Journée 3, 45 min
+
+**À la fin de ce cours, vous saurez :**
+
+- adapter sa stratégie au BtoB et au BtoC
+- distinguer multicanal, cross-canal et omnicanal
+- construire un mix canaux à partir du parcours client
+
+## Temps 1 : BtoB et BtoC
+
+**BtoC et BtoB : deux façons d'acheter**
+
+| Critère | BtoC | BtoB |
+| --- | --- | --- |
+| Décideur | Un individu ou un foyer | Un centre d'achat : prescripteur, utilisateur, acheteur, décideur, filtre |
+| Processus | Court, souvent émotionnel | Long, formalisé : appel d'offres, référencement |
+| Volume | Nombreux clients, petits paniers | Peu de clients, gros contrats |
+| Relation | Marque, expérience | Personnalisée, gestion de comptes clés (KAM) |
+| Leviers | Communication, promotion, expérience client | Argumentation valeur, négociation, services |
+
+`+CANAUX+'\n\n'+TEMPS3},
+{id:'c6',subject:SUBJECT,title:'Cours 6 : Définir des objectifs commerciaux',date:'2026-11-05',body:`Journée 3, 45 min
+
+**À la fin de ce cours, vous saurez :**
+
+- fixer des objectifs à court, moyen et long terme
+- rédiger des objectifs SMART
+- vérifier la cohérence entre objectifs, moyens et ressources
+
+## Temps 1 : Les horizons
+
+**Trois horizons, une cascade**
+
+| Horizon | Durée | Type d'objectifs | Exemples d'indicateurs | Précision |
+| --- | --- | --- | --- | --- |
+| **Long terme** | 3 à 5 ans | Stratégiques | Part de marché, nouveau marché, notoriété | Ex. : +30 % de CA en 3 ans |
+| **Moyen terme** | 1 à 3 ans | Tactiques | Nouveaux clients par segment, CA par canal | |
+| **Court terme** | Moins d'1 an | Opérationnels | Rendez-vous, taux de transformation, panier moyen | Déclinés par commercial et par mois |`}
+];
+let courses=SEED.map(c=>({...c}));
+let current=null,editing=null,query='';
+const $=id=>document.getElementById(id);
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const fold=s=>Array.from(String(s)).map(c=>{const n=c.normalize('NFD')[0].toLowerCase();return n.length===1?n:c}).join('');
+const fmtDate=d=>{if(!d)return '';const x=new Date(d+'T12:00:00');return isNaN(x)?'':x.toLocaleDateString('fr-FR',{day:'numeric',month:'long',year:'numeric'})};
+const inline=s=>esc(s).replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>');
+
+function md(src){
+  const lines=src.split(/\r?\n/);let h='',i=0;
+  while(i<lines.length){
+    const l=lines[i].trim();
+    if(!l){i++;continue}
+    if(l.startsWith('### ')){h+='<h4>'+inline(l.slice(4))+'</h4>';i++;continue}
+    if(l.startsWith('## ')){h+='<h3>'+inline(l.slice(3))+'</h3>';i++;continue}
+    if(l.startsWith('# ')){h+='<h3>'+inline(l.slice(2))+'</h3>';i++;continue}
+    if(/^[-*] /.test(l)){
+      h+='<ul>';
+      while(i<lines.length&&/^[-*] /.test(lines[i].trim())){h+='<li>'+inline(lines[i].trim().slice(2))+'</li>';i++}
+      h+='</ul>';continue
+    }
+    if(l.startsWith('|')){
+      const rows=[];
+      while(i<lines.length&&lines[i].trim().startsWith('|')){rows.push(lines[i].trim());i++}
+      const cells=r=>r.replace(/^\||\|$/g,'').split('|').map(x=>x.trim());
+      const hasHead=rows[1]&&/^[|\s:-]+$/.test(rows[1]);
+      h+='<div class="tablewrap"><table>';
+      if(hasHead)h+='<thead><tr>'+cells(rows[0]).map(c=>'<th scope="col">'+inline(c)+'</th>').join('')+'</tr></thead>';
+      h+='<tbody>'+rows.slice(hasHead?2:0).map(r=>'<tr>'+cells(r).map(c=>'<td>'+inline(c)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>';
+      continue
+    }
+    h+='<p>'+inline(l)+'</p>';i++;
+  }
+  return h;
+}
+
+function highlight(root,q){
+  if(!q)return;
+  const w=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);const nodes=[];
+  while(w.nextNode())nodes.push(w.currentNode);
+  nodes.forEach(n=>{
+    const t=n.nodeValue,f=fold(t);let at=f.indexOf(q);
+    if(at<0)return;
+    const frag=document.createDocumentFragment();let last=0;
+    while(at>=0){
+      frag.append(t.slice(last,at));
+      const m=document.createElement('mark');m.textContent=t.slice(at,at+q.length);frag.append(m);
+      last=at+q.length;at=f.indexOf(q,last);
+    }
+    frag.append(t.slice(last));n.replaceWith(frag);
+  });
+}
+
+const matches=c=>!query||fold(c.title+' '+c.subject+' '+c.body).includes(query);
+const sorted=()=>courses.filter(c=>!c.deleted).sort((a,b)=>(a.date||'').localeCompare(b.date||'')||a.title.localeCompare(b.title,'fr',{numeric:true}));
+
+function renderNav(){
+  const shown=sorted().filter(matches),groups={};
+  shown.forEach(c=>(groups[c.subject||'Sans matière']=groups[c.subject||'Sans matière']||[]).push(c));
+  const nav=$('nav');
+  if(!shown.length){nav.innerHTML='<p class="empty">Aucun cours ne contient ce mot. Essaie un autre mot.</p>';return}
+  nav.innerHTML=Object.keys(groups).map(s=>`<p class="subject">${esc(s)}</p><ul class="list">`+groups[s].map(c=>
+    `<li><button class="tabbtn" data-id="${esc(c.id)}" aria-current="${c.id===current}">${esc(c.title)}<small>${esc(fmtDate(c.date))}</small></button></li>`).join('')+'</ul>').join('');
+  nav.querySelectorAll('.tabbtn').forEach(b=>b.onclick=()=>{current=b.dataset.id;editing=null;document.body.classList.add('reading');render();window.scrollTo(0,0)});
+}
+
+function renderSheet(){
+  const s=$('sheet');
+  if(editing){
+    s.innerHTML=`<button class="back" id="back">Retour à la liste</button>
+    <h2>${editing.id?'Modifier le cours':'Ajouter un cours'}</h2>
+    <label for="ft">Titre</label><input class="field" id="ft" value="${esc(editing.title)}">
+    <label for="fs">Matière</label><input class="field" id="fs" value="${esc(editing.subject)}">
+    <label for="fd">Date</label><input class="field" id="fd" type="date" value="${esc(editing.date)}">
+    <label for="fb">Contenu</label><textarea class="field" id="fb">${esc(editing.body)}</textarea>
+    <p class="hint">## pour un titre, - pour une puce, **mot** pour du gras.</p>
+    <p class="error" id="err" role="alert"></p>
+    <div class="actions"><button class="primary" id="save">Enregistrer le cours</button><button class="ghost" id="cancel">Annuler</button></div>`;
+    $('back').onclick=$('cancel').onclick=()=>{editing=null;if(!current)document.body.classList.remove('reading');render()};
+    $('save').onclick=saveEdit;return;
+  }
+  const c=courses.find(x=>x.id===current);
+  if(!c){s.innerHTML='<p class="empty">Choisis un cours dans la liste, ou ajoute-en un.</p>';return}
+  s.innerHTML=`<button class="back" id="back">Retour à la liste</button><h2>${esc(c.title)}</h2>
+    <p class="meta">${esc(c.subject)}${c.date?', '+esc(fmtDate(c.date)):''}</p><div class="body" id="cb">${md(c.body)}</div>
+    <div class="actions"><button class="ghost" id="edit">Modifier le cours</button><button class="ghost delete" id="del">Supprimer le cours</button></div>`;
+  highlight(s,query);
+  $('back').onclick=()=>{document.body.classList.remove('reading');window.scrollTo(0,0)};
+  $('edit').onclick=()=>{editing={...c};render()};
+  $('del').onclick=async()=>{
+    if(!confirm('Supprimer « '+c.title+' » ?'))return;
+    courses=courses.map(x=>x.id===c.id?{id:x.id,title:x.title,body:'',deleted:true}:x);current=null;document.body.classList.remove('reading');await persist('Cours supprimé.');render();
+  };
+}
+function render(){renderNav();renderSheet()}
+
+async function saveEdit(){
+  const title=$('ft').value.trim(),body=$('fb').value;
+  if(!title){$('err').textContent='Ajoute un titre pour enregistrer ce cours.';$('ft').focus();return}
+  const data={id:editing.id||('c'+Date.now()),title,subject:$('fs').value.trim()||SUBJECT,date:$('fd').value,body,edited:true};
+  const i=courses.findIndex(x=>x.id===data.id);
+  if(i>=0)courses[i]=data;else courses.push(data);
+  current=data.id;editing=null;await persist('Cours enregistré.');render();
+}
+
+// Dans Claude : window.storage. Installée ailleurs : stockage du navigateur.
+const store={
+  async read(){
+    if(window.storage){const r=await window.storage.get(KEY,false);return r&&r.value}
+    return window.localStorage.getItem(KEY);
+  },
+  async write(v){
+    if(window.storage){const r=await window.storage.set(KEY,v,false);if(!r)throw new Error('fail');return}
+    window.localStorage.setItem(KEY,v);
+  }
+};
+async function persist(ok){
+  try{await store.write(JSON.stringify(courses));$('status').textContent=ok}
+  catch(e){$('status').textContent="Ce cours n'est pas sauvegardé sur cet appareil. Exporte tes cours pour les garder."}
+}
+function valid(d){return Array.isArray(d)&&d.every(c=>c&&typeof c.id==='string'&&typeof c.title==='string'&&typeof c.body==='string')}
+// Récupère cours.json sur le site et ajoute les nouveautés.
+async function sync(){
+  let remote;
+  try{
+    const r=await fetch('cours.json?t='+Date.now(),{cache:'no-store'});
+    if(!r.ok)return;
+    remote=await r.json();
+    if(!valid(remote))return;
+  }catch(e){return}
+  let changed=0;
+  remote.forEach(n=>{
+    const i=courses.findIndex(c=>c.id===n.id);
+    if(i<0){courses.push(n);changed++;return}
+    const l=courses[i];
+    if(l.deleted||l.edited)return;
+    if(l.title!==n.title||l.body!==n.body||l.subject!==n.subject||l.date!==n.date){courses[i]=n;changed++}
+  });
+  if(changed){await persist('Cours mis à jour.');if(!editing)render()}
+}
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)sync()});
+async function load(){
+  try{
+    const v=await store.read();
+    if(v){const d=JSON.parse(v);if(valid(d))courses=d}
+  }catch(e){/* première ouverture : on garde les cours de départ */}
+  const c5=courses.find(c=>c.id==='c5'&&!c.deleted&&!c.edited);
+  if(c5){
+    let changed=false;
+    if(!c5.body.includes('Du multicanal')){c5.body=c5.body.trimEnd()+'\n\n'+CANAUX;changed=true}
+    if(!c5.body.includes('Choisir ses canaux')){c5.body=c5.body.trimEnd()+'\n\n'+TEMPS3;changed=true}
+    if(changed)await persist('');
+  }
+  let added=false;
+  SEED.forEach(n=>{if(!courses.some(c=>c.id===n.id)){courses.push({...n});added=true}});
+  if(added)await persist('');
+  await sync();
+  const list=sorted();
+  if(!current&&list.length&&window.innerWidth>760)current=list[list.length-1].id;
+  render();
+}
+$('exportBtn').onclick=()=>{
+  const url=URL.createObjectURL(new Blob([JSON.stringify(courses,null,2)],{type:'application/json'}));
+  const a=document.createElement('a');a.href=url;a.download='cursus-cours.json';document.body.append(a);a.click();a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),1000);
+  $('status').textContent='Fichier cursus-cours.json exporté. Importe-le sur ton autre appareil.';
+};
+$('importBtn').onclick=()=>$('importFile').click();
+$('importFile').onchange=async e=>{
+  const f=e.target.files[0];e.target.value='';if(!f)return;
+  try{
+    const d=JSON.parse(await f.text());
+    if(!valid(d))throw new Error('format');
+    if(!confirm('Remplacer les cours de cet appareil par ceux du fichier ?'))return;
+    courses=d;current=null;editing=null;await persist(d.length+' cours importés.');
+    const l=sorted();if(l.length&&window.innerWidth>760)current=l[l.length-1].id;render();
+  }catch(err){$('status').textContent='Ce fichier ne peut pas être importé. Choisis un fichier cursus-cours.json.'}
+};
+
+$('q').oninput=e=>{query=fold(e.target.value.trim());
+  const shown=sorted().filter(matches);
+  if(query&&shown.length&&!shown.some(c=>c.id===current)&&!editing&&window.innerWidth>760)current=shown[0].id;
+  if(query)document.body.classList.remove('reading');
+  render()};
+$('add').onclick=()=>{editing={id:'',title:'',subject:SUBJECT,date:new Date().toISOString().slice(0,10),body:''};document.body.classList.add('reading');render();window.scrollTo(0,0);$('ft').focus()};
+load();
+</script>
+</body>
+</html>
