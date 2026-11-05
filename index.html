@@ -253,6 +253,11 @@ header{box-shadow:none}
 @keyframes riseIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
 @keyframes flip{from{opacity:0;transform:perspective(900px) rotateX(-22deg)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.scene,.bx,.vbig,.rg,.flash,.card,.prepbox,.hometitle,.coursehead h2{animation:none!important}}
+.progress{margin-top:16px;max-width:420px;position:relative;z-index:1}
+.progress span{display:block;font-size:14px;font-weight:600;margin-bottom:6px}
+.pbar{height:8px;border-radius:4px;background:rgba(255,255,255,.22);overflow:hidden}
+.pbar i{display:block;height:100%;background:#fff;border-radius:4px;transition:width .3s}
+.seen{display:inline-block;margin-left:7px;padding:1px 7px;border-radius:999px;background:var(--c);color:#fff;font-size:11px;font-weight:700}
 </style>
 </head>
 <body>
@@ -443,8 +448,11 @@ function cardHtml(c){
     if(line)hit='<span class="hit">'+esc(line.replace(/[*|#]/g,' ').replace(/\s+/g,' ').trim().slice(0,110))+'</span>';
   }
   const meta=[j?'Journée '+j[1]:'',n?n+' temps':''].filter(Boolean).join(', ');
-  return `<button class="card ${subjClass(c)}" data-id="${esc(c.id)}"><span class="num" aria-hidden="true">${/^accueil/i.test(tag)?'i':esc((tag.match(/\d+/)||[tag.charAt(0)])[0])}</span><span class="cbody"><span class="tag">${esc(tag)}</span><span class="cname">${esc(name?name.charAt(0).toUpperCase()+name.slice(1):c.title)}</span>${meta?`<span class="cmeta">${esc(meta)}</span>`:''}${hit}</span></button>`;
+  return `<button class="card ${subjClass(c)}" data-id="${esc(c.id)}"><span class="num" aria-hidden="true">${/^accueil/i.test(tag)?'i':esc((tag.match(/\d+/)||[tag.charAt(0)])[0])}</span><span class="cbody"><span class="tag">${esc(tag)}${done[c.id]?'<b class="seen">Revu</b>':''}</span><span class="cname">${esc(name?name.charAt(0).toUpperCase()+name.slice(1):c.title)}</span>${meta?`<span class="cmeta">${esc(meta)}</span>`:''}${hit}</span></button>`;
 }
+let done={};
+try{done=JSON.parse(window.localStorage.getItem('cursus-revus')||'{}')}catch(e){}
+function saveDone(){try{window.localStorage.setItem('cursus-revus',JSON.stringify(done))}catch(e){}}
 let study=null;
 let weak={};
 try{weak=JSON.parse(window.localStorage.getItem('cursus-erreurs')||'{}')}catch(e){}
@@ -510,7 +518,7 @@ function renderHome(s){
   else{
     if(query)h+=`<h2 class="hometitle">${shown.length} cours trouvé${shown.length>1?'s':''}</h2>`;
     else{
-      h+=`<div class="hero"><h2 class="hometitle">Quel cours veux-tu ouvrir ?</h2><p>${list.length} cours dans ${new Set(list.map(c=>c.subject)).size} matière${new Set(list.map(c=>c.subject)).size>1?'s':''}</p></div>`;
+      h+=`<div class="hero"><h2 class="hometitle">Quel cours veux-tu ouvrir ?</h2><p>${list.length} cours dans ${new Set(list.map(c=>c.subject)).size} matières</p>${(()=>{const l=list.filter(c=>courseNum(c)>0),n=l.filter(c=>done[c.id]).length;return `<div class="progress"><span>${n} cours revu${n>1?'s':''} sur ${l.length}</span><div class="pbar"><i style="width:${l.length?Math.round(n/l.length*100):0}%"></i></div></div>`})()}</div>`;
       if(last)h+=`<div class="resume">${cardHtml(last)}</div>`;
     }
     if(!query){
@@ -601,8 +609,9 @@ function renderSheet(){
   s.className='sheet course '+subjClass(c);
   s.innerHTML=`<div class="coursehead"><button class="crumb" id="crumb">Tous les cours</button><h2>${esc(c.title)}</h2>
     <p class="meta">${esc(c.subject)}${c.date?', '+esc(fmtDate(c.date)):''}</p>${(c.fiches||[]).length?`<button class="revcourse" id="rev">Réviser ce cours, ${c.fiches.length} fiches</button><button class="revcourse" id="exam">Contrôle blanc</button>`:''}</div><div class="coursebody">${parts.length?`<nav class="chips" aria-label="Parties du cours">${parts.map((t,i)=>`<button data-part="${i}">${esc(t)}</button>`).join('')}</nav>`:''}${c.anim?'<section class="anim" id="anim" aria-label="Explication animée"></section>':''}<div class="body" id="cb">${md(c.body)}</div>
-    <div class="actions"><button class="ghost" id="edit">Modifier le cours</button></div>
+    <div class="actions">${courseNum(c)>0?`<button class="${done[c.id]?'ghost':'primary'}" id="seen">${done[c.id]?'Revu : annuler':'Marquer comme revu'}</button>`:''}<button class="ghost" id="edit">Modifier le cours</button></div>
     <div class="pager">${prev?`<button id="prev"><small>Cours précédent</small>${esc(prev.title)}</button>`:''}${next?`<button class="next" id="next"><small>Cours suivant</small>${esc(next.title)}</button>`:''}</div></div>`;
+  if($('seen'))$('seen').onclick=()=>{if(done[c.id])delete done[c.id];else done[c.id]=1;saveDone();const y=window.scrollY;render();window.scrollTo(0,y)};
   $('crumb').onclick=goHome;
   if(c.anim)mountAnim(c.anim);
   if($('rev'))$('rev').onclick=()=>startStudy([c],c.title,subjClass(c));
