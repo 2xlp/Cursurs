@@ -85,7 +85,9 @@ textarea.field{min-height:320px;line-height:1.45}
 <header><div class="top">
   <h1>Cursus</h1>
   <input class="search" id="q" type="search" aria-label="Chercher dans mes cours" placeholder="Chercher dans mes cours">
+  <button class="add" id="pdfBtn">Importer un PDF</button>
   <button class="add" id="add">Ajouter un cours</button>
+  <input id="pdfFile" type="file" accept="application/pdf,.pdf" hidden>
 </div></header>
 <main>
   <p class="status" id="status" role="status"></p>
@@ -414,6 +416,63 @@ $('importFile').onchange=async e=>{
     courses=d;current=null;editing=null;await persist(d.length+' cours importés.');
     const l=sorted();if(l.length&&window.innerWidth>760)current=l[l.length-1].id;render();
   }catch(err){$('status').textContent='Ce fichier ne peut pas être importé. Choisis un fichier cursus-cours.json.'}
+};
+
+// Import PDF : le texte est lu sur l'appareil, sans IA.
+const PDFJS='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/';
+function loadPdfJs(){
+  if(window.pdfjsLib)return Promise.resolve(window.pdfjsLib);
+  return new Promise((ok,ko)=>{
+    const t=document.createElement('script');t.src=PDFJS+'pdf.min.js';
+    t.onload=()=>{window.pdfjsLib.GlobalWorkerOptions.workerSrc=PDFJS+'pdf.worker.min.js';ok(window.pdfjsLib)};
+    t.onerror=()=>ko(new Error('script'));document.head.append(t);
+  });
+}
+function pageLines(items){
+  const rows=new Map();
+  items.filter(i=>i.str&&i.str.trim()).forEach(i=>{
+    const y=Math.round(i.transform[5]/3)*3;
+    if(!rows.has(y))rows.set(y,[]);
+    rows.get(y).push(i);
+  });
+  return [...rows.keys()].sort((a,b)=>b-a).map(y=>{
+    let line='',end=null;
+    rows.get(y).sort((a,b)=>a.transform[4]-b.transform[4]).forEach(i=>{
+      if(end!==null&&i.transform[4]-end>1&&!line.endsWith(' '))line+=' ';
+      line+=i.str;end=i.transform[4]+(i.width||0);
+    });
+    return line.replace(/\s+/g,' ').trim();
+  }).filter(Boolean);
+}
+function cleanPdf(pages){
+  const seen={};
+  pages.forEach(p=>new Set(p).forEach(l=>seen[l]=(seen[l]||0)+1));
+  const repeated=l=>pages.length>=3&&seen[l]>=pages.length/2;
+  return pages.map(p=>p.filter(l=>!repeated(l)).map(l=>l
+    .replace(/(?:^|(?<=\s))(?:\p{L} ){2,}\p{L}(?=\s|$)/gu,m=>m.replace(/ /g,''))
+    .replace(/^[•●▪◦‣·]\s*/,'- ')).join('\n')).filter(Boolean).join('\n\n');
+}
+$('pdfBtn').onclick=()=>$('pdfFile').click();
+$('pdfFile').onchange=async e=>{
+  const f=e.target.files[0];e.target.value='';if(!f)return;
+  if(f.size>30*1024*1024){$('status').textContent='Ce PDF dépasse 30 Mo. Choisis un fichier plus léger.';return}
+  $('status').textContent='Lecture du PDF…';
+  try{
+    const lib=await loadPdfJs();
+    const pdf=await lib.getDocument({data:await f.arrayBuffer()}).promise;
+    const pages=[];
+    for(let n=1;n<=pdf.numPages;n++){
+      const c=await (await pdf.getPage(n)).getTextContent();
+      pages.push(pageLines(c.items));
+    }
+    const body=cleanPdf(pages);
+    if(body.replace(/\s/g,'').length<20){$('status').textContent="Ce PDF ne contient pas de texte à copier, c'est sûrement un scan. Ajoute ce cours à la main.";return}
+    editing={id:'',title:f.name.replace(/\.pdf$/i,''),subject:SUBJECT,date:new Date().toISOString().slice(0,10),body};
+    document.body.classList.add('reading');render();window.scrollTo(0,0);
+    $('status').textContent='PDF lu. Vérifie le texte, puis enregistre le cours.';
+  }catch(err){
+    $('status').textContent=err.message==='script'?"Impossible de lire les PDF sans connexion. Vérifie internet et réessaie.":"Ce PDF ne peut pas être lu. Il est peut-être protégé par un mot de passe.";
+  }
 };
 
 $('q').oninput=e=>{query=fold(e.target.value.trim());
