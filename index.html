@@ -266,6 +266,12 @@ header{box-shadow:none}
 .mynotes{margin-top:30px;padding:16px;background:var(--c-soft);border-radius:14px}
 .mynotes label{margin:0 0 8px;color:var(--c-text);font-size:17px}
 .mynotes textarea{min-height:130px;background:var(--sheet)}
+.diagbtn{display:flex;flex-direction:column;gap:3px;text-align:left;background:var(--sheet);color:var(--ink);border:0;border-radius:16px;padding:16px;line-height:1.3;box-shadow:0 1px 2px rgba(15,61,51,.08),0 6px 18px rgba(15,61,51,.07)}
+.diagbtn strong{font-size:16px}.diagbtn span{font-size:14px;color:var(--soft)}
+.dstep{margin:18px 0}
+.dstep label{margin:0 0 4px;font-size:16px;color:var(--c-text)}
+.dstep .hint{margin:0 0 8px}
+.dstep textarea{min-height:110px}
 </style>
 </head>
 <body>
@@ -278,14 +284,6 @@ header{box-shadow:none}
 <aside class="drawer" id="drawer" aria-label="Menu des cours">
   <div class="drawerhead"><button class="ghost" id="menuHome">Retour à l'accueil</button><button class="ghost" id="closeMenu">Fermer</button></div>
   <nav class="nav" id="nav" aria-label="Liste des cours"></nav>
-  <div class="backup">
-    <button class="primary" id="add">Ajouter un cours</button>
-    <button class="ghost" id="pdfBtn">Importer un PDF</button>
-    <button class="ghost" id="exportBtn">Exporter mes cours</button>
-    <button class="ghost" id="importBtn">Importer mes cours</button>
-    <input id="pdfFile" type="file" accept="application/pdf,.pdf" hidden>
-    <input id="importFile" type="file" accept=".json,application/json" hidden>
-  </div>
 </aside>
 <main>
   <p class="status" id="status" role="status"></p>
@@ -459,6 +457,38 @@ function cardHtml(c){
   const meta=[j?'Journée '+j[1]:'',n?n+' temps':''].filter(Boolean).join(', ');
   return `<button class="card ${subjClass(c)}" data-id="${esc(c.id)}"><span class="num" aria-hidden="true">${/^accueil/i.test(tag)?'i':esc((tag.match(/\d+/)||[tag.charAt(0)])[0])}</span><span class="cbody"><span class="tag">${esc(tag)}${done[c.id]?'<b class="seen">Revu</b>':''}</span><span class="cname">${esc(name?name.charAt(0).toUpperCase()+name.slice(1):c.title)}</span>${meta?`<span class="cmeta">${esc(meta)}</span>`:''}${hit}</span></button>`;
 }
+const DIAG=[
+ {k:'ent',t:'Ton entreprise',h:"Quelle entreprise étudies-tu, et sur quel marché ?"},
+ {k:'pestel',t:'1. Diagnostic externe : le PESTEL',h:"Politique, Économique, Sociologique, Technologique, Écologique, Légal. Garde et hiérarchise les facteurs qui comptent vraiment."},
+ {k:'porter',t:'2. Diagnostic externe : les 5 forces de Porter',h:"Rivalité entre concurrents, nouveaux entrants, produits de substitution, pouvoir des clients, pouvoir des fournisseurs. Qui capte la valeur du marché ?"},
+ {k:'interne',t:"3. Diagnostic interne : les ressources",h:"Humaines, financières, matérielles, immatérielles. Passe les ressources clés à la grille VRIO : valorisable, rare, difficilement imitable, bien organisée."},
+ {k:'swot',t:'4. La synthèse : le SWOT',h:"Le constat. Forces et faiblesses sont internes. Opportunités et menaces sont externes."},
+ {k:'tows',t:'5. Les pistes : le TOWS',h:"F × O : attaquer. F × M : se défendre. Fa × O : se renforcer. Fa × M : se protéger."},
+ {k:'question',t:'6. La question stratégique',h:"Un diagnostic n'est utile que s'il débouche sur une question stratégique claire. Laquelle ?"}];
+let diag={};
+try{diag=JSON.parse(window.localStorage.getItem('cursus-diagnostic')||'{}')}catch(e){}
+function renderDiag(s){
+  const filled=DIAG.filter(x=>(diag[x.k]||'').trim()).length;
+  s.className='sheet course s0';
+  s.innerHTML=`<div class="coursehead"><button class="crumb" id="stop">Tous les cours</button><h2>Ton diagnostic pas à pas</h2><p class="meta">D'après le Cours 2 de Stratégie de développement commercial</p></div><div class="coursebody">
+    <p class="studybar"><span id="dCount">${filled} étape${filled>1?'s':''} remplie${filled>1?'s':''} sur ${DIAG.length}</span></p>
+    ${DIAG.map(x=>`<section class="dstep"><label for="d-${x.k}">${esc(x.t)}</label><p class="hint">${esc(x.h)}</p><textarea class="field" id="d-${x.k}" data-k="${x.k}">${esc(diag[x.k]||'')}</textarea></section>`).join('')}
+    <p class="note" id="dState">Gardé sur cet appareil, visible par toi seul.</p>
+    <div class="actions"><button class="primary" id="dCopy">Copier mon diagnostic</button></div></div>`;
+  $('stop').onclick=leave;
+  s.querySelectorAll('.dstep textarea').forEach(t=>t.oninput=()=>{
+    if(t.value)diag[t.dataset.k]=t.value;else delete diag[t.dataset.k];
+    let ok=true;try{window.localStorage.setItem('cursus-diagnostic',JSON.stringify(diag))}catch(e){ok=false}
+    const f=DIAG.filter(x=>(diag[x.k]||'').trim()).length;
+    $('dCount').textContent=`${f} étape${f>1?'s':''} remplie${f>1?'s':''} sur ${DIAG.length}`;
+    $('dState').textContent=ok?'Enregistré sur cet appareil.':"Non enregistré : le stockage est bloqué sur cet appareil.";
+  });
+  $('dCopy').onclick=async()=>{
+    const txt=DIAG.map(x=>x.t+'\n'+(diag[x.k]||'')).join('\n\n');
+    try{await navigator.clipboard.writeText(txt);$('dState').textContent='Diagnostic copié.'}
+    catch(e){$('dState').textContent='Copie impossible ici. Sélectionne le texte à la main.'}
+  };
+}
 let notes={};
 try{notes=JSON.parse(window.localStorage.getItem('cursus-notes')||'{}')}catch(e){}
 function saveNotes(){try{window.localStorage.setItem('cursus-notes',JSON.stringify(notes));return true}catch(e){return false}}
@@ -489,6 +519,7 @@ function renderExpress(s,t){
 function renderStudy(s){
   const t=study;
   if(t.mode==='essentiel'){renderExpress(s,t);return}
+  if(t.mode==='diagnostic'){renderDiag(s);return}
   s.className='sheet course '+t.cls;
   const exam=t.mode==='controle';
   const head=`<div class="coursehead"><button class="crumb" id="stop">${t.back?'Retour au cours':'Tous les cours'}</button><h2>${studyTitle[t.mode]}</h2><p class="meta">${esc(t.label)}</p></div>`;
@@ -525,7 +556,7 @@ function renderHome(s){
   shown.forEach(c=>(groups[c.subject||'Sans matière']=groups[c.subject||'Sans matière']||[]).push(c));
   let last=null;try{last=list.find(c=>c.id===window.localStorage.getItem('cursus-dernier'))}catch(e){}
   let h='';
-  if(!list.length)h='<p class="empty">Aucun cours pour le moment. Ouvre le menu Cours pour en ajouter un.</p>';
+  if(!list.length)h='<p class="empty">Aucun cours pour le moment. Vérifie ta connexion, puis réessaie.</p>';
   else if(!shown.length)h='<p class="empty">Aucun cours ne contient ce mot. Essaie un autre mot.</p>';
   else{
     if(query)h+=`<h2 class="hometitle">${shown.length} cours trouvé${shown.length>1?'s':''}</h2>`;
@@ -541,11 +572,12 @@ function renderHome(s){
     }
     if(!query){
       const subs=[...new Set(list.map(c=>c.subject||''))].map(k=>{const l=list.filter(c=>(c.subject||'')===k),cs=cardsOf(l);return {k,cls:subjClass(l[0]),n:cs.length,e:cs.filter(f=>weak[f.q]).length}}).filter(x=>x.n);
-      if(subs.length)h+=`<section class="revise"><p class="subjecthead">Préparer un contrôle</p><div class="prep">${subs.map(x=>`<div class="prepbox ${x.cls}"><strong>${esc(x.k)}</strong><div class="prepbtns"><button data-k="${esc(x.k)}" data-m="controle" class="main">Contrôle blanc<small>${Math.min(20,x.n)} questions, note sur 20</small></button><button data-k="${esc(x.k)}" data-m="fiches">Fiches<small>${x.n} fiches</small></button><button data-k="${esc(x.k)}" data-m="essentiel">L'essentiel<small>Résumés et mots-clés</small></button>${x.e?`<button data-k="${esc(x.k)}" data-m="erreurs">Mes erreurs<small>${x.e} à revoir</small></button>`:''}</div></div>`).join('')}</div></section>`;
+      if(subs.length)h+=`<section class="revise"><p class="subjecthead">Préparer un contrôle</p><div class="prep"><button class="diagbtn" id="diagBtn"><strong>Ton diagnostic pas à pas</strong><span>PESTEL, Porter, ressources, SWOT, TOWS et question stratégique</span></button>${subs.map(x=>`<div class="prepbox ${x.cls}"><strong>${esc(x.k)}</strong><div class="prepbtns"><button data-k="${esc(x.k)}" data-m="controle" class="main">Contrôle blanc<small>${Math.min(20,x.n)} questions, note sur 20</small></button><button data-k="${esc(x.k)}" data-m="fiches">Fiches<small>${x.n} fiches</small></button><button data-k="${esc(x.k)}" data-m="essentiel">L'essentiel<small>Résumés et mots-clés</small></button>${x.e?`<button data-k="${esc(x.k)}" data-m="erreurs">Mes erreurs<small>${x.e} à revoir</small></button>`:''}</div></div>`).join('')}</div></section>`;
     }
     Object.keys(groups).forEach(k=>{h+=`<section class="${subjClass(groups[k][0])}"><p class="subjecthead">${esc(k)}</p><div class="cards">${groups[k].map(cardHtml).join('')}</div></section>`});
   }
   s.className='homeview';s.innerHTML=h;
+  if($('diagBtn'))$('diagBtn').onclick=()=>{study={mode:'diagnostic',back:null};render();window.scrollTo(0,0)};
   if($('nextBtn'))$('nextBtn').onclick=()=>{
     if(nextAct.a==='cours')goTo(nextTodo.id);
     else{const l=nextAct.a==='controle'?list.filter(c=>c.subject===list[0].subject):list;startStudy(l,nextAct.a==='controle'?l[0].subject:'Toutes les matières',subjClass(l[0]),nextAct.a)}};
@@ -624,13 +656,13 @@ function renderSheet(){
     $('save').onclick=saveEdit;return;
   }
   const c=courses.find(x=>x.id===current);
-  if(!c){s.innerHTML='<p class="empty">Ouvre le menu Cours pour choisir un cours, ou ajoutes-en un.</p>';return}
+  if(!c){s.innerHTML='<p class="empty">Ouvre le menu Cours pour choisir un cours.</p>';return}
   const sib=sorted().filter(x=>(x.subject||'')===(c.subject||'')),at=sib.findIndex(x=>x.id===c.id),prev=sib[at-1],next=sib[at+1];
   const parts=tocOf(c);
   s.className='sheet course '+subjClass(c);
   s.innerHTML=`<div class="coursehead"><button class="crumb" id="crumb">Tous les cours</button><h2>${esc(c.title)}</h2>
     <p class="meta">${esc(c.subject)}${c.date?', '+esc(fmtDate(c.date)):''}</p>${(c.fiches||[]).length?`<button class="revcourse" id="rev">Réviser ce cours, ${c.fiches.length} fiches</button><button class="revcourse" id="exam">Contrôle blanc</button>`:''}</div><div class="coursebody">${parts.length?`<nav class="chips" aria-label="Parties du cours">${parts.map((t,i)=>`<button data-part="${i}">${esc(t)}</button>`).join('')}</nav>`:''}${c.anim?'<section class="anim" id="anim" aria-label="Explication animée"></section>':''}<div class="body" id="cb">${md(c.body)}</div>
-    <section class="mynotes"><label for="noteBox">Mes notes</label><textarea class="field" id="noteBox" placeholder="Ce que le prof a ajouté, un exemple, une date de contrôle…">${esc(notes[c.id]||'')}</textarea><p class="hint" id="noteState">Gardées sur cet appareil, visibles par toi seul.</p></section><div class="actions">${courseNum(c)>0?`<button class="${done[c.id]?'ghost':'primary'}" id="seen">${done[c.id]?'Revu : annuler':'Marquer comme revu'}</button>`:''}<button class="ghost" id="edit">Modifier le cours</button></div>
+    <section class="mynotes"><label for="noteBox">Mes notes</label><textarea class="field" id="noteBox" placeholder="Ce que le prof a ajouté, un exemple, une date de contrôle…">${esc(notes[c.id]||'')}</textarea><p class="hint" id="noteState">Gardées sur cet appareil, visibles par toi seul.</p></section><div class="actions">${courseNum(c)>0?`<button class="${done[c.id]?'ghost':'primary'}" id="seen">${done[c.id]?'Revu : annuler':'Marquer comme revu'}</button>`:''}</div>
     <div class="pager">${prev?`<button id="prev"><small>Cours précédent</small>${esc(prev.title)}</button>`:''}${next?`<button class="next" id="next"><small>Cours suivant</small>${esc(next.title)}</button>`:''}</div></div>`;
   if($('seen'))$('seen').onclick=()=>{if(done[c.id])delete done[c.id];else done[c.id]=1;saveDone();const y=window.scrollY;render();window.scrollTo(0,y)};
   $('noteBox').oninput=e=>{const v=e.target.value;if(v)notes[c.id]=v;else delete notes[c.id];$('noteState').textContent=saveNotes()?'Notes enregistrées sur cet appareil.':"Notes non enregistrées : le stockage est bloqué sur cet appareil."};
@@ -642,7 +674,6 @@ function renderSheet(){
   if(prev)$('prev').onclick=()=>goTo(prev.id);
   if(next)$('next').onclick=()=>goTo(next.id);
   highlight(s,query);
-    $('edit').onclick=()=>{editing={...c};render()};
 }
 function render(){if(!sorted().some(c=>c.id===current))current=null;renderNav();renderSheet()}
 
@@ -686,7 +717,7 @@ async function sync(){
     if(i<0){courses.push(n);changed++;return}
     const l=courses[i];
     if(l.deleted)return;
-    if(l.edited){if(!l.fiches&&n.fiches){l.fiches=n.fiches;changed++}if(!l.anim&&n.anim){l.anim=n.anim;changed++}return}
+    if(l.edited){courses[i]=n;changed++;return}
     if(l.title!==n.title||l.body!==n.body||l.subject!==n.subject||l.date!==n.date||JSON.stringify(l.fiches)!==JSON.stringify(n.fiches)||JSON.stringify(l.anim)!==JSON.stringify(n.anim)){courses[i]=n;changed++}
   });
   if(changed){await persist('Cours mis à jour.');if(!editing)render()}
@@ -712,81 +743,6 @@ async function load(){
   
   render();
 }
-$('exportBtn').onclick=()=>{
-  const url=URL.createObjectURL(new Blob([JSON.stringify(courses,null,2)],{type:'application/json'}));
-  const a=document.createElement('a');a.href=url;a.download='cursus-cours.json';document.body.append(a);a.click();a.remove();
-  setTimeout(()=>URL.revokeObjectURL(url),1000);
-  $('status').textContent='Fichier cursus-cours.json exporté. Importe-le sur ton autre appareil.';
-};
-$('importBtn').onclick=()=>$('importFile').click();
-$('importFile').onchange=async e=>{
-  const f=e.target.files[0];e.target.value='';if(!f)return;
-  try{
-    const d=JSON.parse(await f.text());
-    if(!valid(d))throw new Error('format');
-    if(!confirm('Remplacer les cours de cet appareil par ceux du fichier ?'))return;
-    courses=d;current=null;editing=null;await persist(d.length+' cours importés.');
-    render();
-  }catch(err){$('status').textContent='Ce fichier ne peut pas être importé. Choisis un fichier cursus-cours.json.'}
-};
-
-// Import PDF : le texte est lu sur l'appareil, sans IA.
-const PDFJS='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/';
-function loadPdfJs(){
-  if(window.pdfjsLib)return Promise.resolve(window.pdfjsLib);
-  return new Promise((ok,ko)=>{
-    const t=document.createElement('script');t.src=PDFJS+'pdf.min.js';
-    t.onload=()=>{window.pdfjsLib.GlobalWorkerOptions.workerSrc=PDFJS+'pdf.worker.min.js';ok(window.pdfjsLib)};
-    t.onerror=()=>ko(new Error('script'));document.head.append(t);
-  });
-}
-function pageLines(items){
-  const rows=new Map();
-  items.filter(i=>i.str&&i.str.trim()).forEach(i=>{
-    const y=Math.round(i.transform[5]/3)*3;
-    if(!rows.has(y))rows.set(y,[]);
-    rows.get(y).push(i);
-  });
-  return [...rows.keys()].sort((a,b)=>b-a).map(y=>{
-    let line='',end=null;
-    rows.get(y).sort((a,b)=>a.transform[4]-b.transform[4]).forEach(i=>{
-      if(end!==null&&i.transform[4]-end>1&&!line.endsWith(' '))line+=' ';
-      line+=i.str;end=i.transform[4]+(i.width||0);
-    });
-    return line.replace(/\s+/g,' ').trim();
-  }).filter(Boolean);
-}
-function cleanPdf(pages){
-  const seen={};
-  pages.forEach(p=>new Set(p).forEach(l=>seen[l]=(seen[l]||0)+1));
-  const repeated=l=>pages.length>=3&&seen[l]>=pages.length/2;
-  return pages.map(p=>p.filter(l=>!repeated(l)).map(l=>l
-    .replace(/(?:^|(?<=\s))(?:\p{L} ){2,}\p{L}(?=\s|$)/gu,m=>m.replace(/ /g,''))
-    .replace(/^[•●▪◦‣·]\s*/,'- ')).join('\n')).filter(Boolean).join('\n\n');
-}
-$('pdfBtn').onclick=()=>{setMenu(false);$('pdfFile').click()};
-$('pdfFile').onchange=async e=>{
-  const f=e.target.files[0];e.target.value='';if(!f)return;
-  if(f.size>30*1024*1024){$('status').textContent='Ce PDF dépasse 30 Mo. Choisis un fichier plus léger.';return}
-  $('status').textContent='Lecture du PDF…';
-  try{
-    const lib=await loadPdfJs();
-    const pdf=await lib.getDocument({data:await f.arrayBuffer()}).promise;
-    const pages=[];
-    for(let n=1;n<=pdf.numPages;n++){
-      const c=await (await pdf.getPage(n)).getTextContent();
-      pages.push(pageLines(c.items));
-    }
-    const body=cleanPdf(pages);
-    if(body.replace(/\s/g,'').length<20){$('status').textContent="Ce PDF ne contient pas de texte à copier, c'est sûrement un scan. Ajoute ce cours à la main.";return}
-    editing={id:'',title:f.name.replace(/\.pdf$/i,''),subject:SUBJECT,date:new Date().toISOString().slice(0,10),body};
-    render();window.scrollTo(0,0);
-    $('status').textContent='PDF lu. Vérifie le texte, puis enregistre le cours.';
-  }catch(err){
-    $('status').textContent=err.message==='script'?"Impossible de lire les PDF sans connexion. Vérifie internet et réessaie.":"Ce PDF ne peut pas être lu. Il est peut-être protégé par un mot de passe.";
-  }
-};
-
 $('home').onclick=$('menuHome').onclick=goHome;
 $('burger').onclick=()=>setMenu(true);
 $('closeMenu').onclick=$('overlay').onclick=()=>{setMenu(false);$('burger').focus({preventScroll:true})};
@@ -795,7 +751,6 @@ $('q').oninput=e=>{query=fold(e.target.value.trim());
   const shown=sorted().filter(matches);
   if(query){study=null;current=null;editing=null;window.scrollTo(0,0)}
   render()};
-$('add').onclick=()=>{setMenu(false);editing={id:'',title:'',subject:SUBJECT,date:new Date().toISOString().slice(0,10),body:''};render();window.scrollTo(0,0);$('ft').focus()};
 load();
 </script>
 </body>
