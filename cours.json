@@ -692,6 +692,354 @@
     }
   },
   {
+    "id": "em0",
+    "subject": "Étude de marché et veille",
+    "title": "Accueil : présentation du séminaire",
+    "date": "",
+    "body": "Agence Radar : séminaire de 21 heures, Bachelor Chargé de développement commercial, Bloc 1. Pigier Dijon, 2026-2027, Albin Schmidt.\n\n## 3 journées pour allumer le radar et rendre un verdict\n\n| Journée | Thème | Programme |\n| --- | --- | --- |\n| **J1** | Allumer le radar | Cours 1 : la veille stratégique et commerciale. Cours 2 : sources, outils et veille augmentée par l'IA. Jeux : Vrai ou Fake ? La chasse aux sources. |\n| **J2** | Sonder le marché | Cours 3 : méthodologie de l'étude de marché. Cours 4 : marché et comportements d'achat. Évaluation 1 : diagnostic stratégique. |\n| **J3** | Rendre le verdict | Cours 5 : environnement concurrentiel. Cours 6 : synthèse et analyse critique de l'IA. Évaluation 2 : restitution à la direction (CCF). |\n\n## Les règles du jeu\n\n- **Cabinets d'études :** 5 équipes, un nom, un slogan, des rôles tournants (chef de projet, analyste données, responsable des sources, porte-parole).\n- **Le défi IA :** chaque jour, on compare le travail humain et celui de l'IA. Le cabinet qui débusque le plus d'erreurs gagne.\n\n## Évaluations\n\n- **50 % :** diagnostic stratégique, coef. 2, écrit individuel, J2\n- **50 % :** CCF, coef. 2, restitution à la direction, J3\n\n## Vos terrains d'étude\n\n**Cinq entreprises réelles, cinq cabinets**\n\n| Cabinet | Entreprise | Secteur | Problématique |\n| --- | --- | --- | --- |\n| 1 | Mulot & Petitjean | Pain d'épices, Dijon | Comment faire aimer le pain d'épices aux 18-35 ans ? |\n| 2 | Moutarderie Fallot | Moutarde, Beaune | Les coffrets cadeaux d'entreprise sont-ils une opportunité ? |\n| 3 | Lejay Lagoute | Crème de cassis, Dijon | Comment relancer la crème de cassis auprès des jeunes adultes et des bars ? |\n| 4 | Laboratoires Urgo | Soins, Chenôve | Comment se différencier face aux marques de distributeur et à la vente en ligne ? |\n| 5 | Fromagerie Gaugry | Fromages, Brochon | Quel public et quelle offre pour la réouverture de l'espace de visite ? |"
+  },
+  {
+    "id": "em1",
+    "subject": "Étude de marché et veille",
+    "title": "Cours 1 : La veille stratégique et commerciale",
+    "date": "",
+    "body": "Journée 1, 45 min\n\n**À la fin de ce cours, vous saurez :**\n\n- expliquer à quoi sert la veille dans le développement commercial\n- distinguer les quatre types de veille\n- organiser un dispositif de veille : objectifs, acteurs, fréquence\n\n## L'essentiel\n\nRésumé ajouté pour réviser, il ne vient pas des slides.\n\n- La veille transforme des données en connaissances utiles à la décision.\n- Il existe 4 types de veille : concurrentielle, technologique et digitale, réglementaire et juridique, sociétale et comportementale.\n- Un dispositif suit un cycle de 5 étapes et précise ses objectifs, ses acteurs et sa fréquence.\n\n## Temps 1 : Enjeux de la veille\n\n**Veiller, c'est transformer des données en décisions**\n\nDonnée (brute, sans contexte) → Information (mise en contexte) → Connaissance (analysée, utile à la décision)\n\n- **Repérer des opportunités :** nouveaux besoins, appels d'offres, nouveaux marchés\n- **Anticiper les menaces :** nouvel entrant, baisse de prix, nouvelle loi\n- **Adapter l'offre :** faire évoluer produits, prix et services\n- **Nourrir les commerciaux :** des arguments à jour face aux clients\n\n## Temps 2 : Typologies\n\n**Quatre types de veille**\n\n| Type | Ce qu'on surveille | Exemple |\n| --- | --- | --- |\n| **Concurrentielle** | Offres, prix, communication, recrutements des concurrents | Cyclonef : un loueur national ouvre une agence à Dijon |\n| **Technologique et digitale** | Innovations produits et process, outils numériques | Antivols connectés, applications de gestion de flotte |\n| **Réglementaire et juridique** | Lois, normes, fiscalité, étiquetage | Forfait mobilités durables, aides à l'achat de vélos |\n| **Sociétale et comportementale** | Tendances de consommation, valeurs, modes de vie | Essor des trajets domicile-travail à vélo |\n\n## Temps 3 : Organiser un dispositif\n\n**Le cycle de la veille**\n\nDéfinir les besoins → Collecter → Traiter et analyser → Diffuser → Exploiter et évaluer\n\n- **Objectifs :** quelles questions la direction se pose-t-elle ? 3 à 5 axes de surveillance, avec des mots-clés.\n- **Acteurs :** un pilote, des capteurs (commerciaux, service client, achats), des destinataires (direction, marketing).\n- **Fréquence :** alertes en continu, synthèse hebdomadaire ou mensuelle, bilan trimestriel.\n\n## À retenir\n\nUne veille sans question précise produit du bruit ; une veille sans diffusion ne sert à rien.\n\n## À vous de jouer : qui aurait dû voir venir ?\n\n6 cas réels d'entreprises surprises par leur marché : retrouvez le type de veille qui les aurait alertées. Puis rédigez le plan de veille de votre entreprise : objectifs, types de veille, acteurs, fréquence.\n\n## Mots-clés\n\n- **Veille :** surveiller son environnement pour éclairer les décisions.\n- **Capteur :** une personne qui fait remonter des informations du terrain.\n- **Bruit :** des informations collectées qui n'aident à aucune décision.\n\n## Pour réviser\n\n- Quelle différence entre donnée, information et connaissance ?\n- Quels sont les 4 types de veille ?\n- Quelles sont les 5 étapes du cycle de la veille ?",
+    "fiches": [
+      {
+        "q": "Quelle différence entre donnée, information et connaissance ?",
+        "a": "Donnée : brute, sans contexte. Information : mise en contexte. Connaissance : analysée, utile à la décision."
+      },
+      {
+        "q": "À quoi sert la veille ?",
+        "a": "Repérer des opportunités, anticiper les menaces, adapter l'offre, nourrir les commerciaux."
+      },
+      {
+        "q": "Quels sont les 4 types de veille ?",
+        "a": "Concurrentielle, technologique et digitale, réglementaire et juridique, sociétale et comportementale."
+      },
+      {
+        "q": "Que surveille la veille concurrentielle ?",
+        "a": "Les offres, prix, communication et recrutements des concurrents."
+      },
+      {
+        "q": "Quelles sont les 5 étapes du cycle de la veille ?",
+        "a": "Définir les besoins, collecter, traiter et analyser, diffuser, exploiter et évaluer."
+      },
+      {
+        "q": "Combien d'axes de surveillance prévoir ?",
+        "a": "3 à 5 axes, avec des mots-clés."
+      },
+      {
+        "q": "Qui sont les acteurs de la veille ?",
+        "a": "Un pilote, des capteurs (commerciaux, service client, achats) et des destinataires (direction, marketing)."
+      },
+      {
+        "q": "Quelle fréquence prévoir pour la veille ?",
+        "a": "Alertes en continu, synthèse hebdomadaire ou mensuelle, bilan trimestriel."
+      },
+      {
+        "q": "Que faut-il retenir de la veille ?",
+        "a": "Une veille sans question précise produit du bruit ; une veille sans diffusion ne sert à rien."
+      },
+      {
+        "q": "Exercice : une nouvelle loi sur l'étiquetage. Quel type de veille ?",
+        "a": "Réglementaire et juridique."
+      },
+      {
+        "q": "Exercice : les gens vont davantage au travail à vélo. Quel type de veille ?",
+        "a": "Sociétale et comportementale."
+      }
+    ],
+    "anim": {
+      "titre": "Comment fonctionne la veille",
+      "scenes": [
+        {
+          "t": "De la donnée à la décision",
+          "x": "Une donnée est brute. Mise en contexte, elle devient une information. Analysée, elle devient une connaissance utile à la décision.",
+          "v": "row",
+          "items": [
+            "Donnée",
+            "Information",
+            "Connaissance"
+          ],
+          "on": 2
+        },
+        {
+          "t": "Quatre types de veille",
+          "x": "Concurrentielle, technologique et digitale, réglementaire et juridique, sociétale et comportementale.",
+          "v": "grid",
+          "items": [
+            "Concurrentielle",
+            "Technologique et digitale",
+            "Réglementaire et juridique",
+            "Sociétale et comportementale"
+          ]
+        },
+        {
+          "t": "Le cycle de la veille",
+          "x": "Il faut d'abord définir les besoins, puis collecter, traiter et analyser, diffuser, et enfin exploiter et évaluer.",
+          "v": "row",
+          "items": [
+            "Besoins",
+            "Collecter",
+            "Analyser",
+            "Diffuser",
+            "Exploiter"
+          ]
+        },
+        {
+          "t": "Organiser le dispositif",
+          "x": "On fixe des objectifs, on désigne des acteurs, et on choisit une fréquence.",
+          "v": "row",
+          "items": [
+            "Objectifs",
+            "Acteurs",
+            "Fréquence"
+          ],
+          "plain": true
+        },
+        {
+          "t": "À retenir",
+          "x": "Une veille sans question précise produit du bruit. Une veille sans diffusion ne sert à rien.",
+          "v": "big",
+          "items": [
+            "Une question précise, une vraie diffusion"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "em2",
+    "subject": "Étude de marché et veille",
+    "title": "Cours 2 : Sources, outils et veille augmentée par l'IA",
+    "date": "",
+    "body": "Journée 1, 45 min\n\n**À la fin de ce cours, vous saurez :**\n\n- sélectionner et fiabiliser des sources\n- paramétrer alertes, agrégateurs et tableau de suivi\n- utiliser l'IA pour la veille, sans perdre son esprit critique\n\n## L'essentiel\n\nRésumé ajouté pour réviser, il ne vient pas des slides.\n\n- Il y a 3 familles de sources, à vérifier avec la grille APAEO.\n- Toute information clé se recoupe avec 2 sources indépendantes.\n- Les outils vont des alertes au tableau de suivi. L'IA accélère la veille, mais l'humain vérifie et décide.\n\n## Temps 1 : Sélectionner et fiabiliser les sources\n\n**Trois familles de sources**\n\n| Famille | Exemples |\n| --- | --- |\n| **Institutionnelles** | INSEE, Bpifrance, CCI, Banque de France, data.gouv.fr, Eurostat, OCDE |\n| **Sectorielles et professionnelles** | Fédérations et syndicats professionnels, presse spécialisée, salons, études sectorielles payantes |\n| **Données publiques et privées** | Open data, registres d'entreprises, rapports annuels, panels, études d'instituts, données internes (CRM, ventes) |\n\n**Une grille pour fiabiliser chaque source**\n\n| Lettre | Critère | Question |\n| --- | --- | --- |\n| **A** | Actualité | Quelle date ? |\n| **P** | Pertinence | Utile pour ma question ? |\n| **A** | Auteur | Qui parle ? |\n| **E** | Exactitude | Chiffres sourcés, recoupables ? |\n| **O** | Objectif | Informer, vendre, convaincre ? |\n\n**Toute information clé se recoupe avec 2 sources indépendantes.**\n\n## Temps 2 : Les outils\n\n**Les outils de veille**\n\n**1. Alertes automatisées**\n\n- Alertes sur mots-clés (ex. Google Alerts, Talkwalker Alerts)\n- Alertes des sites officiels\n- Lettres d'information\n\n**2. Agrégateurs de contenus**\n\n- Lecteurs de flux RSS (ex. Feedly, Inoreader)\n- Toutes les sources au même endroit\n\n**3. Tableau de suivi**\n\n- Un tableur partagé\n- Date, source, type de veille, information, impact, action proposée, responsable\n\n## Temps 3 : L'IA au service de la veille\n\n**La veille augmentée par l'IA**\n\n| Ce que l'IA fait bien | Ses limites |\n| --- | --- |\n| Résumer un lot d'articles | Informations inventées (hallucinations) |\n| Regrouper par thème, traduire | Sources absentes ou obsolètes |\n| Repérer des signaux récurrents | Confidentialité des données de l'entreprise |\n| Produire une synthèse hebdomadaire | |\n\n**Le bon prompt de veille :** rôle + contexte + sources fournies + consigne + format attendu\n\n**Exemple :** « Tu es analyste de marché. À partir des 8 articles ci-joints, liste les 5 signaux qui concernent un fabricant de vélos électriques, avec pour chacun la source et l'impact possible. »\n\n## À retenir\n\nL'IA accélère la veille, l'humain vérifie et décide.\n\n## À vous de jouer : la chasse aux sources\n\nEn 45 minutes, trouvez 10 sources sur le marché de votre entreprise et notez-les avec la grille de fiabilité. Bonus pour chaque source institutionnelle. Puis paramétrez vos alertes et votre tableau de suivi.\n\n## Mots-clés\n\n- **Flux RSS :** un abonnement qui récupère automatiquement les nouveaux contenus d'un site.\n- **Agrégateur :** un outil qui réunit plusieurs sources au même endroit.\n- **Hallucination :** une information inventée par une IA.\n- **Prompt :** la consigne donnée à une IA.\n\n## Pour réviser\n\n- Quelles sont les 3 familles de sources ?\n- Que signifie la grille APAEO ?\n- Quelles sont les limites de l'IA pour la veille ?\n- Quels sont les 5 éléments d'un bon prompt de veille ?",
+    "fiches": [
+      {
+        "q": "Quelles sont les 3 familles de sources ?",
+        "a": "Institutionnelles, sectorielles et professionnelles, données publiques et privées."
+      },
+      {
+        "q": "Cite des sources institutionnelles.",
+        "a": "INSEE, Bpifrance, CCI, Banque de France, data.gouv.fr, Eurostat, OCDE."
+      },
+      {
+        "q": "Que signifie la grille de fiabilité A-P-A-E-O ?",
+        "a": "Actualité, Pertinence, Auteur, Exactitude, Objectif."
+      },
+      {
+        "q": "Avec combien de sources recouper une information clé ?",
+        "a": "2 sources indépendantes."
+      },
+      {
+        "q": "Quels sont les 3 types d'outils de veille ?",
+        "a": "Alertes automatisées, agrégateurs de contenus, tableau de suivi."
+      },
+      {
+        "q": "Cite un outil d'alerte et un agrégateur.",
+        "a": "Alerte : Google Alerts ou Talkwalker Alerts. Agrégateur : Feedly ou Inoreader."
+      },
+      {
+        "q": "Que contient le tableau de suivi ?",
+        "a": "Date, source, type de veille, information, impact, action proposée, responsable."
+      },
+      {
+        "q": "Que fait bien l'IA pour la veille ?",
+        "a": "Résumer des articles, regrouper par thème, traduire, repérer des signaux récurrents, produire une synthèse hebdomadaire."
+      },
+      {
+        "q": "Quelles sont les limites de l'IA ?",
+        "a": "Informations inventées (hallucinations), sources absentes ou obsolètes, confidentialité des données de l'entreprise."
+      },
+      {
+        "q": "Que contient un bon prompt de veille ?",
+        "a": "Rôle + contexte + sources fournies + consigne + format attendu."
+      },
+      {
+        "q": "Exercice : un article sans date ni auteur, écrit pour vendre. Quels critères posent problème ?",
+        "a": "Actualité, Auteur et Objectif."
+      }
+    ],
+    "anim": {
+      "titre": "Trouver, vérifier, utiliser",
+      "scenes": [
+        {
+          "t": "Trois familles de sources",
+          "x": "Les sources institutionnelles, les sources sectorielles et professionnelles, et les données publiques et privées.",
+          "v": "row",
+          "items": [
+            "Institutionnelles",
+            "Sectorielles",
+            "Données"
+          ],
+          "plain": true
+        },
+        {
+          "t": "La grille de fiabilité",
+          "x": "Pour chaque source, on vérifie l'actualité, la pertinence, l'auteur, l'exactitude et l'objectif.",
+          "v": "row",
+          "items": [
+            "Actualité",
+            "Pertinence",
+            "Auteur",
+            "Exactitude",
+            "Objectif"
+          ],
+          "plain": true
+        },
+        {
+          "t": "La règle à connaître",
+          "x": "Toute information clé se recoupe avec deux sources indépendantes.",
+          "v": "big",
+          "items": [
+            "1 info clé = 2 sources indépendantes"
+          ]
+        },
+        {
+          "t": "Le bon prompt",
+          "x": "Un bon prompt de veille contient un rôle, un contexte, les sources fournies, une consigne et le format attendu.",
+          "v": "row",
+          "items": [
+            "Rôle",
+            "Contexte",
+            "Sources",
+            "Consigne",
+            "Format"
+          ]
+        },
+        {
+          "t": "À retenir",
+          "x": "L'IA accélère la veille, l'humain vérifie et décide.",
+          "v": "big",
+          "items": [
+            "L'IA accélère, l'humain décide"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "em3",
+    "subject": "Étude de marché et veille",
+    "title": "Cours 3 : Méthodologie de l'étude de marché",
+    "date": "",
+    "body": "Journée 2, 45 min\n\n**À la fin de ce cours, vous saurez :**\n\n- formuler une problématique et des objectifs d'étude\n- choisir entre études documentaire, qualitative et quantitative\n- repérer les biais qui faussent les résultats\n\n## L'essentiel\n\nRésumé ajouté pour réviser, il ne vient pas des slides.\n\n- Une étude part d'une question de décision, puis suit un plan d'étude.\n- Documentaire d'abord, qualitative pour comprendre le pourquoi, quantitative pour mesurer.\n- Il faut connaître les 6 biais pour ne pas tirer de fausses conclusions.\n\n## Temps 1 : Rôle et cadrage\n\n**Une étude répond à une question de décision**\n\n**Problématique de Cyclonef :** « Existe-t-il en Bourgogne-Franche-Comté une demande suffisante et rentable de location longue durée de vélos électriques pour les entreprises, et à quelles conditions ? »\n\n**Le plan d'étude**\n\nObjectifs → Informations nécessaires → Méthode → Échantillon → Calendrier → Budget\n\n## Temps 2 : Les méthodes et la collecte\n\n**Trois méthodes de collecte**\n\n| Méthode | Principe | Outils | Quand l'utiliser |\n| --- | --- | --- | --- |\n| **Documentaire** | Exploiter des données existantes | Statistiques publiques, études sectorielles, presse, données internes | Toujours en premier |\n| **Qualitative** | Comprendre le pourquoi : motivations, freins | Entretiens individuels, focus groups de 6 à 10 personnes | Explorer, faire émerger des idées |\n| **Quantitative** | Mesurer, chiffrer, généraliser | Questionnaires, sondages sur un échantillon représentatif | Valider des hypothèses, dimensionner |\n\n**Échantillon**\n\n- **Environ 400 réponses** pour une marge d'erreur d'environ 5 % sur une grande population\n- **Quotas :** reproduire la structure de la population\n- **Aléatoire :** chacun a la même chance d'être interrogé\n\n**Rédiger un questionnaire**\n\n- Questions fermées et échelles\n- Une seule idée par question\n- Du général au plus personnel\n- Test préalable sur 3 personnes\n\n## Temps 3 : Analyse et limites\n\n**Analyser… et connaître ses biais**\n\n| Biais | Ce que ça veut dire |\n| --- | --- |\n| **Échantillonnage** | L'échantillon ne ressemble pas à la population |\n| **Sélection** | Seuls certains profils répondent |\n| **Formulation** | La question oriente la réponse |\n| **Désirabilité sociale** | On répond ce qui est bien vu |\n| **Confirmation** | On cherche ce que l'on veut voir |\n| **Déclaratif** | Ce que l'on dit ≠ ce que l'on fait |\n\n## À retenir\n\nPas de bonne étude sans bonne question ; pas de conclusion fiable sans connaître ses biais.\n\n## À vous de jouer : le questionnaire le plus affuté du monde\n\nRédigez votre plan d'étude, comparez-le à celui de l'IA et lancez votre questionnaire en ligne.\n\n## Mots-clés\n\n- **Problématique :** la question de décision à laquelle l'étude doit répondre.\n- **Focus group :** un entretien collectif de 6 à 10 personnes.\n- **Échantillon représentatif :** un groupe interrogé qui ressemble à la population étudiée.\n- **Marge d'erreur :** l'écart possible entre le résultat de l'étude et la réalité.\n\n## Pour réviser\n\n- Par quelle méthode commence-t-on toujours ?\n- Combien de réponses pour une marge d'erreur d'environ 5 % ?\n- Quelle différence entre quotas et aléatoire ?\n- Quels sont les 6 biais ?",
+    "fiches": [
+      {
+        "q": "À quoi répond une étude de marché ?",
+        "a": "À une question de décision."
+      },
+      {
+        "q": "Quelles sont les étapes du plan d'étude ?",
+        "a": "Objectifs, informations nécessaires, méthode, échantillon, calendrier, budget."
+      },
+      {
+        "q": "Quelles sont les 3 méthodes de collecte ?",
+        "a": "Documentaire, qualitative, quantitative."
+      },
+      {
+        "q": "Quand utiliser la méthode documentaire ?",
+        "a": "Toujours en premier."
+      },
+      {
+        "q": "À quoi sert la méthode qualitative ?",
+        "a": "Comprendre le pourquoi (motivations, freins), explorer et faire émerger des idées."
+      },
+      {
+        "q": "À quoi sert la méthode quantitative ?",
+        "a": "Mesurer, chiffrer, généraliser, valider des hypothèses et dimensionner."
+      },
+      {
+        "q": "Combien de personnes dans un focus group ?",
+        "a": "6 à 10 personnes."
+      },
+      {
+        "q": "Combien de réponses pour une marge d'erreur d'environ 5 % ?",
+        "a": "Environ 400, sur une grande population."
+      },
+      {
+        "q": "Quelle différence entre quotas et aléatoire ?",
+        "a": "Quotas : reproduire la structure de la population. Aléatoire : chacun a la même chance d'être interrogé."
+      },
+      {
+        "q": "Quelles sont les règles d'un bon questionnaire ?",
+        "a": "Questions fermées et échelles, une seule idée par question, du général au plus personnel, test préalable sur 3 personnes."
+      },
+      {
+        "q": "Quels sont les 6 biais ?",
+        "a": "Échantillonnage, sélection, formulation, désirabilité sociale, confirmation, déclaratif."
+      },
+      {
+        "q": "Exercice : les gens disent trier leurs déchets, sans le faire. Quels biais ?",
+        "a": "Désirabilité sociale et déclaratif."
+      },
+      {
+        "q": "Exercice : « Ne pensez-vous pas que ce produit est excellent ? ». Quel biais ?",
+        "a": "Le biais de formulation : la question oriente la réponse."
+      },
+      {
+        "q": "Exercice : tu veux comprendre les freins à l'achat. Quelle méthode ?",
+        "a": "Qualitative."
+      }
+    ],
+    "anim": {
+      "titre": "Réussir son étude de marché",
+      "scenes": [
+        {
+          "t": "Tout part d'une question",
+          "x": "Une étude répond à une question de décision. Vient ensuite le plan d'étude.",
+          "v": "row",
+          "items": [
+            "Objectifs",
+            "Informations",
+            "Méthode",
+            "Échantillon",
+            "Calendrier",
+            "Budget"
+          ]
+        },
+        {
+          "t": "Trois méthodes",
+          "x": "On commence toujours par le documentaire. Le qualitatif aide à comprendre le pourquoi. Le quantitatif permet de mesurer.",
+          "v": "row",
+          "items": [
+            "Documentaire",
+            "Qualitative",
+            "Quantitative"
+          ]
+        },
+        {
+          "t": "Combien de réponses ?",
+          "x": "Il faut environ quatre cents réponses pour une marge d'erreur d'environ cinq pour cent sur une grande population.",
+          "v": "big",
+          "items": [
+            "≈ 400 réponses → marge d'environ 5 %"
+          ]
+        },
+        {
+          "t": "Attention aux biais",
+          "x": "Six biais peuvent fausser les résultats : échantillonnage, sélection, formulation, désirabilité sociale, confirmation et déclaratif.",
+          "v": "grid",
+          "items": [
+            "Échantillonnage",
+            "Sélection",
+            "Formulation",
+            "Désirabilité sociale"
+          ]
+        },
+        {
+          "t": "À retenir",
+          "x": "Pas de bonne étude sans bonne question, pas de conclusion fiable sans connaître ses biais.",
+          "v": "big",
+          "items": [
+            "Bonne question, biais connus"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "id": "em4",
     "subject": "Étude de marché et veille",
     "title": "Cours 4 : Analyser le marché et les comportements d'achat",
