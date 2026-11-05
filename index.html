@@ -518,7 +518,7 @@ function renderHome(s){
   else{
     if(query)h+=`<h2 class="hometitle">${shown.length} cours trouvé${shown.length>1?'s':''}</h2>`;
     else{
-      h+=`<div class="hero"><h2 class="hometitle">Quel cours veux-tu ouvrir ?</h2><p>${list.length} cours dans ${new Set(list.map(c=>c.subject)).size} matières</p>${(()=>{const l=list.filter(c=>courseNum(c)>0),n=l.filter(c=>done[c.id]).length;return `<div class="progress"><span>${n} cours revu${n>1?'s':''} sur ${l.length}</span><div class="pbar"><i style="width:${l.length?Math.round(n/l.length*100):0}%"></i></div></div>`})()}</div>`;
+      h+=`<div class="hero"><h2 class="hometitle">${new Date().getHours()<18?'Bonjour':'Bonsoir'}, quel cours veux-tu ouvrir ?</h2><p>${list.length} cours dans ${new Set(list.map(c=>c.subject)).size} matières</p>${(()=>{const l=list.filter(c=>courseNum(c)>0),n=l.filter(c=>done[c.id]).length;return `<div class="progress"><span>${n} cours revu${n>1?'s':''} sur ${l.length}</span><div class="pbar"><i style="width:${l.length?Math.round(n/l.length*100):0}%"></i></div></div>`})()}</div>`;
       if(last)h+=`<div class="resume">${cardHtml(last)}</div>`;
     }
     if(!query){
