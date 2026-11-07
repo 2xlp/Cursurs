@@ -792,8 +792,8 @@ $('q').oninput=e=>{query=fold(e.target.value.trim());
 load();
 
 // Hors connexion : garde l'appli et les cours sur l'appareil.
-if('serviceWorker' in navigator&&location.protocol==='https:'){
-  window.addEventListener('load',()=>{navigator.serviceWorker.register('sw.js').catch(()=>{})});
+if('serviceWorker' in navigator&&(location.protocol==='https:'||location.hostname==='localhost')){
+  navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).catch(()=>{});
 }
 if(!navigator.onLine)setTimeout(()=>{$('status').textContent='Hors connexion : tu vois la dernière version enregistrée.'},0);
 window.addEventListener('offline',()=>{$('status').textContent='Hors connexion : tu vois la dernière version enregistrée.'});
