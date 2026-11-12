@@ -1,6 +1,6 @@
 // Cursus : s'ouvre aussi sans réseau.
 // Avec réseau : la version en ligne (mises à jour). Sans réseau ou réseau trop lent : la dernière copie enregistrée.
-const CACHE='cursus-v3';
+const CACHE='cursus-v4';
 const FILES=['./','index.html','cours.json','manifest.webmanifest','icon-192.png','icon-512.png'];
 self.addEventListener('install',e=>{
   e.waitUntil(caches.open(CACHE).then(c=>Promise.all(FILES.map(f=>fetch(f,{cache:'reload'}).then(r=>{if(r.ok)return c.put(new URL(f,self.registration.scope).href,r)}).catch(()=>{})))).then(()=>self.skipWaiting()));
