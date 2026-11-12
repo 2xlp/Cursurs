@@ -892,6 +892,7 @@ load();
 // Hors connexion : garde l'appli et les cours sur l'appareil.
 if('serviceWorker' in navigator&&(location.protocol==='https:'||location.hostname==='localhost')){
   navigator.serviceWorker.register('sw.js',{updateViaCache:'none'}).catch(()=>{});
+  {let had=!!navigator.serviceWorker.controller,done=false;navigator.serviceWorker.addEventListener('controllerchange',()=>{if(had&&!done){done=true;location.reload()}})}
 }
 if(!navigator.onLine)setTimeout(()=>{$('status').textContent='Hors connexion : tu vois la dernière version enregistrée.'},0);
 window.addEventListener('offline',()=>{$('status').textContent='Hors connexion : tu vois la dernière version enregistrée.'});
