@@ -3664,5 +3664,194 @@
     "title": "Annexe : corrigé des Dossiers 5 et 6",
     "date": "",
     "body": "Corrigé fait en classe pour le cas GreenOffice : Dossier 5 (question 8) et Dossier 6 (questions 9, 10, 11).\n\n[[fichier|Télécharger le corrigé en Word|corrige-dossiers-5-6.docx]]\n\n## Question 9 : les écarts\n\n**Énoncé :** calculez les écarts entre les objectifs et les réalisations (CA, nouveaux clients, prospects, taux de transformation, fidélisation, CA digital), en valeur et en pourcentage.\n\n[[ecarts|{\"titre\": \"Question 9 : écarts entre objectifs et réalisations\", \"sous\": \"Objectifs à 6 mois\", \"cols\": [\"Indicateur\", \"Objectif à 6 mois\", \"Réalisé\", \"Écart\", \"Taux de réalisation de l'objectif\", \"Analyse\", \"Préconisation\"], \"rows\": [[\"CA\", \"2 050 000 €\", \"1 920 000 €\", \"−130 000 €\", 93.66, true, \"Équipe pas assez performante. L'objectif est-il atteignable ?\", \"Remettre en question l'objectif pour voir s'il n'est pas trop présomptueux et revoir la stratégie commerciale (méthode RADAR).\"], [\"Nouveaux clients\", \"100\", \"82\", \"−18\", 82.0, true, \"La stratégie de prospection n'est pas bonne.\", \"Repenser la méthode de prospection.\"], [\"Prospects contactés\", \"1 800\", \"2 050\", \"250\", 113.89, false, \"Les commerciaux voient plus de monde que prévu mais les résultats sont mauvais : la méthode n'est pas convaincante.\", \"Mettre en place une méthodologie de prospection et former les commerciaux.\"], [\"Taux de transformation\", \"7 %\", \"4 %\", \"−3,00 %\", 57.14, true, \"Les techniques de vente, et surtout la conclusion, ne sont pas efficaces.\", \"Former les commerciaux aux techniques de vente.\"], [\"Taux de fidélisation\", \"82 %\", \"79 %\", \"−3,00 %\", 96.34, true, \"Les clients n'ont pas envie de nous suivre commercialement : pas d'exclusivité.\", \"Mettre en place rapidement un plan d'action de fidélisation.\"], [\"Satisfaction client\", \"85 %\", \"86 %\", \"1,00 %\", 101.18, false, \"Les clients manquent sans doute de suivi commercial et sont « laissés pour compte » : la satisfaction est ponctuelle, pas durable, d'où une fidélisation faible.\", \"Mettre en place un plan de suivi commercial et sensibiliser les commerciaux : un client n'est jamais acquis.\"], [\"CA digital\", \"330 000 €\", \"375 000 €\", \"45 000 €\", 113.64, false, \"Les ventes marchent mieux sans les commerciaux qu'avec eux.\", \"Développer les ventes par d'autres canaux en ligne (boutique en ligne, marketplace…).\"], [\"Rendez-vous commerciaux\", \"420\", \"390\", \"−30\", 92.86, true, \"Pas de méthodologie pour convaincre et obtenir des rendez-vous.\", \"Développer la prospection par phoning et vérifier qu'une méthodologie est utilisée (script, créneaux d'appel).\"]], \"legende\": \"Écart = réalisé − objectif (en points pour les taux). Taux de réalisation = réalisé ÷ objectif. Couleurs : du rouge (loin de l'objectif) au vert (objectif dépassé).\"}]]\n\n## Question 8 : le tableau de bord\n\n**Énoncé :** proposez un tableau de bord pour suivre le plan d'action (prospection, conversion, CA, fidélisation, satisfaction, digital, rentabilité).\n\n[[tableur|{\"id\": \"pac-d5\", \"titre\": \"Question 8 : tableau de bord de la prospection\", \"first\": \"Action commerciale / Indicateurs\", \"noTotal\": true, \"rows\": [\"Prospection\"], \"cols\": [{\"h\": \"Budget\", \"k\": \"in\", \"fmt\": \"€\"}, {\"h\": \"Contacts\", \"k\": \"in\", \"fmt\": \"n\"}, {\"h\": \"RDV obtenus\", \"k\": \"in\", \"fmt\": \"n\"}, {\"h\": \"Tx de rendez-vous\", \"k\": \"f\", \"f\": \"D/C\", \"fmt\": \"%\"}, {\"h\": \"Nouveaux clients\", \"k\": \"in\", \"fmt\": \"n\"}, {\"h\": \"Tx de transformation\", \"k\": \"f\", \"f\": \"F/D\", \"fmt\": \"%\"}, {\"h\": \"CA\", \"k\": \"in\", \"fmt\": \"€\"}, {\"h\": \"Panier moyen\", \"k\": \"f\", \"f\": \"H/F\", \"fmt\": \"€\"}, {\"h\": \"Budget / contact\", \"k\": \"f\", \"f\": \"B/C\", \"fmt\": \"€\"}, {\"h\": \"Tx rentabilité / CA\", \"k\": \"f\", \"f\": \"(H-B)/H\", \"fmt\": \"%\"}, {\"h\": \"CA / budget\", \"k\": \"f\", \"f\": \"H/B\", \"fmt\": \"x\"}], \"data\": {\"0\": {\"0\": 12000, \"1\": 1500, \"2\": 225, \"4\": 60, \"6\": 90000}}, \"legende\": \"Tx de RDV = RDV ÷ contacts · Tx de transformation = clients ÷ RDV · Panier moyen = CA ÷ clients · Budget / contact = budget ÷ contacts · Tx rentabilité / CA = (CA − budget) ÷ CA · CA / budget = CA ÷ budget.\"}]]\n\n- **Analyse :** 15 % des contacts acceptent un RDV et 26,67 % des RDV deviennent clients. Chaque contact coûte 8 €, 86,67 % du CA reste après le budget et 1 € investi rapporte 7,50 € de CA. Mais le panier d'un nouveau client (1 500 €) reste bien sous le panier moyen annuel (5 143 €).\n- **Préconisation :** mieux qualifier les contacts pour augmenter le taux de RDV, et développer les ventes complémentaires auprès des nouveaux clients.\n\n## Calculs de la campagne\n\n**Énoncé :** budget 12 000 €, 1 500 prospects, 225 RDV, 60 nouveaux clients, 90 000 € de CA. Calculez les 5 ratios et commentez.\n\n| Indicateur | Calcul | Résultat |\n| --- | --- | --- |\n| Taux de prise de RDV | 225 ÷ 1 500 | **15 %** |\n| Taux de transformation prospects / clients | 60 ÷ 1 500 | **4 %** |\n| Coût d'acquisition d'un client | 12 000 ÷ 60 | **200 €** |\n| CA moyen par nouveau client | 90 000 ÷ 60 | **1 500 €** |\n| Ratio CA / budget | 90 000 ÷ 12 000 | **7,5** |\n\n- **Rentable :** 1 € investi rapporte 7,50 € de CA.\n- **Transformation faible :** 4 % au lieu de 7 %, le blocage est après le RDV.\n- **Petit panier :** 1 500 € contre 5 143 € de panier moyen, il faut fidéliser.\n\n## Question 10 : l'analyse\n\n| Satisfaisants | Préoccupants |\n| --- | --- |\n| Prospects contactés (+13,9 %) | Taux de transformation (4 % au lieu de 7 %) |\n| CA digital (+13,6 %) | Nouveaux clients (−18) |\n| Satisfaction (86 % pour 85 %) | CA (−130 000 €) et fidélisation (−3 points) |\n\n- **Plus de prospects, moins de clients :** prospects mal ciblés, seulement 19 % de RDV et 21 % de RDV transformés, relances irrégulières.\n- **Satisfaction en hausse, fidélisation en baisse :** pas assez de suivi ni d'offres personnalisées.\n- **CA digital en hausse, CA total en baisse :** les ventes passent du commercial au site sans CA en plus.\n\n## Question 11 : les actions correctives\n\n| Problème | Cause | Action | Responsable | KPI de contrôle |\n| --- | --- | --- | --- | --- |\n| Transformation à 4 % | Prospects mal ciblés | Scoring CRM + 5 cibles prioritaires | Directeur commercial | Taux de transformation |\n| 390 RDV au lieu de 420 | Argumentaire faible | Formation + script d'appel | Commerciaux sédentaires | Taux de prise de RDV |\n| Devis non signés | Relances irrégulières | Relance J+7 et J+15 dans le CRM | Commerciaux terrain | Taux de signature |\n| 82 clients au lieu de 100 | Peu de leads qualifiés | Leads du site et de LinkedIn rappelés sous 48 h | Marketing digital | Nouveaux clients par mois |\n| Fidélisation à 79 % | Peu de suivi | RDV trimestriel + programme de fidélité | Responsable grands comptes | Taux de fidélisation |\n| CA à −130 000 € | Peu de ventes additionnelles | Offres groupées + cross-selling | Directeur commercial | CA, panier moyen |\n\n**Priorité :** les 3 premières actions, car la transformation explique la baisse des clients et du CA."
+  },
+  {
+    "id": "neg1",
+    "subject": "Négociation",
+    "title": "Cours 1 : Les étapes clés d'un entretien commercial",
+    "date": "2026-11-13",
+    "body": "Slide IRF Bourgogne Franche-Comté. Étape mise en avant en cours : **la découverte des besoins**.\n\n**À la fin de ce cours, vous saurez :**\n\n- citer les 12 étapes d'un entretien commercial dans l'ordre\n- expliquer à quoi sert chaque étape\n- dire pourquoi la découverte des besoins est l'étape clé\n\n## Les 12 étapes dans l'ordre\n\n1. **Le climat (ou brise-glace) :** mettre le client à l'aise, créer un premier contact positif.\n2. **Le cadrage de l'entretien :** annoncer l'objectif, la durée et le déroulé du rendez-vous.\n3. **La présentation de mon entreprise :** dire brièvement qui on est et ce qu'on fait.\n4. **LA DÉCOUVERTE DES BESOINS :** faire parler le client pour comprendre sa situation, ses besoins et ses attentes.\n5. **La reformulation :** redire avec ses mots ce que le client a exprimé, pour vérifier qu'on a bien compris.\n6. **L'argumentation :** présenter la solution en la reliant aux besoins découverts.\n7. **Le traitement des objections :** répondre aux freins et aux doutes du client.\n8. **La conclusion :** obtenir l'accord, conclure la vente.\n9. **La confortation :** rassurer le client sur son choix après l'achat.\n10. **La recommandation :** demander des contacts ou un avis à recommander.\n11. **La planification de la relation :** prévoir le suivi et le prochain contact.\n12. **La prise de congé :** terminer l'entretien sur une bonne impression.\n\n## Pourquoi la découverte des besoins est l'étape clé\n\n- C'est elle qui donne la matière pour la reformulation et l'argumentation.\n- Sans elle, on argumente « dans le vide », sans répondre à ce que veut vraiment le client.\n- Le vendeur écoute plus qu'il ne parle : il pose des questions et prend des notes.\n\n## À retenir\n\nUn entretien commercial suit un ordre logique : on crée le contact, on comprend le client, on propose, on conclut, puis on entretient la relation.\n\n## Mots-clés\n\n- **Brise-glace :** le premier échange pour détendre l'ambiance.\n- **Reformulation :** redire ce que le client a dit pour valider sa compréhension.\n- **Objection :** un frein ou une réserve exprimée par le client.\n- **Confortation :** rassurer le client après sa décision.\n\n## Pour réviser\n\n- Quelles sont les 12 étapes dans l'ordre ?\n- Quelle étape vient juste avant la reformulation ?\n- Pourquoi la découverte des besoins est-elle l'étape clé ?",
+    "anim": {
+      "titre": "Le déroulé d'un entretien",
+      "scenes": [
+        {
+          "t": "Ouvrir l'entretien",
+          "x": "On commence par le climat, puis on cadre l'entretien et on présente son entreprise.",
+          "v": "row",
+          "items": [
+            "Climat",
+            "Cadrage",
+            "Présentation"
+          ]
+        },
+        {
+          "t": "L'étape clé",
+          "x": "La découverte des besoins : on fait parler le client pour comprendre ce qu'il veut vraiment.",
+          "v": "big",
+          "items": [
+            "Découverte des besoins"
+          ]
+        },
+        {
+          "t": "Convaincre",
+          "x": "On reformule, on argumente à partir des besoins, puis on traite les objections.",
+          "v": "row",
+          "items": [
+            "Reformulation",
+            "Argumentation",
+            "Objections"
+          ]
+        },
+        {
+          "t": "Conclure",
+          "x": "On conclut la vente, puis on rassure le client sur son choix.",
+          "v": "row",
+          "items": [
+            "Conclusion",
+            "Confortation"
+          ],
+          "plain": true
+        },
+        {
+          "t": "Après la vente",
+          "x": "On demande une recommandation, on planifie la suite de la relation et on prend congé.",
+          "v": "row",
+          "items": [
+            "Recommandation",
+            "Planification",
+            "Prise de congé"
+          ],
+          "plain": true
+        }
+      ]
+    },
+    "fiches": [
+      {
+        "q": "Quelle est la 1re étape d'un entretien commercial ?",
+        "a": "Le climat (ou brise-glace) : mettre le client à l'aise."
+      },
+      {
+        "q": "À quoi sert le cadrage de l'entretien ?",
+        "a": "À annoncer l'objectif, la durée et le déroulé du rendez-vous."
+      },
+      {
+        "q": "Quelle étape est mise en avant dans le cours ?",
+        "a": "L'étape 4 : la découverte des besoins."
+      },
+      {
+        "q": "Pourquoi la découverte des besoins est-elle l'étape clé ?",
+        "a": "Elle donne la matière pour reformuler et argumenter : sans elle, on argumente dans le vide."
+      },
+      {
+        "q": "Que fait-on pendant la reformulation ?",
+        "a": "On redit ce que le client a exprimé pour vérifier qu'on a bien compris."
+      },
+      {
+        "q": "Sur quoi s'appuie l'argumentation ?",
+        "a": "Sur les besoins découverts chez le client."
+      },
+      {
+        "q": "Qu'est-ce que la confortation ?",
+        "a": "Rassurer le client sur son choix après la conclusion."
+      },
+      {
+        "q": "Quelles sont les 3 étapes après la confortation ?",
+        "a": "La recommandation, la planification de la relation, la prise de congé."
+      }
+    ],
+    "qcm": [
+      {
+        "q": "Quelle étape vient juste après la présentation de l'entreprise ?",
+        "a": "La découverte des besoins",
+        "d": [
+          "L'argumentation",
+          "La conclusion",
+          "La reformulation"
+        ]
+      },
+      {
+        "q": "Le brise-glace correspond à…",
+        "a": "Le climat",
+        "d": [
+          "Le cadrage",
+          "La prise de congé",
+          "La confortation"
+        ]
+      },
+      {
+        "q": "Redire avec ses mots ce que le client a dit, c'est…",
+        "a": "La reformulation",
+        "d": [
+          "L'argumentation",
+          "La recommandation",
+          "Le cadrage"
+        ]
+      },
+      {
+        "q": "Répondre aux freins du client, c'est…",
+        "a": "Le traitement des objections",
+        "d": [
+          "La confortation",
+          "La conclusion",
+          "La découverte des besoins"
+        ]
+      },
+      {
+        "q": "Combien d'étapes compte l'entretien commercial du cours ?",
+        "a": "12",
+        "d": [
+          "8",
+          "10",
+          "5"
+        ]
+      }
+    ],
+    "controle": [
+      {
+        "q": "Quelle étape vient juste avant l'argumentation ?",
+        "a": "La reformulation",
+        "d": [
+          "La découverte des besoins",
+          "Le traitement des objections",
+          "La conclusion"
+        ]
+      },
+      {
+        "q": "Rassurer le client après son achat, c'est…",
+        "a": "La confortation",
+        "d": [
+          "La recommandation",
+          "La conclusion",
+          "Le climat"
+        ]
+      },
+      {
+        "q": "Quelle est la dernière étape de l'entretien ?",
+        "a": "La prise de congé",
+        "d": [
+          "La planification de la relation",
+          "La conclusion",
+          "La recommandation"
+        ]
+      },
+      {
+        "q": "Annoncer l'objectif et la durée du rendez-vous, c'est…",
+        "a": "Le cadrage de l'entretien",
+        "d": [
+          "Le climat",
+          "La présentation de mon entreprise",
+          "La reformulation"
+        ]
+      },
+      {
+        "q": "Quelle étape donne la matière pour argumenter ?",
+        "a": "La découverte des besoins",
+        "d": [
+          "Le climat",
+          "La confortation",
+          "La prise de congé"
+        ]
+      }
+    ]
   }
 ]
