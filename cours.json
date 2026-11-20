@@ -3853,5 +3853,913 @@
         ]
       }
     ]
+  },
+  {
+    "id": "eb0",
+    "subject": "Élaboration budgétaire",
+    "title": "Accueil : les 4 repères financiers",
+    "date": "2026-11-20",
+    "body": "Cours de Kisito José CODJIA, Pigier 2026-2027.\n\n**Objectifs du cours :**\n\n- lire les principaux documents financiers\n- relier performance commerciale et équilibre financier\n- construire et piloter un budget prévisionnel\n\n## Le bilan\n\n- **Définition :** la photo du patrimoine de l'entreprise à une date donnée.\n- **Actif :** ce que l'entreprise possède ou contrôle.\n- **Passif :** les ressources qui financent l'actif (dettes + capitaux propres).\n- **Règle :** Actif = dettes + capitaux propres. Le bilan est toujours équilibré.\n- **Exemple :** 120 k€ d'actif = 70 k€ de dettes + 50 k€ de capitaux propres.\n\n## Le compte de résultat\n\n- **Définition :** mesure la performance sur une période (un an par exemple).\n- **Produits :** les revenus de l'activité.\n- **Charges :** les consommations et les coûts.\n- **Résultat net = produits − charges.**\n- **Exemple :** 300 € de produits − 255 € de charges = 45 € de résultat.\n\n## Les capitaux propres\n\nLes ressources durables qui appartiennent aux associés ou que l'entreprise a générées.\n\n- **Capital :** les apports des associés.\n- **Réserves :** les bénéfices gardés dans l'entreprise.\n- **Résultat de l'exercice :** le bénéfice ou la perte de l'année.\n\nÀ quoi ils servent : financer l'activité, absorber les pertes, rendre l'entreprise plus autonome et plus solide.\n\n## La trésorerie\n\n- **Définition :** l'argent disponible tout de suite.\n- **Résultat ≠ trésorerie :** le résultat compte les produits et les charges, la trésorerie compte les encaissements et les décaissements.\n- **Trésorerie nette = encaissements − décaissements.**\n- **Solde final = solde initial + encaissements − décaissements.**\n- **Exemple :** 145 k€ encaissés − 160 k€ décaissés = −15 k€. Avec 100 k€ au départ, solde final = 85 k€.\n\n## La rentabilité\n\n- **Définition :** la capacité à dégager un résultat supérieur aux ressources mobilisées.\n- **Taux de marge nette = résultat net ÷ CA × 100.**\n- **ROI = gain net ÷ investissement × 100.**\n- **Exemple :** 45 k€ de résultat pour 300 k€ de CA = 15 % de marge nette.\n\n## Le plan du cours\n\n1. Les enjeux financiers du développement commercial\n2. Les besoins de financement\n3. Le budget prévisionnel\n4. La viabilité économique\n"
+  },
+  {
+    "id": "eb1",
+    "subject": "Élaboration budgétaire",
+    "title": "Cours 1 : Les enjeux financiers du développement commercial",
+    "date": "2026-11-20",
+    "body": "Partie 1. Cours de Kisito José CODJIA, Pigier 2026-2027.\n\n**À la fin de ce cours, vous saurez :**\n\n- dire ce que sont les enjeux financiers d'une décision commerciale\n- expliquer à quoi sert un budget\n- calculer un écart budgétaire\n\n## Les enjeux financiers\n\nCe sont les conséquences d'une décision commerciale (conquête, fidélisation, croissance) sur les ventes, les coûts, la marge, la trésorerie et le résultat.\n\n**Les 4 questions à se poser :**\n\n- La croissance est-elle rentable ?\n- Les ressources sont-elles suffisantes ?\n- Quand les ventes seront-elles encaissées ?\n- Quel risque l'entreprise accepte-t-elle ?\n\n**La chaîne :** décision commerciale → coûts engagés → ventes → marge → trésorerie → résultat.\n\n## Le budget, outil de pilotage\n\nLe budget commercial = les objectifs et les actions commerciales **chiffrés, datés et contrôlables**.\n\n- **Planifier :** fixer une trajectoire.\n- **Contrôler :** comparer le budget au réalisé.\n- **Décider :** répartir les ressources et corriger les écarts.\n\n**Formules :**\n\n- **Écart = réalisé − budget**\n- **Taux d'écart = écart ÷ budget × 100**\n\n**Exemple :** budget de ventes 120 €, réalisé 110 € → écart −10 €, taux d'écart −8,3 %.\n\n## Stratégie commerciale et stratégie financière\n\n- **Commerciale :** choisit les marchés, les clients, l'offre, les volumes et les prix.\n- **Financière :** décide des ressources, des financements, des délais de paiement et du risque acceptable.\n- **Le risque de la croissance :** vendre plus peut vider la trésorerie si les clients paient plus tard ou si le BFR augmente.\n\n**Formules clés :**\n\n- Trésorerie nette = encaissements − décaissements\n- Résultat = marge sur coûts variables − charges fixes\n\n## Les indicateurs financiers\n\nUn indicateur = une mesure chiffrée pour suivre une action et décider.\n\n| Indicateur | Formule |\n| --- | --- |\n| Chiffre d'affaires (CA) | quantité vendue × prix unitaire |\n| Marge sur coûts variables (MCV) | CA − coûts variables |\n| Taux de marge | marge ÷ CA × 100 |\n| Coût d'acquisition client (CAC) | dépenses commerciales et marketing ÷ nouveaux clients |\n| Valeur vie client | ce que rapporte un client sur toute sa relation |\n| Trésorerie nette | encaissements − décaissements |\n\n## Exercice : la PME qui veut +15 % de CA\n\n**Énoncé :** une PME vise +15 % de CA. Elle recrute 2 commerciaux (42 k€ chargés chacun) et lance une campagne digitale de 30 k€. Elle a 100 k€ de trésorerie.\n\n1. Chiffrer les moyens.\n2. Vérifier la trésorerie.\n3. Définir des repères de performance.\n\n**Corrigé :**\n\n1. Dépenses = 2 × 42 k€ + 30 k€ = **114 k€**.\n2. 114 k€ > 100 k€ : **trésorerie insuffisante**. Solutions : étaler les paiements, réduire la campagne ou financer l'écart.\n3. Repères : +15 % de CA, coût d'acquisition par commercial, taux de conversion des campagnes.\n\n**À retenir :** chaque dépense est reliée à un objectif chiffré. Le budget sert à décider, ce n'est pas qu'une liste de coûts.\n",
+    "anim": {
+      "titre": "D'une décision commerciale au résultat",
+      "scenes": [
+        {
+          "t": "Une décision commerciale",
+          "x": "Recruter, lancer une campagne, conquérir un marché : chaque décision engage des coûts.",
+          "v": "big",
+          "items": [
+            "Décision commerciale"
+          ]
+        },
+        {
+          "t": "La chaîne financière",
+          "x": "Les coûts sont engagés, puis viennent les ventes, la marge, la trésorerie et enfin le résultat.",
+          "v": "row",
+          "items": [
+            "Coûts",
+            "Ventes",
+            "Marge",
+            "Trésorerie",
+            "Résultat"
+          ]
+        },
+        {
+          "t": "Les 3 rôles du budget",
+          "x": "Le budget sert à planifier, à contrôler le réalisé et à décider des corrections.",
+          "v": "row",
+          "items": [
+            "Planifier",
+            "Contrôler",
+            "Décider"
+          ]
+        },
+        {
+          "t": "L'écart budgétaire",
+          "x": "Écart égale réalisé moins budget. Taux d'écart égale écart divisé par budget, fois cent.",
+          "v": "big",
+          "items": [
+            "Écart = réalisé − budget"
+          ]
+        },
+        {
+          "t": "Le piège de la croissance",
+          "x": "Vendre plus peut vider la caisse si les clients paient tard. Rentable ne veut pas dire avoir de la trésorerie.",
+          "v": "row",
+          "items": [
+            "Plus de ventes",
+            "Clients qui paient tard",
+            "Trésorerie en tension"
+          ],
+          "plain": true
+        }
+      ]
+    },
+    "fiches": [
+      {
+        "q": "Qu'est-ce qu'un enjeu financier du développement commercial ?",
+        "a": "La conséquence d'une décision commerciale sur les ventes, les coûts, la marge, la trésorerie et le résultat."
+      },
+      {
+        "q": "Quelles sont les 4 questions financières à se poser ?",
+        "a": "La croissance est-elle rentable ? Les ressources suffisent-elles ? Quand les ventes seront-elles encaissées ? Quel risque accepte-t-on ?"
+      },
+      {
+        "q": "Définition du budget commercial ?",
+        "a": "Les objectifs et actions commerciales chiffrés, datés et contrôlables."
+      },
+      {
+        "q": "Les 3 rôles du budget ?",
+        "a": "Planifier, contrôler, décider."
+      },
+      {
+        "q": "Formule de l'écart budgétaire ?",
+        "a": "Écart = réalisé − budget. Taux d'écart = écart ÷ budget × 100."
+      },
+      {
+        "q": "Formule du CAC ?",
+        "a": "Dépenses commerciales et marketing ÷ nombre de nouveaux clients."
+      },
+      {
+        "q": "Pourquoi vendre plus peut-il être dangereux ?",
+        "a": "Si les clients paient tard ou si le BFR augmente, la trésorerie se dégrade."
+      }
+    ],
+    "qcm": [
+      {
+        "q": "Budget 120 €, réalisé 110 €. Taux d'écart ?",
+        "a": "−8,3 %",
+        "d": [
+          "−10 %",
+          "+8,3 %",
+          "−9,1 %"
+        ]
+      },
+      {
+        "q": "Qui choisit les marchés, les clients et les prix ?",
+        "a": "La stratégie commerciale",
+        "d": [
+          "La stratégie financière",
+          "Le comptable",
+          "La trésorerie"
+        ]
+      },
+      {
+        "q": "MCV = …",
+        "a": "CA − coûts variables",
+        "d": [
+          "CA − charges fixes",
+          "Résultat − coûts variables",
+          "CA × taux de marge"
+        ]
+      },
+      {
+        "q": "Résultat = …",
+        "a": "MCV − charges fixes",
+        "d": [
+          "CA − MCV",
+          "Encaissements − décaissements",
+          "MCV + charges fixes"
+        ]
+      },
+      {
+        "q": "La PME dépense 114 k€ avec 100 k€ de trésorerie. Conclusion ?",
+        "a": "Trésorerie insuffisante",
+        "d": [
+          "Trésorerie suffisante",
+          "Le projet est rentable",
+          "Il faut augmenter les prix"
+        ]
+      }
+    ],
+    "controle": [
+      {
+        "q": "2 commerciaux à 42 k€ + une campagne à 30 k€. Total ?",
+        "a": "114 k€",
+        "d": [
+          "84 k€",
+          "72 k€",
+          "126 k€"
+        ]
+      },
+      {
+        "q": "Comparer le budget au réalisé, c'est…",
+        "a": "Contrôler",
+        "d": [
+          "Planifier",
+          "Décider",
+          "Financer"
+        ]
+      },
+      {
+        "q": "Qui décide des délais de paiement et du risque acceptable ?",
+        "a": "La stratégie financière",
+        "d": [
+          "La stratégie commerciale",
+          "Le service marketing",
+          "Les clients"
+        ]
+      },
+      {
+        "q": "20 000 € de dépenses marketing pour 40 nouveaux clients. CAC ?",
+        "a": "500 €",
+        "d": [
+          "800 €",
+          "2 000 €",
+          "50 €"
+        ]
+      },
+      {
+        "q": "Le budget commercial doit être…",
+        "a": "Chiffré, daté et contrôlable",
+        "d": [
+          "Le plus élevé possible",
+          "Fixé une fois pour toutes",
+          "Écrit sans chiffres"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eb2",
+    "subject": "Élaboration budgétaire",
+    "title": "Cours 2 : Évaluer les besoins de financement",
+    "date": "2026-11-20",
+    "body": "Partie 2. Cours de Kisito José CODJIA, Pigier 2026-2027.\n\n**À la fin de ce cours, vous saurez :**\n\n- classer les besoins de financement en 3 catégories\n- distinguer coûts directs et coûts indirects\n- calculer le coût direct d'une action\n\n## Les 3 catégories de besoins\n\n| Ressources humaines | Outils et technologies | Actions et communication |\n| --- | --- | --- |\n| Salaires et charges sociales | CRM et licences | Prospection et appels d'offres |\n| Recrutement et intérim | Matériel et télécoms | Événements et salons |\n| Formation et certification | Données et études de marché | Publicité et contenus |\n| Commissions et primes | Automatisation | Déplacements et hôtels |\n\n## Coûts directs et indirects\n\n- **Coût direct :** rattaché à une action précise, on le mesure sans calcul. Ex. : salaire du commercial dédié, budget média d'une campagne, frais de déplacement d'un salon.\n- **Coût indirect :** sert à plusieurs actions, on doit le **répartir** (selon le temps, le volume ou la surface). Ex. : loyer, salaires administratifs, CRM partagé, électricité.\n- **Coût total = coûts fixes + coûts variables.**\n\n**Pourquoi c'est important :** bien répartir les coûts indirects évite de surévaluer certaines actions et d'en sous-financer d'autres.\n\n## Exercice : la campagne de prospection\n\n**Énoncé :** coûts d'une campagne de prospection :\n\n- salarié dédié à la prospection : 36 k€\n- budget publicitaire de la campagne : 24 k€\n- loyer du bureau partagé : 18 k€\n- licence CRM de tout le service : 12 k€\n\nClasser chaque coût, puis calculer le coût direct de la campagne.\n\n**Corrigé :**\n\n| Coût | Type | Montant |\n| --- | --- | --- |\n| Salarié dédié | Direct | 36 k€ |\n| Publicité de la campagne | Direct | 24 k€ |\n| Loyer partagé | Indirect | 18 k€ |\n| CRM du service | Indirect | 12 k€ |\n\n- **Coût direct de la campagne = 36 + 24 = 60 k€.**\n- Coûts indirects = 18 + 12 = 30 k€, à répartir entre les actions du service.\n\n**À retenir :** le coût direct sert à calculer le ROI de la campagne. Les coûts indirects servent à juger la rentabilité de tout le service commercial.\n",
+    "anim": {
+      "titre": "Direct ou indirect ?",
+      "scenes": [
+        {
+          "t": "3 familles de besoins",
+          "x": "Les ressources humaines, les outils et technologies, et les actions de communication.",
+          "v": "row",
+          "items": [
+            "Ressources humaines",
+            "Outils",
+            "Actions et communication"
+          ]
+        },
+        {
+          "t": "Le coût direct",
+          "x": "Il appartient à une seule action. On le lit directement, sans calcul. Par exemple le salaire du commercial dédié.",
+          "v": "big",
+          "items": [
+            "Coût direct"
+          ]
+        },
+        {
+          "t": "Le coût indirect",
+          "x": "Il sert à plusieurs actions, comme le loyer ou le CRM partagé. Il faut le répartir.",
+          "v": "big",
+          "items": [
+            "Coût indirect"
+          ]
+        },
+        {
+          "t": "L'exercice",
+          "x": "Salarié dédié 36 k€ plus publicité 24 k€ : 60 k€ de coût direct. Loyer et CRM sont indirects.",
+          "v": "grid",
+          "items": [
+            "Salarié 36 k€ : direct",
+            "Pub 24 k€ : direct",
+            "Loyer 18 k€ : indirect",
+            "CRM 12 k€ : indirect"
+          ]
+        }
+      ]
+    },
+    "fiches": [
+      {
+        "q": "Quelles sont les 3 catégories de besoins de financement ?",
+        "a": "Ressources humaines, outils et technologies, actions commerciales et communication."
+      },
+      {
+        "q": "Qu'est-ce qu'un coût direct ?",
+        "a": "Un coût rattaché à une action précise, mesurable sans calcul."
+      },
+      {
+        "q": "Qu'est-ce qu'un coût indirect ?",
+        "a": "Un coût qui sert à plusieurs actions et qu'on doit répartir (temps, volume, surface)."
+      },
+      {
+        "q": "Coût total = ?",
+        "a": "Coûts fixes + coûts variables."
+      },
+      {
+        "q": "À quoi sert le coût direct ?",
+        "a": "À calculer le ROI de l'action."
+      },
+      {
+        "q": "À quoi servent les coûts indirects ?",
+        "a": "À évaluer la rentabilité globale du service commercial."
+      }
+    ],
+    "qcm": [
+      {
+        "q": "Le loyer du bureau partagé est un coût…",
+        "a": "Indirect",
+        "d": [
+          "Direct",
+          "Variable",
+          "Exceptionnel"
+        ]
+      },
+      {
+        "q": "Le budget média d'une campagne est un coût…",
+        "a": "Direct",
+        "d": [
+          "Indirect",
+          "Fixe partagé",
+          "Administratif"
+        ]
+      },
+      {
+        "q": "Une licence CRM utilisée par tout le service est un coût…",
+        "a": "Indirect",
+        "d": [
+          "Direct",
+          "Commercial dédié",
+          "Aucun des deux"
+        ]
+      },
+      {
+        "q": "Les commissions et primes sont dans la catégorie…",
+        "a": "Ressources humaines",
+        "d": [
+          "Outils et technologies",
+          "Actions et communication",
+          "Frais généraux"
+        ]
+      },
+      {
+        "q": "Les études de marché sont dans la catégorie…",
+        "a": "Outils et technologies",
+        "d": [
+          "Ressources humaines",
+          "Actions et communication",
+          "Frais généraux"
+        ]
+      }
+    ],
+    "controle": [
+      {
+        "q": "Salarié dédié 36 k€, pub 24 k€, loyer 18 k€, CRM 12 k€. Coût direct ?",
+        "a": "60 k€",
+        "d": [
+          "90 k€",
+          "30 k€",
+          "78 k€"
+        ]
+      },
+      {
+        "q": "Même cas. Coûts indirects ?",
+        "a": "30 k€",
+        "d": [
+          "60 k€",
+          "42 k€",
+          "18 k€"
+        ]
+      },
+      {
+        "q": "Comment répartit-on un coût indirect ?",
+        "a": "Selon un critère : temps, volume ou surface",
+        "d": [
+          "On ne le compte pas",
+          "Tout sur la première action",
+          "Au hasard"
+        ]
+      },
+      {
+        "q": "Les frais de déplacement d'un salon sont un coût…",
+        "a": "Direct",
+        "d": [
+          "Indirect",
+          "Fixe",
+          "Administratif"
+        ]
+      },
+      {
+        "q": "Que risque-t-on si on répartit mal les coûts indirects ?",
+        "a": "Surévaluer certaines actions et en sous-financer d'autres",
+        "d": [
+          "Rien",
+          "Payer plus d'impôts",
+          "Perdre des clients"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eb3",
+    "subject": "Élaboration budgétaire",
+    "title": "Cours 3 : Construire le budget prévisionnel",
+    "date": "2026-11-20",
+    "body": "Partie 3. Cours de Kisito José CODJIA, Pigier 2026-2027.\n\n**À la fin de ce cours, vous saurez :**\n\n- construire un budget par postes de dépenses\n- calculer la MCV, le seuil de rentabilité et la marge de sécurité\n- calculer le ROI d'une action\n\n## Les 4 étapes\n\n1. Marché et prévisions\n2. Coûts variables et fixes\n3. Budget des ventes\n4. Valider et ajuster\n\n## Coûts et marges\n\n- **Coût fixe :** ne bouge pas avec l'activité (loyer, assurances).\n- **Coût variable :** bouge avec l'activité (achats, commissions).\n- **Marge commerciale = ventes de marchandises − coût d'achat des marchandises vendues.**\n- **MCV = CA − coûts variables.** C'est ce qui reste pour payer les charges fixes et faire un résultat.\n- **Taux de MCV = MCV ÷ CA × 100.**\n- **Exemple :** CA 120 000 € − coûts variables 55 000 € = MCV 65 000 €, soit un taux de 54,2 %.\n\n## Le budget par postes\n\nUn **poste budgétaire** = un groupe de dépenses de même nature, suivi sur une période et confié à un responsable.\n\n**Les 5 postes :** ressources humaines, outils et technologies, actions commerciales et communication, achats et prestations externes, frais généraux.\n\n**La méthode en 5 étapes :** identifier les postes → quantifier les montants → dater → nommer un responsable → totaliser et vérifier.\n\n**Exemple :** RH 84 k€ + outils 18 k€ + actions 30 k€ + frais généraux 12 k€ = **144 k€**.\n\n## Exercice : budget par postes\n\n**Énoncé :** salaires chargés 72 000 €, CRM et licences 12 000 €, campagne digitale 18 000 €, déplacements 8 000 €, frais généraux 10 000 €. Classer, totaliser, puis calculer la part des actions commerciales.\n\n**Corrigé :**\n\n| Poste | Montant |\n| --- | --- |\n| Ressources humaines | 72 000 € |\n| Outils et technologies | 12 000 € |\n| Actions commerciales et communication (18 000 + 8 000) | 26 000 € |\n| Frais généraux | 10 000 € |\n| **Budget total** | **120 000 €** |\n\nPart des actions commerciales = 26 000 ÷ 120 000 × 100 = **21,7 %**.\n\n## Le seuil de rentabilité\n\nLe CA à atteindre pour ne perdre ni gagner d'argent (résultat = 0).\n\n- **MCV unitaire = prix − coût variable unitaire**\n- **Seuil en volume = charges fixes ÷ MCV unitaire**\n- **Seuil en valeur = charges fixes ÷ taux de MCV**\n- **Marge de sécurité = CA prévu − seuil**\n- **Taux de sécurité = marge de sécurité ÷ CA prévu**\n\n**Exercice corrigé :** prix 150 €, coût variable 90 €, charges fixes 48 000 €, CA prévu 150 000 €.\n\n- MCV unitaire = 150 − 90 = **60 €**\n- Taux de MCV = 60 ÷ 150 = **40 %**\n- Seuil en volume = 48 000 ÷ 60 = **800 unités**\n- Seuil en valeur = 48 000 ÷ 40 % = **120 000 €**\n- Marge de sécurité = 150 000 − 120 000 = **30 000 €**\n- Taux de sécurité = 30 000 ÷ 150 000 = **20 %**\n\n[[tableur|{\"id\": \"eb-seuil\", \"titre\": \"Seuil de rentabilité et marge de sécurité\", \"first\": \"Cas\", \"noTotal\": true, \"rows\": [\"Service à 150 €\"], \"cols\": [{\"h\": \"Prix unitaire\", \"k\": \"in\", \"fmt\": \"€\"}, {\"h\": \"Coût variable unitaire\", \"k\": \"in\", \"fmt\": \"€\"}, {\"h\": \"Charges fixes\", \"k\": \"in\", \"fmt\": \"€\"}, {\"h\": \"CA prévu\", \"k\": \"in\", \"fmt\": \"€\"}, {\"h\": \"MCV unitaire\", \"k\": \"f\", \"f\": \"B-C\", \"fmt\": \"€\"}, {\"h\": \"Taux de MCV\", \"k\": \"f\", \"f\": \"F/B\", \"fmt\": \"%\"}, {\"h\": \"Seuil en volume\", \"k\": \"f\", \"f\": \"D/F\", \"fmt\": \"n\"}, {\"h\": \"Seuil en valeur\", \"k\": \"f\", \"f\": \"D/G\", \"fmt\": \"€\"}, {\"h\": \"Marge de sécurité\", \"k\": \"f\", \"f\": \"E-I\", \"fmt\": \"€\"}, {\"h\": \"Taux de sécurité\", \"k\": \"f\", \"f\": \"J/E\", \"fmt\": \"%\"}], \"data\": {\"0\": {\"0\": 150, \"1\": 90, \"2\": 48000, \"3\": 150000}}}]]\n\n## Le ROI\n\nIl compare le gain net au montant investi.\n\n- **Gain net = marge additionnelle − investissement**\n- **ROI = gain net ÷ investissement × 100**\n\n**Exercice corrigé :** une campagne coûte 25 000 € et rapporte 42 000 € de marge additionnelle.\n\n- Gain net = 42 000 − 25 000 = **17 000 €**\n- ROI = 17 000 ÷ 25 000 × 100 = **68 %**\n- La campagne crée de la valeur, à condition que la marge vienne bien de cette action.\n\n[[tableur|{\"id\": \"eb-roi\", \"titre\": \"ROI d'une action commerciale\", \"first\": \"Action\", \"noTotal\": true, \"rows\": [\"Campagne à 25 000 €\", \"Campagne à 30 000 €\"], \"cols\": [{\"h\": \"Coût de l'action\", \"k\": \"in\", \"fmt\": \"€\"}, {\"h\": \"Marge additionnelle\", \"k\": \"in\", \"fmt\": \"€\"}, {\"h\": \"Gain net\", \"k\": \"f\", \"f\": \"C-B\", \"fmt\": \"€\"}, {\"h\": \"ROI\", \"k\": \"f\", \"f\": \"D/B\", \"fmt\": \"%\"}], \"data\": {\"0\": {\"0\": 25000, \"1\": 42000}, \"1\": {\"0\": 30000, \"1\": 30000}}, \"legende\": \"Gain net = marge additionnelle − coût · ROI = gain net ÷ coût × 100.\"}]]\n",
+    "anim": {
+      "titre": "Du budget au seuil de rentabilité",
+      "scenes": [
+        {
+          "t": "Les 4 étapes",
+          "x": "On part du marché, on chiffre les coûts, on fait le budget des ventes, puis on valide.",
+          "v": "row",
+          "items": [
+            "Marché",
+            "Coûts",
+            "Ventes",
+            "Valider"
+          ]
+        },
+        {
+          "t": "La MCV",
+          "x": "Le chiffre d'affaires moins les coûts variables. Elle sert à payer les charges fixes.",
+          "v": "big",
+          "items": [
+            "MCV = CA − coûts variables"
+          ]
+        },
+        {
+          "t": "Le seuil de rentabilité",
+          "x": "Le chiffre d'affaires où le résultat est à zéro. Seuil en valeur égale charges fixes divisées par le taux de MCV.",
+          "v": "big",
+          "items": [
+            "Seuil = CF ÷ taux de MCV"
+          ]
+        },
+        {
+          "t": "L'exemple du cours",
+          "x": "MCV unitaire 60 euros, taux 40 %, seuil 120 000 euros, marge de sécurité 30 000 euros.",
+          "v": "grid",
+          "items": [
+            "MCV unitaire 60 €",
+            "Taux 40 %",
+            "Seuil 120 000 €",
+            "Sécurité 30 000 €"
+          ]
+        },
+        {
+          "t": "Le ROI",
+          "x": "Gain net divisé par l'investissement. 17 000 sur 25 000 : 68 %.",
+          "v": "big",
+          "items": [
+            "ROI = 68 %"
+          ]
+        }
+      ]
+    },
+    "fiches": [
+      {
+        "q": "Différence entre coût fixe et coût variable ?",
+        "a": "Le fixe ne bouge pas avec l'activité, le variable bouge avec l'activité."
+      },
+      {
+        "q": "Formule de la MCV ?",
+        "a": "CA − coûts variables."
+      },
+      {
+        "q": "Qu'est-ce qu'un poste budgétaire ?",
+        "a": "Un groupe de dépenses de même nature, suivi sur une période et confié à un responsable."
+      },
+      {
+        "q": "Les 5 étapes du budget par postes ?",
+        "a": "Identifier, quantifier, dater, affecter un responsable, totaliser et vérifier."
+      },
+      {
+        "q": "Seuil de rentabilité en valeur ?",
+        "a": "Charges fixes ÷ taux de MCV."
+      },
+      {
+        "q": "Seuil de rentabilité en volume ?",
+        "a": "Charges fixes ÷ MCV unitaire."
+      },
+      {
+        "q": "Marge de sécurité ?",
+        "a": "CA prévu − seuil de rentabilité."
+      },
+      {
+        "q": "Formule du ROI ?",
+        "a": "(Marge additionnelle − investissement) ÷ investissement × 100."
+      }
+    ],
+    "qcm": [
+      {
+        "q": "CA 120 000 €, coûts variables 55 000 €. MCV ?",
+        "a": "65 000 €",
+        "d": [
+          "175 000 €",
+          "55 000 €",
+          "54,2 %"
+        ]
+      },
+      {
+        "q": "Prix 150 €, coût variable 90 €. MCV unitaire ?",
+        "a": "60 €",
+        "d": [
+          "240 €",
+          "90 €",
+          "40 %"
+        ]
+      },
+      {
+        "q": "Charges fixes 48 000 €, taux de MCV 40 %. Seuil en valeur ?",
+        "a": "120 000 €",
+        "d": [
+          "19 200 €",
+          "80 000 €",
+          "800 €"
+        ]
+      },
+      {
+        "q": "Campagne 25 000 €, marge additionnelle 42 000 €. ROI ?",
+        "a": "68 %",
+        "d": [
+          "168 %",
+          "40 %",
+          "17 %"
+        ]
+      },
+      {
+        "q": "Le loyer est un coût…",
+        "a": "Fixe",
+        "d": [
+          "Variable",
+          "Direct d'une campagne",
+          "Commercial"
+        ]
+      }
+    ],
+    "controle": [
+      {
+        "q": "Budget : 72 000 + 12 000 + 26 000 + 10 000. Total ?",
+        "a": "120 000 €",
+        "d": [
+          "110 000 €",
+          "144 000 €",
+          "130 000 €"
+        ]
+      },
+      {
+        "q": "26 000 € d'actions sur 120 000 €. Part ?",
+        "a": "21,7 %",
+        "d": [
+          "26 %",
+          "4,6 %",
+          "15 %"
+        ]
+      },
+      {
+        "q": "Charges fixes 48 000 €, MCV unitaire 60 €. Seuil en volume ?",
+        "a": "800 unités",
+        "d": [
+          "2 880 000 unités",
+          "1 200 unités",
+          "480 unités"
+        ]
+      },
+      {
+        "q": "CA prévu 150 000 €, seuil 120 000 €. Taux de sécurité ?",
+        "a": "20 %",
+        "d": [
+          "30 %",
+          "25 %",
+          "80 %"
+        ]
+      },
+      {
+        "q": "Que vaut le résultat au seuil de rentabilité ?",
+        "a": "0 €",
+        "d": [
+          "Les charges fixes",
+          "La MCV",
+          "Le CA"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eb4",
+    "subject": "Élaboration budgétaire",
+    "title": "Cours 4 : Scénarios et analyse d'écarts",
+    "date": "2026-11-20",
+    "body": "Partie 3 (suite). Cours de Kisito José CODJIA, Pigier 2026-2027.\n\n**À la fin de ce cours, vous saurez :**\n\n- construire 3 scénarios (prudent, central, ambitieux)\n- faire une analyse de sensibilité\n- calculer et qualifier un écart, puis proposer une action corrective\n\n## Hypothèses et scénarios\n\n- **Hypothèse :** une estimation chiffrée pour construire le budget (volume, prix, coût variable, délai d'encaissement).\n- **Scénario :** un ensemble cohérent d'hypothèses = une trajectoire possible.\n\n| Prudent | Central | Ambitieux |\n| --- | --- | --- |\n| Volumes −10 % | Volumes au plan | Volumes +15 % |\n| Prix stables | Prix stables | Prix +3 % |\n| Conversion basse | Conversion attendue | Conversion élevée |\n| Coûts fixes inchangés | Coûts variables maîtrisés | Coûts fixes en hausse |\n| Encaissement à 60 jours | Encaissement à 45 jours | Encaissement à 30 jours |\n| Sert à mesurer le risque | La base du plan d'action | Viser une forte performance |\n\n**Analyse de sensibilité :** on change **une seule** hypothèse à la fois (prix, volume, délai) pour voir son effet sur le résultat ou la trésorerie.\n\n## Exercice : les 3 scénarios\n\n**Énoncé :** prix 120 €, coût variable 55 € par unité, charges fixes 38 000 €. Volumes : prudent 800, central 1 000, ambitieux 1 150. Calculer CA, MCV et résultat.\n\n**Corrigé :**\n\n| Scénario | CA | MCV | Résultat |\n| --- | --- | --- | --- |\n| Prudent (800) | 96 000 € | 52 000 € | 14 000 € |\n| Central (1 000) | 120 000 € | 65 000 € | 27 000 € |\n| Ambitieux (1 150) | 138 000 € | 74 750 € | 36 750 € |\n\n⚠️ Sur le slide du prof, le prudent affiche 39 200 € de MCV et 1 200 € de résultat, et l'ambitieux 74 200 € et 36 200 €. Avec les formules du cours, on trouve les chiffres ci-dessus (ex. prudent : 800 × (120 − 55) = 52 000 €). À vérifier avec le prof.\n\n**Conclusion :** même le scénario prudent reste rentable, donc le plan est défendable si les volumes baissent.\n\n[[tableur|{\"id\": \"eb-scen\", \"titre\": \"Les 3 scénarios\", \"first\": \"Scénario\", \"noTotal\": true, \"rows\": [\"Prudent\", \"Central\", \"Ambitieux\"], \"cols\": [{\"h\": \"Volume (unités)\", \"k\": \"in\", \"fmt\": \"n\"}, {\"h\": \"Prix unitaire\", \"k\": \"in\", \"fmt\": \"€\"}, {\"h\": \"Coût variable unitaire\", \"k\": \"in\", \"fmt\": \"€\"}, {\"h\": \"Charges fixes\", \"k\": \"in\", \"fmt\": \"€\"}, {\"h\": \"CA\", \"k\": \"f\", \"f\": \"B*C\", \"fmt\": \"€\"}, {\"h\": \"Coûts variables\", \"k\": \"f\", \"f\": \"B*D\", \"fmt\": \"€\"}, {\"h\": \"MCV\", \"k\": \"f\", \"f\": \"F-G\", \"fmt\": \"€\"}, {\"h\": \"Résultat\", \"k\": \"f\", \"f\": \"H-E\", \"fmt\": \"€\"}], \"data\": {\"0\": {\"0\": 800, \"1\": 120, \"2\": 55, \"3\": 38000}, \"1\": {\"0\": 1000, \"1\": 120, \"2\": 55, \"3\": 38000}, \"2\": {\"0\": 1150, \"1\": 120, \"2\": 55, \"3\": 38000}}, \"legende\": \"CA = volume × prix · MCV = CA − coûts variables · Résultat = MCV − charges fixes.\"}]]\n\n## L'analyse d'écarts\n\n- **Écart = réalisé − budget**\n- **Taux d'écart = écart ÷ budget × 100**\n- **Favorable ou défavorable ?** Pour un produit (CA, marge), un écart négatif est défavorable. Pour une charge, un écart positif (on a dépensé plus) est défavorable.\n\n**Énoncé :** budget : CA 120 000 €, MCV 65 000 €, charges marketing 20 000 €. Réalisé : CA 110 000 €, MCV 51 000 €, charges marketing 24 000 €.\n\n**Corrigé :**\n\n| Indicateur | Écart | Taux d'écart | Qualification |\n| --- | --- | --- | --- |\n| Chiffre d'affaires | −10 000 € | −8,3 % | Défavorable |\n| Marge sur coûts variables | −14 000 € | −21,5 % | Défavorable |\n| Charges marketing | +4 000 € | +20 % | Défavorable |\n\n[[tableur|{\"id\": \"eb-ecarts\", \"titre\": \"Analyse d'écarts\", \"first\": \"Indicateur\", \"noTotal\": true, \"rows\": [\"Chiffre d'affaires\", \"Marge sur coûts variables\", \"Charges marketing\"], \"cols\": [{\"h\": \"Budget\", \"k\": \"in\", \"fmt\": \"€\"}, {\"h\": \"Réalisé\", \"k\": \"in\", \"fmt\": \"€\"}, {\"h\": \"Écart\", \"k\": \"f\", \"f\": \"C-B\", \"fmt\": \"€\"}, {\"h\": \"Taux d'écart\", \"k\": \"f\", \"f\": \"D/B\", \"fmt\": \"%\"}], \"data\": {\"0\": {\"0\": 120000, \"1\": 110000}, \"1\": {\"0\": 65000, \"1\": 51000}, \"2\": {\"0\": 20000, \"1\": 24000}}, \"legende\": \"Écart = réalisé − budget · Taux d'écart = écart ÷ budget × 100.\"}]]\n\n**Actions correctives :** revoir le ciblage de la campagne, geler les dépenses pas encore engagées, renégocier les achats pour récupérer de la marge.\n\n## Fiche de synthèse : toutes les formules\n\n- CA = quantité × prix unitaire\n- Coût total = coûts fixes + coûts variables\n- MCV = CA − coûts variables\n- Taux de MCV = MCV ÷ CA\n- Résultat = MCV − charges fixes\n- Seuil en valeur = charges fixes ÷ taux de MCV\n- Seuil en volume = charges fixes ÷ MCV unitaire\n- Marge de sécurité = CA prévu − seuil\n- ROI = gain net ÷ investissement × 100\n- Trésorerie nette = encaissements − décaissements\n- Solde final = solde initial + encaissements − décaissements\n- Écart = réalisé − budget · Taux d'écart = écart ÷ budget × 100\n",
+    "anim": {
+      "titre": "Prévoir plusieurs avenirs",
+      "scenes": [
+        {
+          "t": "Hypothèse et scénario",
+          "x": "Une hypothèse est un chiffre estimé. Un scénario regroupe plusieurs hypothèses cohérentes.",
+          "v": "row",
+          "items": [
+            "Hypothèses",
+            "Scénario"
+          ]
+        },
+        {
+          "t": "Les 3 scénarios",
+          "x": "Le prudent mesure le risque, le central sert de base, l'ambitieux vise haut.",
+          "v": "row",
+          "items": [
+            "Prudent",
+            "Central",
+            "Ambitieux"
+          ],
+          "on": 1
+        },
+        {
+          "t": "La sensibilité",
+          "x": "On change une seule hypothèse à la fois pour voir son effet sur le résultat.",
+          "v": "big",
+          "items": [
+            "Une hypothèse à la fois"
+          ]
+        },
+        {
+          "t": "L'écart",
+          "x": "Réalisé moins budget. Pour un produit, négatif est défavorable. Pour une charge, positif est défavorable.",
+          "v": "grid",
+          "items": [
+            "CA −8,3 %",
+            "MCV −21,5 %",
+            "Marketing +20 %",
+            "Tout est défavorable"
+          ]
+        },
+        {
+          "t": "Corriger",
+          "x": "Revoir le ciblage, geler les dépenses non engagées, renégocier les achats.",
+          "v": "row",
+          "items": [
+            "Ciblage",
+            "Gel des dépenses",
+            "Achats"
+          ],
+          "plain": true
+        }
+      ]
+    },
+    "fiches": [
+      {
+        "q": "Qu'est-ce qu'une hypothèse financière ?",
+        "a": "Une estimation chiffrée pour construire le budget : volume, prix, coût variable, délai d'encaissement."
+      },
+      {
+        "q": "Qu'est-ce qu'un scénario ?",
+        "a": "Un ensemble cohérent d'hypothèses qui décrit une trajectoire possible."
+      },
+      {
+        "q": "À quoi sert chaque scénario ?",
+        "a": "Prudent : mesurer le risque. Central : base du plan. Ambitieux : viser une forte performance."
+      },
+      {
+        "q": "Qu'est-ce que l'analyse de sensibilité ?",
+        "a": "Changer une hypothèse à la fois pour mesurer son effet sur le résultat ou la trésorerie."
+      },
+      {
+        "q": "Quand un écart sur une charge est-il défavorable ?",
+        "a": "Quand il est positif : on a dépensé plus que prévu."
+      },
+      {
+        "q": "Les 3 actions correctives de l'exercice ?",
+        "a": "Revoir le ciblage, geler les dépenses non engagées, renégocier les achats."
+      }
+    ],
+    "qcm": [
+      {
+        "q": "Dans le scénario prudent, les encaissements sont à…",
+        "a": "60 jours",
+        "d": [
+          "30 jours",
+          "45 jours",
+          "90 jours"
+        ]
+      },
+      {
+        "q": "Quel scénario sert de base au plan d'action ?",
+        "a": "Central",
+        "d": [
+          "Prudent",
+          "Ambitieux",
+          "Aucun"
+        ]
+      },
+      {
+        "q": "1 000 unités à 120 €, coût variable 55 €, charges fixes 38 000 €. Résultat ?",
+        "a": "27 000 €",
+        "d": [
+          "65 000 €",
+          "120 000 €",
+          "82 000 €"
+        ]
+      },
+      {
+        "q": "MCV budget 65 000 €, réalisé 51 000 €. Taux d'écart ?",
+        "a": "−21,5 %",
+        "d": [
+          "−14 %",
+          "+21,5 %",
+          "−27,5 %"
+        ]
+      },
+      {
+        "q": "Charges marketing : budget 20 000 €, réalisé 24 000 €. L'écart est…",
+        "a": "Défavorable",
+        "d": [
+          "Favorable",
+          "Neutre",
+          "Impossible à dire"
+        ]
+      }
+    ],
+    "controle": [
+      {
+        "q": "Volumes +15 % et prix +3 %, c'est le scénario…",
+        "a": "Ambitieux",
+        "d": [
+          "Prudent",
+          "Central",
+          "De sensibilité"
+        ]
+      },
+      {
+        "q": "800 unités à 120 €. CA ?",
+        "a": "96 000 €",
+        "d": [
+          "120 000 €",
+          "80 000 €",
+          "44 000 €"
+        ]
+      },
+      {
+        "q": "CA budget 120 000 €, réalisé 110 000 €. Écart ?",
+        "a": "−10 000 €",
+        "d": [
+          "+10 000 €",
+          "−8,3 €",
+          "230 000 €"
+        ]
+      },
+      {
+        "q": "Faire varier une seule hypothèse à la fois, c'est…",
+        "a": "L'analyse de sensibilité",
+        "d": [
+          "Le scénario central",
+          "L'analyse d'écarts",
+          "Le seuil de rentabilité"
+        ]
+      },
+      {
+        "q": "Un CA réalisé inférieur au budget donne un écart…",
+        "a": "Défavorable",
+        "d": [
+          "Favorable",
+          "Toujours nul",
+          "Positif"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eb5",
+    "subject": "Élaboration budgétaire",
+    "title": "Cours 5 : Analyser la viabilité économique",
+    "date": "2026-11-20",
+    "body": "Partie 4. Cours de Kisito José CODJIA, Pigier 2026-2027.\n\n**À la fin de ce cours, vous saurez :**\n\n- expliquer les 3 dimensions de la viabilité\n- évaluer la rentabilité d'une action commerciale\n- calculer le BFR et repérer les risques financiers\n\n## La viabilité économique\n\nLa capacité durable d'un projet, d'un produit ou d'une activité à couvrir ses coûts, payer les ressources engagées et créer assez de valeur pour continuer à se développer.\n\n**3 questions :**\n\n- La demande est-elle suffisante ?\n- Le prix permet-il de faire une marge ?\n- Les ventes couvrent-elles les charges ?\n\n⚠️ Un gros chiffre d'affaires ne veut pas dire que l'activité est viable.\n\n**La chaîne :** demande → ventes → marge → résultat → développement.\n\n## Les 3 dimensions\n\n| Dimension | Ce qu'elle mesure | Formule |\n| --- | --- | --- |\n| Économique | Faire un résultat satisfaisant sur une période | Résultat = MCV − charges fixes |\n| Financière | Avoir l'argent pour payer les échéances à court terme | Trésorerie nette = encaissements − décaissements |\n| Commerciale | Attirer et garder des clients à un coût acceptable | CAC = dépenses commerciales et marketing ÷ nouveaux clients |\n\n**Le lien :** les clients (commerciale) apportent des encaissements, qui paient les échéances (financière) et couvrent les coûts pour faire un résultat (économique).\n\n## La rentabilité d'une action commerciale\n\nUne action est rentable si elle rapporte une marge additionnelle supérieure à son coût total.\n\n- **Coût de l'action :** toutes les dépenses engagées.\n- **Marge additionnelle :** la marge en plus grâce à l'action.\n- **Gain net = marge additionnelle − coût de l'action.**\n- **ROI = gain net ÷ coût de l'action × 100.**\n- **Taux de marge nette = résultat net ÷ CA × 100.**\n\n## Trésorerie et BFR\n\nUne entreprise peut être **rentable mais sans argent** si les clients paient tard ou si les dépenses arrivent avant les encaissements.\n\n- **BFR (besoin en fonds de roulement) :** l'argent nécessaire pour couvrir le décalage entre ce qu'on paie et ce que les clients nous paient.\n- **BFR simplifié = stocks + créances clients − dettes fournisseurs.**\n\n## Les risques financiers\n\nUn risque financier = un événement incertain qui peut baisser les recettes, augmenter les coûts, réduire la marge ou mettre la trésorerie en tension.\n\n**Les principaux risques :** prévisions de ventes trop optimistes, hausse des coûts, retards de paiement, dépendance à un client, saisonnalité, dépassement du budget.\n\n**Les outils pour les mesurer :** écart et taux d'écart, marge de sécurité.\n\n**Comment y répondre :**\n\n- faire 3 scénarios (prudent, central, ambitieux)\n- fixer des seuils d'alerte\n- garder une réserve de sécurité\n- nommer un responsable\n\n## Exercice : la rentabilité d'une campagne\n\n**Énoncé :** une campagne coûte 30 000 €. Elle rapporte 75 000 € de CA en plus. Le taux de MCV est de 40 %. Calculer la marge additionnelle, le gain net et le ROI, puis interpréter.\n\n**Corrigé :**\n\n- Marge additionnelle = 75 000 × 40 % = **30 000 €**\n- Gain net = 30 000 − 30 000 = **0 €**\n- ROI = 0 ÷ 30 000 × 100 = **0 %**\n\n**Conclusion :** la campagne paie juste son coût mais ne crée pas de gain. Il faut l'améliorer ou la réévaluer selon ses effets indirects (notoriété, fidélisation) et son risque.\n\n## À retenir\n\n« À vous de transformer les chiffres en décisions » : un budget sert à décider, pas juste à compter.\n",
+    "anim": {
+      "titre": "Une activité viable",
+      "scenes": [
+        {
+          "t": "3 questions",
+          "x": "La demande suffit-elle ? Le prix laisse-t-il une marge ? Les ventes couvrent-elles les charges ?",
+          "v": "row",
+          "items": [
+            "Demande",
+            "Marge",
+            "Charges couvertes"
+          ]
+        },
+        {
+          "t": "3 dimensions",
+          "x": "Économique pour le résultat, financière pour la trésorerie, commerciale pour le coût d'acquisition des clients.",
+          "v": "row",
+          "items": [
+            "Économique",
+            "Financière",
+            "Commerciale"
+          ]
+        },
+        {
+          "t": "Rentable mais sans argent",
+          "x": "Si les clients paient tard, la caisse se vide. Le BFR égale stocks plus créances clients moins dettes fournisseurs.",
+          "v": "big",
+          "items": [
+            "BFR = stocks + créances − dettes fournisseurs"
+          ]
+        },
+        {
+          "t": "Les risques",
+          "x": "Prévisions trop optimistes, hausse des coûts, retards de paiement, dépendance à un client.",
+          "v": "grid",
+          "items": [
+            "Prévisions optimistes",
+            "Hausse des coûts",
+            "Retards de paiement",
+            "Dépendance client"
+          ]
+        },
+        {
+          "t": "La campagne de l'exercice",
+          "x": "75 000 euros fois 40 %, c'est 30 000 euros de marge. Moins 30 000 de coût : gain nul, ROI de 0 %.",
+          "v": "big",
+          "items": [
+            "ROI = 0 %"
+          ]
+        }
+      ]
+    },
+    "fiches": [
+      {
+        "q": "Définition de la viabilité économique ?",
+        "a": "La capacité durable à couvrir ses coûts, payer les ressources engagées et créer assez de valeur pour se développer."
+      },
+      {
+        "q": "Les 3 dimensions de la viabilité ?",
+        "a": "Économique (résultat), financière (trésorerie), commerciale (CAC)."
+      },
+      {
+        "q": "Quand une action commerciale est-elle rentable ?",
+        "a": "Quand sa marge additionnelle dépasse son coût total."
+      },
+      {
+        "q": "Formule du BFR simplifié ?",
+        "a": "Stocks + créances clients − dettes fournisseurs."
+      },
+      {
+        "q": "Pourquoi une entreprise rentable peut-elle manquer d'argent ?",
+        "a": "Parce que les clients paient tard ou que les dépenses arrivent avant les encaissements."
+      },
+      {
+        "q": "Les 4 réponses aux risques financiers ?",
+        "a": "Scénarios, seuils d'alerte, réserve de sécurité, responsable désigné."
+      }
+    ],
+    "qcm": [
+      {
+        "q": "Avoir l'argent pour payer les échéances, c'est la viabilité…",
+        "a": "Financière",
+        "d": [
+          "Économique",
+          "Commerciale",
+          "Juridique"
+        ]
+      },
+      {
+        "q": "Le CAC mesure la viabilité…",
+        "a": "Commerciale",
+        "d": [
+          "Financière",
+          "Économique",
+          "Sociale"
+        ]
+      },
+      {
+        "q": "Stocks 20 k€, créances 50 k€, dettes fournisseurs 30 k€. BFR ?",
+        "a": "40 k€",
+        "d": [
+          "100 k€",
+          "60 k€",
+          "0 k€"
+        ]
+      },
+      {
+        "q": "CA additionnel 75 000 €, taux de MCV 40 %. Marge additionnelle ?",
+        "a": "30 000 €",
+        "d": [
+          "45 000 €",
+          "75 000 €",
+          "18 750 €"
+        ]
+      },
+      {
+        "q": "Un gros CA garantit-il la viabilité ?",
+        "a": "Non",
+        "d": [
+          "Oui, toujours",
+          "Oui, si le CA augmente",
+          "Oui, en BtoB"
+        ]
+      }
+    ],
+    "controle": [
+      {
+        "q": "Campagne 30 000 €, marge additionnelle 30 000 €. ROI ?",
+        "a": "0 %",
+        "d": [
+          "100 %",
+          "40 %",
+          "−100 %"
+        ]
+      },
+      {
+        "q": "Gain net = …",
+        "a": "Marge additionnelle − coût de l'action",
+        "d": [
+          "CA − coût de l'action",
+          "Marge × coût",
+          "Résultat ÷ CA"
+        ]
+      },
+      {
+        "q": "La dépendance à un seul client est…",
+        "a": "Un risque financier",
+        "d": [
+          "Un indicateur",
+          "Une dimension de la viabilité",
+          "Un coût direct"
+        ]
+      },
+      {
+        "q": "Faire un résultat satisfaisant sur une période, c'est la viabilité…",
+        "a": "Économique",
+        "d": [
+          "Financière",
+          "Commerciale",
+          "Technique"
+        ]
+      },
+      {
+        "q": "Résultat net 45 k€, CA 300 k€. Taux de marge nette ?",
+        "a": "15 %",
+        "d": [
+          "45 %",
+          "6,7 %",
+          "30 %"
+        ]
+      }
+    ]
   }
 ]
